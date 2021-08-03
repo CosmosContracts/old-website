@@ -1,0 +1,149 @@
+.seciton2 {
+    margin: 100px 0;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section2_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+.section2_card_head {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    text-align: center;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section2_card_data {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.seciton2 .network-logo {
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+    right: -50px;
+}
+
+@media (min-width: 1400px) {
+    .seciton2 {
+        max-width: 1400px;
+        margin: 100px auto;
+    }
+
+    .seciton2 .network-logo {
+        right: 0;
+    }
+}
+
+@media (max-width: 1399px) {
+    .seciton2 .network-logo {
+        right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .seciton2 .network-logo {
+        width: 700px;
+    }
+
+    .section2_card_head {
+        font-size: 100px;
+    }
+
+    .section2_card_data {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 940px) {
+    .section2_card_head {
+        font-size: 80px;
+    }
+
+    .section2_card_data {
+        font-size: 20px;
+    }
+
+    .seciton2 .network-logo {
+        width: 500px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 769px) {
+    .seciton2 {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 740px) {
+    .section2_card {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .seciton2 .network-logo {
+        top: 250px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 400px;
+    }
+
+    .seciton2 {
+        margin-bottom: 300px;
+    }
+
+    .section2_card_head {
+        font-size: 90px;
+    }
+
+    .section2_card_data {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .seciton2 {
+        padding: 0 20px;
+    }
+
+    .section2_card_head {
+        font-size: 60px;
+    }
+
+    .section2_card_data {
+        font-size: 18px;
+    }
+
+    .section2_card {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .seciton2 .network-logo {
+        width: 300px;
+        top: 200px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}

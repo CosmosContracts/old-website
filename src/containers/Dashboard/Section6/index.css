@@ -1,0 +1,255 @@
+.section6_parent {
+    position: relative;
+    margin: 200px 0 50px;
+}
+
+.section6 {
+    margin-bottom: 100px;
+    padding: 0 100px;
+    position: relative;
+}
+
+.section6_row1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section6_s1 {
+    width: 100%;
+    text-align: center;
+}
+
+.section6_s2 {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.section6_s1header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 120px;
+    text-transform: capitalize;
+
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%),
+    -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 100%;
+}
+
+.section6_s1content {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: linear-gradient(156.31deg, rgba(99, 45, 45, 0.5) -2.33%, rgba(0, 0, 0, 0.5) 84.75%);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 85px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card_logo {
+    width: 173px;
+    height: 173px;
+    background: linear-gradient(180deg, #FFC8C8 0%, #FF9999 100%);
+    border-radius: 50%;
+}
+
+.card_header {
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.card_content {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.section6_row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section6_logo {
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    left: -300px;
+    background: linear-gradient(140.35deg, #FFD0D0 7.97%, #FF6F6F 86.25%);
+    transform: rotate(-78.1deg);
+    width: 517px;
+    height: 517px;
+    border-radius: 50%;
+}
+
+.section6_card1 {
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    right: 45%;
+}
+
+.section6_logo1 {
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+    left: -100px;
+}
+
+.section6_logo2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    right: -100px;
+    margin-top: -500px;
+}
+
+@media (min-width: 1400px) {
+    .section6 {
+        max-width: 1400px;
+        margin: auto auto 100px;
+    }
+
+    .section6_logo2 {
+        right: 0;
+    }
+}
+
+@media (max-width: 1399px) {
+    .section6_logo2 {
+        right: 0;
+    }
+
+    .section6_s1header {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .section6_s1header {
+        font-size: 90px;
+    }
+
+    .section6_s1content {
+        font-size: 20px;
+    }
+
+    .card_header {
+        font-size: 22px;
+    }
+
+    .card_content {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .section6_card1 {
+        top: 55%;
+    }
+
+    .section6_row2 {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .section6_s1content {
+        margin-bottom: 100px;
+    }
+
+    .section6_s1header {
+        width: 100%;
+        font-size: 80px;
+        line-height: inherit;
+    }
+
+    .section6_s2 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .section6_card1 {
+        position: unset;
+    }
+
+    .section6_row2 {
+        width: 100%;
+        display: unset;
+    }
+
+    .section6_logo1 {
+        left: -150px;
+    }
+}
+
+@media (max-width: 769px) {
+    .section6 {
+        padding: 0 50px;
+    }
+
+    .section6_logo1 {
+        width: 100%;
+    }
+
+    .section6_s1header {
+        font-size: 70px;
+        line-height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .section6_s1,
+    .section6_s1content,
+    .section6_s1header {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .section6 {
+        padding: 0 20px;
+    }
+
+    .section6_s1header {
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .card_content {
+        font-size: 18px;
+    }
+}

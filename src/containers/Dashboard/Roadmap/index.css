@@ -1,0 +1,416 @@
+.roadmap {
+    margin-top: 250px;
+    padding: 140px 100px 0 100px;
+}
+
+.roadmap .heading > h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 120px;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%), -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 100%;
+}
+
+.roadmap .heading > span {
+    border: 1px dashed #6C63FF;
+    width: 120px;
+    display: inline-block;
+}
+
+.roadmap .heading > p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+
+.roadmap .map {
+    margin: 140px 0 20px;
+}
+
+.roadmap .info_block {
+    margin: auto auto auto 50%;
+    border-left: 2px solid #ff7171;
+    display: flex;
+    padding-top: 20px;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.roadmap .info_block:first-child {
+    padding-top: 60px;
+}
+
+.roadmap .map .info_block:nth-child(7) {
+    padding-bottom: 20px;
+}
+
+.roadmap .info_block.reverse .dots_section {
+    flex-direction: row-reverse;
+}
+
+.roadmap .info_block .dots_section {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.roadmap .info_block .dots_section span {
+    background: linear-gradient(
+            90.02deg, #ff7171 28.95%, rgba(241, 158, 34, 0) 50.01%);
+    width: 100px;
+    min-width: 100px;
+    height: 1px;
+    margin: 0;
+}
+
+.roadmap .info_block.reverse .dots_section span {
+    background: linear-gradient(
+            90.02deg, rgba(241, 158, 34, 0) 28.95%, #ff7171 50.01%);
+    margin: 40px 4px 0 -20px;
+}
+
+.roadmap .info_block .dots_section .dot1 {
+    background: linear-gradient(144.53deg, #FF6A6A 13.71%, #FFB1B1 82.62%) !important;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 0 0 -13px;
+    z-index: 1;
+}
+
+.roadmap .info_block .dots_section .dot2 {
+    background: linear-gradient(144.53deg, #FF6A6A 13.71%, #FFB1B1 82.62%) !important;
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -60px;
+    z-index: 1;
+}
+
+.roadmap .info_block.reverse .dots_section .dot1 {
+    margin-right: -13px
+}
+
+.roadmap .info_block.reverse .dots_section .dot2 {
+    margin-right: -22px;
+}
+
+.roadmap .info_block .info {
+    display: flex;
+    align-items: center;
+}
+
+.roadmap .info_block .image {
+    border-radius: 14px;
+    position: relative;
+    /*background: #060322;*/
+    padding: 16px;
+    margin-left: -24px;
+    z-index: 1;
+}
+
+.roadmap .info_block.reverse .image {
+    margin-right: -9px;
+}
+
+.roadmap .info_block .image:after {
+    content: '';
+    margin-top: 1px;
+    position: absolute;
+    top: -2px;
+    left: 8px;
+    /*width: calc(100% + 2px);*/
+    /*height: calc(100% + 2px);*/
+    /*z-index: -1;*/
+    /*border-radius: 14px;*/
+    /*background: linear-gradient(*/
+    /*        131.43deg, #B71E5E -9.42%, #F15522 39.84%, #4A3BE2 81.52%);*/
+
+    background: linear-gradient(144.53deg, #FF6A6A 13.71%, #FFB1B1 82.62%);
+    width: 25px;
+    height: 25px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.link_class > a {
+    color: #ff7171;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.roadmap .info_block .info_text {
+    margin-left: 30px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.roadmap .info_text > h2,
+.roadmap .main_net > h2 {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 180%;
+    color: #F19E22;
+}
+
+.roadmap .info_text > h2 > b,
+.roadmap .main_net > h2 > b {
+    color: #FFFFFF;
+}
+
+.roadmap .info_text .heading_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.roadmap .info_text .sub_text {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 180%;
+    text-align: right;
+    color: #ffffff7d;
+}
+
+.roadmap .info_block.reverse {
+    margin: auto 50% auto auto;
+    border-right: 2px solid #ff7171;
+    width: calc(50% + 2px);
+    flex-direction: row-reverse;
+    border-left: 0;
+}
+
+.roadmap .info_block.reverse .info {
+    flex-direction: row-reverse;
+}
+
+.roadmap .info_block.reverse .info_text {
+    text-align: right;
+    margin: 36px 50px 0 0;
+    padding-bottom: 30px;
+}
+
+.roadmap .map > img {
+    margin-top: -112px;
+}
+
+.roadmap .main_net > h2 {
+    font-size: 36px;
+}
+
+.roadmap .main_net > p {
+    background: #060322;
+    border: 1px dashed #F19E22;
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: max-content;
+    margin: auto;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 180%;
+    text-align: center;
+    color: #F19E22;
+    padding: 13px 36px;
+    margin-top: 16px;
+}
+
+.roadmap .main_net .info_block {
+    padding-top: 150px;
+}
+
+@media (min-width: 1400px) {
+    .roadmap {
+        max-width: 1400px;
+        margin: 250px auto 50px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .roadmap .heading > h2 {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .roadmap {
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .roadmap .map {
+        margin-top: 80px;
+    }
+
+    .roadmap .heading > h2 {
+        font-size: 80px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .roadmap {
+        padding: 50px 0;
+    }
+
+    .roadmap .heading > h2 {
+        font-size: 70px;
+        line-height: 110px;
+    }
+
+    .roadmap .info_block > span {
+        width: 50px;
+        min-width: 50px;
+    }
+
+    .roadmap .info_block .image {
+        padding: 10px;
+    }
+
+    .roadmap .info_block .info_text {
+        margin-left: 20px;
+    }
+
+    .roadmap .info_block .info_text a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 620px) {
+    .roadmap {
+        padding: 50px;
+    }
+    .roadmap .info_text .heading_text {
+        font-size: 16px;
+    }
+
+    .roadmap .info_block.reverse .dots_section {
+        flex-direction: row;
+    }
+
+    .roadmap .info_block.reverse .dots_section span {
+        background: linear-gradient( 90.02deg, #ff7171 28.95%, rgba(241, 158, 34, 0) 50.01%);
+        margin-left: 13px;
+    }
+
+    .roadmap .info_block.reverse .dots_section .dot1 {
+        margin-left: -14px;
+    }
+
+    .roadmap .info_block.reverse .dots_section .dot2 {
+        margin-left: -63px;
+    }
+
+    .roadmap .info_block.reverse .info_text {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .roadmap .info_block .info_text a {
+        font-size: 14px;
+    }
+
+    .roadmap .heading > span {
+        width: 80px;
+    }
+
+    .roadmap .heading > p {
+        font-size: 20px;
+    }
+
+    .roadmap .map {
+        margin-top: 40px;
+    }
+
+    .roadmap .info_block {
+        width: 100%;
+        margin: unset;
+    }
+
+    .roadmap .info_block.reverse {
+        width: 100%;
+        flex-direction: row;
+        border-right: unset;
+        border-left: 2px solid #ff7171;
+    }
+
+    .roadmap .info_block.reverse > span {
+        background: linear-gradient(
+                90.02deg, #ff7171 28.95%, rgba(241, 158, 34, 0) 50.01%);
+    }
+
+    .roadmap .info_block.reverse .info {
+        flex-direction: row;
+    }
+
+    .roadmap .info_text .sub_text {
+        text-align: left;
+        word-break: break-word;
+    }
+
+    .roadmap .info_text > h2,
+    .roadmap .main_net > h2 {
+        font-size: 22px;
+    }
+
+    .roadmap .map > img {
+        width: 80%;
+        margin-top: -50px;
+    }
+
+    .roadmap .main_net .info_block {
+        padding-top: 100px;
+    }
+
+    .roadmap .main_net > p {
+        font-size: 26px;
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 426px) {
+    .roadmap {
+        padding: 50px 20px;
+        margin-top: 100px;
+    }
+
+    .roadmap .heading > h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .roadmap .heading > span {
+        width: 80px;
+    }
+
+    .roadmap .heading > p {
+        font-size: 20px;
+    }
+
+    .roadmap .map {
+        margin-top: 40px;
+    }
+
+    .roadmap .info_block {
+        width: 100%;
+        margin: unset;
+    }
+}

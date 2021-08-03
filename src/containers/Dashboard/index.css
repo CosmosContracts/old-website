@@ -1,0 +1,25 @@
+.dashboard {
+    padding: 60px 0;
+    position: relative;
+}
+
+.dashboard .logo1 {
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 620px) {
+    .dashboard .logo1 {
+        top: 0;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .dashboard {
+        position: unset;
+    }
+}

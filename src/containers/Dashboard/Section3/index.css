@@ -1,0 +1,141 @@
+.section3 {
+    margin: 250px 0 100px 0;
+    padding: 0 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.section3_left {
+    width: 70%;
+}
+
+.section3_left_head {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 120px;
+    text-align: left;
+
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%),
+    -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section3_left_cont {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.section3_right {
+    position: relative;
+}
+
+.section3_right .section3-logo {
+    position: absolute;
+    right: -100px;
+    width: 1010px;
+    height: 900px;
+    z-index: -1;
+    top: -300px;
+}
+
+.section3_right img {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    top: 100px;
+}
+
+@media (min-width: 1400px) {
+    .section3 {
+        max-width: 1400px;
+        margin: 250px auto;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    .section3_left_head {
+        font-size: 90px;
+    }
+
+    .section3_right img {
+        width: 400px;
+        top: 150px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .section3_left_head {
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .section3 {
+        padding: 0 50px;
+        flex-direction: column;
+    }
+
+    .section3_left {
+        width: 100%;
+    }
+
+    .section3_right {
+        margin-top: 100px;
+        position: unset;
+    }
+
+    .section3_right .section3-logo {
+        right: 0;
+        top: unset;
+        bottom: -300px;
+    }
+
+    .section3_right img {
+        position: unset;
+        width: 350px;
+    }
+
+    .section3_left_head {
+        text-align: center;
+    }
+
+    .section3_left_cont {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .section3 {
+        margin-top: 360px;
+        padding: 0 20px;
+    }
+
+    .section3_right img {
+        width: 280px;
+    }
+
+    .section3_right .section3-logo {
+        width: 300px;
+    }
+
+    .section3_left_head {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .section3_left_cont {
+        line-height: 30px;
+    }
+}

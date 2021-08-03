@@ -1,0 +1,225 @@
+.section8 {
+    display: flex;
+    align-items: center;
+    margin: 100px auto 100px;
+    padding: 0 100px;
+}
+
+.section8_header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 144px;
+
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%),
+    -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 60%;
+    text-align: left;
+}
+
+.section8_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.section8_content > button {
+    margin-bottom: 20px;
+}
+
+.section8_content .no_margin {
+    margin-bottom: 0;
+}
+
+.section8_content > button span {
+   display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 26.8732px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.icon_section {
+    width: 200px;
+    height: 175px;
+    background: linear-gradient(126.3deg, rgba(192, 141, 141, 0.2) -12.73%, rgba(0, 0, 0, 0.2) 107.4%);
+    backdrop-filter: blur(2.98592px);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon_section > img {
+    width: 80px;
+    height: 80px;
+}
+
+.icon_section .twitter_icon {
+    width: 90px;
+    height: 90px;
+}
+
+@media (min-width: 1400px) {
+    .section8 {
+        max-width: 1400px;
+        margin: 200px auto 100px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .section8_header {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .icon_section {
+        width: 180px;
+        height: 155px;
+        border-radius: 53px;
+    }
+
+    .icon_section > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon_section .twitter_icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .section8 {
+        flex-direction: column;
+    }
+
+    .section8_content > button {
+        margin-bottom: 0;
+    }
+
+    .section8_header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section8_content {
+        margin-left: 0;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+    .section8_content > button {
+        width: 20%;
+    }
+
+    .icon_section > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon_section .twitter_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .icon_section {
+        width: 160px;
+        height: 135px;
+        border-radius: 43px;
+    }
+}
+
+
+@media (max-width: 1025px) {
+    .section8_header {
+        font-size: 80px;
+        line-height: 120px;
+    }
+
+    .icon_section {
+        width: 130px;
+        height: 115px;
+        border-radius: 33px;
+    }
+
+    .section8_content > button span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .section8 {
+        padding: 0 40px;
+    }
+
+    .section8_header {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    .icon_section {
+        width: 120px;
+        height: 95px;
+        border-radius: 33px;
+    }
+
+    .icon_section > img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 620px) {
+    .section8_content > button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 426px) {
+    .section8 {
+        padding: 0 20px;
+        margin-top: 200px;
+    }
+
+    .section8_header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section8_content {
+        flex-direction: column;
+    }
+
+    .section8_content > button:first-child {
+        margin: unset;
+        margin-bottom: 50px;
+    }
+
+    .section8_content > button {
+        width: unset;
+    }
+
+    .icon_section {
+        width: 130px;
+        height: 115px;
+        border-radius: 33px;
+    }
+}

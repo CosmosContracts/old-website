@@ -1,0 +1,59 @@
+image: node:12-alpine
+
+stages:
+  - test
+  - deploy
+
+lint_test:
+  stage: test
+  only:
+    - development
+    - staging
+    - master
+    - merge_requests
+  script:
+    - apk add g++ make python
+    - yarn
+    - $(pwd)/node_modules/.bin/eslint $(pwd)
+  cache:
+    paths:
+      - node_modules/
+
+dev_deploy:
+  stage: deploy
+  only:
+    - development
+  script:
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "${DEV_SSH_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - ssh -o "StrictHostKeyChecking=no" ${DEV_SSH_USER}@${DEV_SSH_SERVER} "mkdir -p /tmp/juno/website"
+    - scp -o "StrictHostKeyChecking=no" $(pwd)/scripts/dev_deploy.sh ${DEV_SSH_USER}@${DEV_SSH_SERVER}:/tmp/juno/website/dev_deploy.sh
+    - ssh -o "StrictHostKeyChecking=no" ${DEV_SSH_USER}@${DEV_SSH_SERVER} "bash /tmp/juno/website/dev_deploy.sh"
+
+staging_deploy:
+  stage: deploy
+  only:
+    - staging
+  script:
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "${STAGING_SSH_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - ssh -o "StrictHostKeyChecking=no" ${STAGING_SSH_USER}@${STAGING_SSH_SERVER} "mkdir -p /tmp/juno/website"
+    - scp -o "StrictHostKeyChecking=no" $(pwd)/scripts/staging_deploy.sh ${STAGING_SSH_USER}@${STAGING_SSH_SERVER}:/tmp/juno/website/staging_deploy.sh
+    - ssh -o "StrictHostKeyChecking=no" ${STAGING_SSH_USER}@${STAGING_SSH_SERVER} "bash /tmp/juno/website/staging_deploy.sh"
+
+prod_deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "${PROD_SSH_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - ssh -o "StrictHostKeyChecking=no" ${PROD_SSH_USER}@${PROD_SSH_SERVER} "mkdir -p /tmp/juno/website"
+    - scp -o "StrictHostKeyChecking=no" $(pwd)/scripts/prod_deploy.sh ${PROD_SSH_USER}@${PROD_SSH_SERVER}:/tmp/juno/website/prod_deploy.sh
+    - ssh -o "StrictHostKeyChecking=no" ${PROD_SSH_USER}@${PROD_SSH_SERVER} "bash /tmp/juno/website/prod_deploy.sh"
