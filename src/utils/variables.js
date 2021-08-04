@@ -30,7 +30,7 @@ const variables = {
 
         contracts_work: 'Contracts that just work',
         network_launch: 'Network Launch',
-        network_launch_content: 'The Juno network is expected to launch in Q2 2021. Currently 150+ validators and 20+ developers are organically contributing to bootstrap the network and working on integrations to ensure a smooth launch and user experience.',
+        network_launch_content: 'The Juno network is expected to October 1st, 2021. Currently 150+ validators and 20+ developers are organically contributing to bootstrap the network and working on integrations to ensure a smooth launch and user experience.',
         ibm_contracts_work: 'IBC Contracts that just work',
         ibm_contracts_work_content: 'JUNO is set to launch with IBC capabilities. Making it the first smart contract zone in the cosmos ecosystem to provide interoperable smart contracts.',
         gravity_dex: 'Gravity DEX Listing',
@@ -39,6 +39,8 @@ const variables = {
         ibm_cosmos_hub_content: 'The goal is to make an early IBC connection to the Cosmos Hub.',
         smart_contract_browser: 'Smart Contract Browser',
         smart_contract_browser_content: 'The easiest way to interact with smart contracts is to have an easy to use contract browser directory & submition interface.',
+        hack_juno: "Hack Juno",
+        hack_juno_content: 'HackJuno is a smart contract competition where developers can test their skills by coding next-generation, decentralized logic in Rust.',
 
         grass_roots_initiative: 'Grass Roots Initiative',
         grass_roots_initiative_content: ' Built by $ATOM holders and 100% distributed to staked atom holders. Juno is a decentralized effort to provide a sister hub to the Cosmos Hub. Primary purpose being to offload smart contract load to a designated zone while at the same time bringing utility back to the Hub. Atom holders have great incentive to ensure a fruitfull collaborative environment with the Cosmos Hub & eventually supplement security on Juno via Cosmos Hub shared security (Validator set).',

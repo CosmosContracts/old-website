@@ -24,40 +24,25 @@ const Section5 = (props) => {
                     <div className="section5_content">
                         <div className="section5_s1">
                             <div className="section5_s1_header">
+                                {variables[props.lang].hack_juno}
+                            </div>
+                            <div className="section5_s1_content">
+                                {variables[props.lang].hack_juno_content}
+                                <br />
+                                <a href="https://github.com/CosmosContracts/hack-juno">Learn more</a>
+                            </div>
+                        </div>
+                        <img alt="img" src={q3Icon}/>
+                    </div>
+                    <div className="section5_content section5_content_reverse">
+                        <div className="section5_s1">
+                            <div className="section5_s1_header" style={{ marginTop: '30px' }}>
                                 {variables[props.lang].network_launch}
                             </div>
                             <div className="section5_s1_content">
                                 {variables[props.lang].network_launch_content}
                             </div>
-                        </div>
-                        <img alt="img" src={q2Icon}/>
-                    </div>
-                    <div className="section5_content section5_content_reverse">
-                        <div className="section5_s1">
-                            <div className="section5_s1_header" style={{ marginTop: '30px' }}>
-                                {variables[props.lang].ibm_contracts_work}
-                            </div>
-                            <div className="section5_s1_content">
-                                {variables[props.lang].ibm_contracts_work_content}
-                            </div>
-                            <div className="section5_s1_header" style={{ marginTop: '30px' }}>
-                                {variables[props.lang].gravity_dex}
-                            </div>
-                            <div className="section5_s1_content">
-                                {variables[props.lang].gravity_dex_content}
-                            </div>
-                        </div>
-                        <img alt="img" src={q3Icon}/>
-                    </div>
-                    <div className="section5_content">
-                        <div className="section5_s1">
-
-                            <div className="section5_s1_header">
-                                {variables[props.lang].smart_contract_browser}
-                            </div>
-                            <div className="section5_s1_content">
-                                {variables[props.lang].smart_contract_browser_content}
-                            </div>
+                          
                         </div>
                         <img alt="img" src={q4Icon}/>
                     </div>
