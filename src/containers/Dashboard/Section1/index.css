@@ -93,12 +93,12 @@
 .section1_left2 {
     background: linear-gradient(140.35deg, rgba(255, 200, 200, 0.5) 7.97%, rgba(255, 132, 132, 0.5) 86.25%);
     transform: rotate(-78.1deg);
-    width: 305px;
-    height: 305px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    bottom: -250px;
+    bottom: -195px;
     left: -70px;
 }
 
@@ -117,7 +117,7 @@
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    right: -6%;
+    right: -18%;
     top: -20px;
 }
 
