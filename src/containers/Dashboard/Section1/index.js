@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Button } from '@material-ui/core';
+import { Button, Link } from '@material-ui/core';
 import junoIcon from '../../../assets/juno.svg';
 import logo1 from '../../../assets/section1/logo1.png';
 import * as PropTypes from 'prop-types';
@@ -24,12 +24,9 @@ const Section1 = (props) => {
                 </span>
             </div>
             <div className="section1_actions">
-                <Button className="get_started_button">
-                    {variables[props.lang].get_started}
-                </Button>
-                <Button className="view_github_button">
-                    {variables[props.lang].view_on_github}
-                </Button>
+                <Link href="https://github.com/CosmosContracts/docs" target="_blank" rel="noopener" className="get_started_button">
+                    {variables[props.lang].start_building}
+                </Link>
             </div>
             <span className="section1_left2"/>
             <img alt="logo1" className="section1-logo1" src={logo1}/>
