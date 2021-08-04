@@ -29,7 +29,7 @@ const Section5 = (props) => {
                             <div className="section5_s1_content">
                                 {variables[props.lang].hack_juno_content}
                                 <br />
-                                <a href="https://github.com/CosmosContracts/hack-juno">Learn more</a>
+                                <a href="https://github.com/CosmosContracts/hack-juno" target="_blank" rel="noopener">Learn more...</a>
                             </div>
                         </div>
                         <img alt="img" src={q3Icon}/>

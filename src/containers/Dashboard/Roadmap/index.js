@@ -25,7 +25,7 @@ const Roadmap = (props) => {
                             <a
                                 href="https://tinyurl.com/m5w9pzpd"
                                 rel="noopener noreferrer" target="_blank" >
-                                https://tinyurl.com/m5w9pzpd
+                                Learn more
                             </a>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Roadmap = (props) => {
                             <a
                                 href="https://emeris.com/"
                                 rel="noopener noreferrer" target="_blank" >
-                                https://emeris.com/
+                                Website
                             </a>
                         </div>
                     </div>
@@ -75,9 +75,9 @@ const Roadmap = (props) => {
                                 {variables[props.lang]['roadmap_text4']}
                             </p>
                             <a
-                                href="www.gravitydex.io"
+                                href="https://www.gravitydex.io"
                                 rel="noopener noreferrer" target="_blank">
-                                www.gravitydex.io
+                                Website
                             </a>
                         </div>
                     </div>

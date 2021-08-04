@@ -1,6 +1,5 @@
 .roadmap {
-    margin-top: 250px;
-    padding: 140px 100px 0 100px;
+    padding: 0px 100px 0 100px;
 }
 
 .roadmap .heading > h2 {
@@ -33,7 +32,7 @@
 }
 
 .roadmap .map {
-    margin: 140px 0 20px;
+    margin: 0px 0 20px;
 }
 
 .roadmap .info_block {
@@ -240,7 +239,7 @@
 @media (min-width: 1400px) {
     .roadmap {
         max-width: 1400px;
-        margin: 250px auto 50px;
+        margin: 120px auto 50px;
     }
 }
 
