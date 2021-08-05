@@ -1,8 +1,9 @@
 {
   "name": "juno_website",
+  "homepage": ".",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "git@gitlab.ctlabs.in:juno/website.git",
+  "repository": "https://github.com/CosmosContracts/website.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
