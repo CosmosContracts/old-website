@@ -3,7 +3,9 @@ const variables = {
         developers: 'Developers',
         validators: 'Validators',
         stakedrop: 'Stakedrop',
-
+        docs: 'Docs',
+        blog: 'Blog',
+        
         smart_contracts_evolved: 'Smart Contracts Evolved.',
         section1_content: 'Juno is an interoperable smart contract network. Highly scalable, robust, secure and easy to deploy!',
         get_started: 'Get Started',

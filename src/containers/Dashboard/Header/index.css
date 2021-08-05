@@ -13,10 +13,6 @@
     padding: 0 100px;
 }
 
-.header > div:nth-child(2) {
-    margin-right: 40px;
-}
-
 .header_right1 {
     position: absolute;
     background: linear-gradient(140.35deg, #FFC8C8 7.97%, #FF7070 50.61%);
@@ -34,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
 }
 
 .stake_drop > img {

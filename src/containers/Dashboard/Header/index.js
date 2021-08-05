@@ -11,15 +11,29 @@ const Header = (props) => {
         window.open('https://stakedrop.junochain.com', '_blank');
     };
 
+    const docs = () => {
+        window.open('https://github.com/CosmosContracts', '_blank');
+    };
+
+    const blog = () => {
+        window.open('https://medium.com/@JunoNetwork/', '_blank');
+    };
+
     return (
         <div className="header">
             <div className="header_right1"/>
-            <div className="stake_drop" onClick={stakeDrop}>
-                {variables[props.lang].stakedrop}
+            <div className="stake_drop" onClick={docs}>
+                {variables[props.lang].docs}
                 <img alt="link" src={externelLink} />
             </div>
-            {/* <div> {variables[props.lang].developers}</div> */}
-            {/* <div> {variables[props.lang].validators}</div> */}
+            <div className="stake_drop"  onClick={stakeDrop}> 
+                {variables[props.lang].stakedrop}
+                <img alt="link" src={externelLink} />
+            </div> 
+            <div className="stake_drop"  onClick={blog}> 
+                {variables[props.lang].blog}
+                <img alt="link" src={externelLink} />
+            </div> 
         </div>
     );
 };
