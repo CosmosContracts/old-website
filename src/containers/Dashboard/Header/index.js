@@ -12,7 +12,7 @@ const Header = (props) => {
     };
 
     const docs = () => {
-        window.open('https://github.com/CosmosContracts', '_blank');
+        window.open('https://docs.junochain.com/', '_blank');
     };
 
     const blog = () => {
