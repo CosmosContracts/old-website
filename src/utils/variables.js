@@ -5,12 +5,13 @@ const variables = {
         stakedrop: 'Stakedrop',
         docs: 'Docs',
         blog: 'Blog',
-        
+
         smart_contracts_evolved: 'Smart Contracts Evolved.',
         section1_content: 'Juno is an interoperable smart contract network. Highly scalable, robust, secure and easy to deploy!',
         get_started: 'Get Started',
         view_on_github: 'View On Github',
         start_building: 'Start Building',
+        ecosystem: 'Ecosystem',
 
         contracts_deployed: 'Contracts Deployed On Juno',
         juno_network_validators: 'Juno Network Validators',
@@ -42,7 +43,7 @@ const variables = {
         ibm_cosmos_hub_content: 'The goal is to make an early IBC connection to the Cosmos Hub.',
         smart_contract_browser: 'Smart Contract Browser',
         smart_contract_browser_content: 'The easiest way to interact with smart contracts is to have an easy to use contract browser directory & submition interface.',
-        hack_juno: "Hack Juno",
+        hack_juno: 'Hack Juno',
         hack_juno_content: 'HackJuno is a smart contract competition where developers can test their skills by coding next-generation, decentralized logic in Rust.',
 
         grass_roots_initiative: 'Grass Roots Initiative',
@@ -80,6 +81,18 @@ const variables = {
         roadmap_text6: '',
         roadmap_year7: '2023',
         roadmap_heading7: 'JunoHack Phase 2 (Incentivized Smart contract challenge. Deployment on mainnet)',
+
+        ecosystem_title: 'ecosystem',
+        ecosystem_introduction_app: '{elt}{NUMBER_APP}{elt} apps {elt}and{elt} Contracts {elt}build on Junø{elt}.',
+        ecosystem_introduction_text: 'Discover a wide variety of dapps, contracts and tools, built in the Junø ecosystem by developers and contributors from across the globe.',
+        ecosystem_filter_dapp: 'Dapp',
+        ecosystem_filter_contracts: 'Contracts',
+        ecosystem_filter_tools: 'Tools',
+        card_contract: 'Contracts',
+        card_dapp: 'Dapp',
+        card_tools: 'Tools',
+        card_copy: 'Copy',
+
     },
 };
 

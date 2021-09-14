@@ -10,13 +10,13 @@ import variables from '../../../utils/variables';
 const Section1 = (props) => {
     return (
         <div className="section1">
-            <span className="section1_left1"/>
+            <span className="section1_left1" />
             <div className="section1_head1">
-                <img alt="logo" src={junoIcon}/>
+                <img alt="logo" src={junoIcon} />
             </div>
             <div className="section1_head2">
                 {variables[props.lang].smart_contracts_evolved}
-                <span className="section1_right1"/>
+                <span className="section1_right1" />
             </div>
             <div className="section1_cont">
                 <span>
@@ -24,12 +24,15 @@ const Section1 = (props) => {
                 </span>
             </div>
             <div className="section1_actions">
-                <Link href="https://github.com/CosmosContracts/docs" target="_blank" rel="noopener" className="get_started_button">
+                <Link className="get_started_button" href="https://github.com/CosmosContracts/docs" rel="noopener" target="_blank">
                     {variables[props.lang].start_building}
                 </Link>
+                <Link className="get_started_button" href="/ecosystem">
+                    {variables[props.lang].ecosystem}
+                </Link>
             </div>
-            <span className="section1_left2"/>
-            <img alt="logo1" className="section1-logo1" src={logo1}/>
+            <span className="section1_left2" />
+            <img alt="logo1" className="section1-logo1" src={logo1} />
         </div>
     );
 };
