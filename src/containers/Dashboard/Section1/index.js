@@ -24,7 +24,7 @@ const Section1 = (props) => {
                 </span>
             </div>
             <div className="section1_actions">
-                <Link className="get_started_button" href="https://github.com/CosmosContracts/docs" rel="noopener" target="_blank">
+                <Link className="get_started_button" href="https://docs.junochain.com/" rel="noopener" target="_blank">
                     {variables[props.lang].start_building}
                 </Link>
                 <Link className="get_started_button" href="/ecosystem">
