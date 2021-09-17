@@ -27,7 +27,7 @@ const Section1 = (props) => {
                 <Link className="get_started_button" href="https://docs.junochain.com/" rel="noopener" target="_blank">
                     {variables[props.lang].start_building}
                 </Link>
-                <Link className="get_started_button" href="/ecosystem">
+                <Link className="get_started_button" href="#/ecosystem">
                     {variables[props.lang].ecosystem}
                 </Link>
             </div>

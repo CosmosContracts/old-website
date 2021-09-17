@@ -8,8 +8,8 @@ export const useEcosystem = () => useContext(EcosystemContext);
 
 const getRepoURL = () => 'https://api.github.com/repos/CosmosContracts/website/git/trees/main';
 const getTreeRepoUrl = (sha) => `https://api.github.com/repos/CosmosContracts/website/git/trees/${sha}`;
-const getJsonURL = (name) => `https://raw.githubusercontent.com/CosmosContracts/website/main/projects/${name}/index.json`;
-const getImageURL = (name, image) => `https://raw.githubusercontent.com/CosmosContracts/website/main/projects/${name}/${image}`;
+const getJsonURL = (name) => `https://raw.githubusercontent.com/CosmosContracts/website/main/projects/${encodeURIComponent(name)}/index.json`;
+const getImageURL = (name, image) => `https://raw.githubusercontent.com/CosmosContracts/website/main/projects/${encodeURIComponent(name)}/${encodeURIComponent(image)}`;
 
 const get = (url) => {
     const options = {

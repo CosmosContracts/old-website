@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import reducer from './reducers';
@@ -20,9 +20,9 @@ const store = createStore(
 
 const app = (
     <Provider store={store}>
-        <BrowserRouter>
+        <Router >
             <Route component={App}/>
-        </BrowserRouter>
+        </Router>
     </Provider>
 );
 
