@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Link } from '@material-ui/core';
+import { Link } from '@material-ui/core';
 import './index.css';
 import telegramIcon from '../../../assets/section8/telegram.svg';
 import twitterIcon from '../../../assets/section8/twitter.svg';

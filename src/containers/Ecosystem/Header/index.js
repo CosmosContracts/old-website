@@ -1,14 +1,13 @@
 import React from 'react';
 import './index.css';
 import variables from '../../../utils/variables';
-import { useHistory, withRouter } from 'react-router';
+import { navigate } from 'gatsby';
 import { connect } from 'react-redux';
 import * as PropTypes from 'prop-types';
 import externelLink from '../../../assets/externel-link.png';
 import logoText from '../../../assets/juno_white.svg';
 
 const Header = (props) => {
-    const history = useHistory();
     const stakeDrop = () => {
         window.open('https://stakedrop.junochain.com', '_blank');
     };
@@ -22,7 +21,7 @@ const Header = (props) => {
     };
 
     const goBack = () => {
-        history.push('/');
+        navigate('/');
     };
 
     return (
@@ -49,9 +48,6 @@ const Header = (props) => {
 };
 
 Header.propTypes = {
-    history: PropTypes.shape({
-        push: PropTypes.func.isRequired,
-    }).isRequired,
     lang: PropTypes.string.isRequired,
 };
 
@@ -61,4 +57,4 @@ const stateToProps = (state) => {
     };
 };
 
-export default withRouter(connect(stateToProps, null)(Header));
+export default connect(stateToProps, null)(Header);

@@ -44,6 +44,7 @@
 
 .section1_actions .get_started_button {
     background: #ff7171;
+    text-decoration: none;
 }
 
 .section1_actions .get_started_button:hover {

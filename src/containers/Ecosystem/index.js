@@ -5,7 +5,6 @@ import Filter from './Filter';
 import Header from './Header';
 import './index.css';
 
-import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import Introduction from './Introduction';
 
@@ -29,4 +28,4 @@ const stateToProps = (state) => {
     };
 };
 
-export default withRouter(connect(stateToProps, null)(Ecosystem));
+export default connect(stateToProps, null)(Ecosystem);

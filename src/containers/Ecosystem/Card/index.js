@@ -43,9 +43,9 @@ const Card = ({ lang, name, address, image, tgLink, githubLink, twitterLink, typ
                 <p className="eco_stym_card_type">{type}</p>
                 <div className="eco_stym_card_links">
                     {(type === 'Dapp' || type === 'Contracts') && address ? <PaperIcon className="eco_stym_card_icon" color="rgba(255, 255, 255, 0.50)" onClick={copyAddress} onClick={copyAddress} /> : null}
-                    {twitterLink ? <a className="eco_stym_card_link" href={getLink(twitterLink)} rel="noreferrer" target="_blank"><TwitterIcon /></a> : null}
-                    {tgLink ? <a className="eco_stym_card_link" href={getLink(tgLink)} rel="noreferrer" target="_blank"><TelegramIcon /></a> : null}
-                    {githubLink ? <a className="eco_stym_card_link" href={getLink(githubLink)} rel="noreferrer" target="_blank"><GitHubIcon /></a> : null}
+                    {twitterLink ? <a className="eco_stym_card_link" href={getLink(twitterLink)} rel="noopener noreferrer" target="_blank"><TwitterIcon /></a> : null}
+                    {tgLink ? <a className="eco_stym_card_link" href={getLink(tgLink)} rel="noopener noreferrer" target="_blank"><TelegramIcon /></a> : null}
+                    {githubLink ? <a className="eco_stym_card_link" href={getLink(githubLink)} rel="noopener noreferrer" target="_blank"><GitHubIcon /></a> : null}
 
                 </div>
             </div>

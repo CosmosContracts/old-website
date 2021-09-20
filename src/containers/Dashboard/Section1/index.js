@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
-import { Button, Link } from '@material-ui/core';
+import { Link } from '@material-ui/core';
+import { Link as GatsbyLink } from 'gatsby';
 import junoIcon from '../../../assets/juno.svg';
 import logo1 from '../../../assets/section1/logo1.png';
 import * as PropTypes from 'prop-types';
@@ -24,12 +25,12 @@ const Section1 = (props) => {
                 </span>
             </div>
             <div className="section1_actions">
-                <Link className="get_started_button" href="https://docs.junochain.com/" rel="noopener" target="_blank">
+                <Link className="get_started_button" href="https://docs.junochain.com/" underline="none" rel="noopener" target="_blank">
                     {variables[props.lang].start_building}
                 </Link>
-                <Link className="get_started_button" href="/ecosystem">
+                <GatsbyLink className="get_started_button" to="/ecosystem">
                     {variables[props.lang].ecosystem}
-                </Link>
+                </GatsbyLink>
             </div>
             <span className="section1_left2" />
             <img alt="logo1" className="section1-logo1" src={logo1} />
