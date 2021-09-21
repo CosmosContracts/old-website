@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './index.css';
 import variables from '../../../utils/variables';
-import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import { insertData } from '../../../utils/helper';
 import { useEcosystem } from '../Ecosystem.provider';
@@ -36,4 +35,4 @@ const stateToProps = (state) => {
     };
 };
 
-export default withRouter(connect(stateToProps, null)(Introduction));
+export default connect(stateToProps, null)(Introduction);

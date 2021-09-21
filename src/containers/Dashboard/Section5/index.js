@@ -1,6 +1,5 @@
 import './index.css';
 import React from 'react';
-import q2Icon from '../../../assets/section5/Q2.svg';
 import q3Icon from '../../../assets/section5/Q3.svg';
 import q4Icon from '../../../assets/section5/Q4.svg';
 import logo2 from '../../../assets/section5/logo2.svg';
@@ -29,7 +28,7 @@ const Section5 = (props) => {
                             <div className="section5_s1_content">
                                 {variables[props.lang].hack_juno_content}
                                 <br />
-                                <a href="https://github.com/CosmosContracts/hack-juno" target="_blank" rel="noopener">Learn more...</a>
+                                <a href="https://github.com/CosmosContracts/hack-juno" target="_blank" rel="noopener noreferrer">Learn more...</a>
                             </div>
                         </div>
                         <img alt="img" src={q3Icon}/>
