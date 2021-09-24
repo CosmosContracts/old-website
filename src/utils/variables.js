@@ -83,7 +83,7 @@ const variables = {
         roadmap_heading7: 'JunoHack Phase 2 (Incentivized Smart contract challenge. Deployment on mainnet)',
 
         ecosystem_title: 'ecosystem',
-        ecosystem_introduction_app: '{elt}{NUMBER_APP}{elt} apps {elt}and{elt} Contracts {elt}build on Junø{elt}.',
+        ecosystem_introduction_app: '{elt}{NUMBER_APP}{elt} apps {elt}and{elt} Contracts {elt}built on Junø{elt}.',
         ecosystem_introduction_text: 'Discover a wide variety of dapps, contracts and tools, built in the Junø ecosystem by developers and contributors from across the globe.',
         ecosystem_filter_dapp: 'Dapp',
         ecosystem_filter_contracts: 'Contracts',
