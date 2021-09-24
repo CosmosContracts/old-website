@@ -9,7 +9,7 @@ You must create your projects folder inside the projects folder.
 Example:
 
 projects/my-project-name/index.json
-
+```
 {
 "name": "Test Project 1",
 "type": "Contracts",
@@ -19,7 +19,7 @@ projects/my-project-name/index.json
 "tg_link": "t.me/junonetwork",
 "address": "juno-smartcontract-address"
 }
-
+```
 name: This is the name of your project
 
 type: Choose one of the following:
