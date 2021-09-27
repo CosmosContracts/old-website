@@ -17,7 +17,8 @@ projects/my-project-name/index.json
 "state": 1,
 "twitter_link": "twitter.com/junonetwork",
 "tg_link": "t.me/junonetwork",
-"address": "juno-smartcontract-address"
+"address": "juno-smartcontract-address",
+"website_link": "https://junochain.com"
 }
 ```
 name: This is the name of your project
@@ -32,11 +33,13 @@ projects/my-project-name/main-icon.png
 
 state: keep this set to 1
 
-twitter_link: This is a twitter link for your project
+twitter_link: This is a twitter link for your project (optional)
 
-tg_link: This is a telegram link for your project 
+tg_link: This is a telegram link for your project (optional)
 
-address: This is the address for your contract, not the entire URL.
+address: This is the address for your contract, not the entire URL. (optional)
+
+website_link: This is the url for your website (optional)
 
 
 
