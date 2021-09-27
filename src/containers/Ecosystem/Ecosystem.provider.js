@@ -43,6 +43,7 @@ export const EcosystemProvider = ({ children }) => {
                         tgLink: response.data.tg_link,
                         twitterLink: response.data.twitter_link,
                         githubLink: response.data.github_link,
+                        websiteLink: response.data.website_link,
                         type: response.data.type,
 
                     };

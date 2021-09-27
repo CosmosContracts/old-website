@@ -6,7 +6,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import variables from '../../../utils/variables';
 import { useToast } from '../../../components/Toast/Toast.Provider';
 import PaperIcon from '../Icons/PaperIcon';
-const Card = ({ lang, name, address, image, tgLink, githubLink, twitterLink, type }) => {
+import PublicIcon from '@material-ui/icons/Public';
+const Card = ({ lang, name, address, image, tgLink, githubLink, twitterLink, type, websiteLink }) => {
     const { showToast } = useToast();
     let className = 'card_state card_state--contract';
     if (type === 'Tools') { className = 'card_state card_state--tool'; } else if (type === 'Dapp') { className = 'card_state card_state--dapp'; }
@@ -42,11 +43,11 @@ const Card = ({ lang, name, address, image, tgLink, githubLink, twitterLink, typ
                 {/* <p className="eco_stym_card_address" title={variables[lang].card_copy} onClick={copyAddress}>{address}</p> */}
                 <p className="eco_stym_card_type">{type}</p>
                 <div className="eco_stym_card_links">
-                    {(type === 'Dapp' || type === 'Contracts') && address ? <PaperIcon className="eco_stym_card_icon" color="rgba(255, 255, 255, 0.50)" onClick={copyAddress} onClick={copyAddress} /> : null}
+                    {(type === 'Dapp' || type === 'Contracts') && address ? <PaperIcon className="eco_stym_card_icon" color="rgba(255, 255, 255, 0.50)" onClick={copyAddress}  /> : null}
                     {twitterLink ? <a className="eco_stym_card_link" href={getLink(twitterLink)} rel="noopener noreferrer" target="_blank"><TwitterIcon /></a> : null}
                     {tgLink ? <a className="eco_stym_card_link" href={getLink(tgLink)} rel="noopener noreferrer" target="_blank"><TelegramIcon /></a> : null}
                     {githubLink ? <a className="eco_stym_card_link" href={getLink(githubLink)} rel="noopener noreferrer" target="_blank"><GitHubIcon /></a> : null}
-
+                    {websiteLink ? <a className="eco_stym_card_link" href={getLink(websiteLink)} rel="noopener noreferrer" target="_blank"><PublicIcon /></a> : null}
                 </div>
             </div>
         </div>
