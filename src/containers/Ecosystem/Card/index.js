@@ -30,7 +30,6 @@ const Card = ({ lang, name, address, image, tgLink, githubLink, twitterLink, typ
     return (
         <div className="eco_stym_card">
             <div className="eco_stym_card_image_container" onClick={openAddress}>
-                <img alt={name} className="eco_stym_card_image_blur" src={image} />
                 <img alt={name} className="eco_stym_card_image" src={image} />
             </div>
             <div className="eco_stym_card_informations">
