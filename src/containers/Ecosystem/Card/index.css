@@ -16,6 +16,9 @@
     margin: 0 20px 0 0;
     position: relative;
     overflow: hidden;
+}
+
+.eco_stym_card_image_container--website {
     cursor: pointer;
 }
 
@@ -39,8 +42,11 @@
 
 .eco_stym_card_name {
     font-weight: bold;
-    cursor: pointer;
     font-size: 16px;
+}
+
+.eco_stym_card_name--website {
+    cursor: pointer;
 }
 
 .eco_stym_card_state {
