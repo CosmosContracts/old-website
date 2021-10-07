@@ -18,6 +18,7 @@ projects/my-project-name/index.json
 "twitter_link": "twitter.com/junonetwork",
 "tg_link": "t.me/junonetwork",
 "address": "juno-smartcontract-address",
+"github_link": "github-link",
 "website_link": "https://junochain.com"
 }
 ```
@@ -38,6 +39,8 @@ twitter_link: This is a twitter link for your project (optional)
 tg_link: This is a telegram link for your project (optional)
 
 address: This is the address for your contract, not the entire URL. (optional)
+
+github_link: This is the link for your github repo (optional)
 
 website_link: This is the url for your website (optional)
 
