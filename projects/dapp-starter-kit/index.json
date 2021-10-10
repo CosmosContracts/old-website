@@ -1,0 +1,11 @@
+{
+    "name": "Juno Dapp Starter Kit",
+    "type": "Tools",
+    "image": "image.png",
+    "state": 1,
+    "website_link": "https://next-cosmwasm-keplr-starter.vercel.app/",
+    "twitter_link": "",
+    "tg_link": "",
+    "address": "",
+    "github_link": "https://github.com/ebaker/next-cosmwasm-keplr-starter"
+}
