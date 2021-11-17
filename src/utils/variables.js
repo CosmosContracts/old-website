@@ -34,7 +34,7 @@ const variables = {
 
         contracts_work: 'Contracts that just work',
         network_launch: 'Network Launch',
-        network_launch_content: 'The Juno network is expected to October 1st, 2021. Currently 150+ validators and 20+ developers are organically contributing to bootstrap the network and working on integrations to ensure a smooth launch and user experience.',
+        network_launch_content: 'The Juno Network launched on October 1st, 2021. Currently there are countless validators and developers contributing their time and effort to ensure a great community experience.',
         ibm_contracts_work: 'IBC Contracts that just work',
         ibm_contracts_work_content: 'JUNO is set to launch with IBC capabilities. Making it the first smart contract zone in the cosmos ecosystem to provide interoperable smart contracts.',
         gravity_dex: 'Gravity DEX Listing',
