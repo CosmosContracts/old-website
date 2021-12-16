@@ -1,5 +1,5 @@
 .section3 {
-    margin: 250px 0 100px 0;
+    margin: 500px 0 100px 0;
     padding: 0 100px;
     display: flex;
     position: relative;
@@ -7,7 +7,17 @@
 }
 
 .section3_left {
-    width: 70%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3_left > img {
+    margin: 100px 0;
+    width: 500px;
 }
 
 .section3_left_head {
@@ -15,7 +25,7 @@
     font-weight: 800;
     font-size: 110px;
     line-height: 120px;
-    text-align: left;
+    text-align: center;
 
     background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%),
     -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
@@ -25,13 +35,12 @@
 
 .section3_left_cont {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 26px;
     line-height: 36px;
     color: #FFFFFF;
-    text-align: left;
-    width: 80%;
-    margin-top: 30px;
-    font-weight: 300;
+    text-align: center;
+    width: 100%;
 }
 
 .section3_right {
@@ -44,22 +53,28 @@
     width: 1010px;
     height: 900px;
     z-index: -1;
-    top: -200px;
+    top: -300px;
 }
 
 .section3_right img {
     position: absolute;
     right: 0;
     width: 500px;
-    top: 180px;
+    top: 100px;
 }
 
 @media (min-width: 1400px) {
     .section3 {
         max-width: 1400px;
-        margin: 250px auto;
+        margin: 350px auto;
     }
 
+}
+
+@media (max-width: 1399px) {
+    .section3_left_cont {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 1250px) {
@@ -78,6 +93,12 @@
         font-size: 70px;
         line-height: 80px;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 810px) {
+    .section3_left > img {
+        width: 90%;
     }
 }
 
@@ -117,10 +138,18 @@
     }
 }
 
+@media (max-width: 450px) {
+    .section3_left_head {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
+
 @media (max-width: 426px) {
     .section3 {
         margin-top: 360px;
         padding: 0 20px;
+        margin-bottom: 50px;
     }
 
     .section3_right img {
@@ -131,12 +160,9 @@
         width: 300px;
     }
 
-    .section3_left_head {
-        font-size: 60px;
-        margin-bottom: 40px;
-    }
-
     .section3_left_cont {
+        font-size: 18px;
         line-height: 30px;
     }
 }
+

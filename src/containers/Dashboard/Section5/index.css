@@ -83,19 +83,10 @@
 .section5_s1_content {
     font-family:'Lato', sans-serif;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 22px;
     color: #FFFFFF;
     text-align: left;
     width: 80%;
-}
-
-.section5_s1_content a{
-    color: #ff7171;
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    line-height: 34px;
-    text-align: center;
-    font-weight: 500;
 }
 
 @media (min-width: 1400px) {

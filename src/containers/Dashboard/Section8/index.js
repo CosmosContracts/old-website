@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import './index.css';
 import telegramIcon from '../../../assets/section8/telegram.svg';
 import twitterIcon from '../../../assets/section8/twitter.svg';
@@ -12,32 +12,34 @@ import variables from '../../../utils/variables';
 const Section8 = (props) => {
     return (
         <div className="section8">
-            <div className="section8_header"> {variables[props.lang].meet_global_community} </div>
+            <div className="section8_header header">
+                {variables[props.lang].meet_global_community}
+            </div>
             <div className="section8_content">
-                <Link href="https://t.me/JunoNetwork" target="_blank" rel="noopener">
+                <Button>
                     <div className="icon_section">
                         <img alt="telegram" src={telegramIcon} />
                     </div>
                     {variables[props.lang].telegram}
-                </Link>
-                <Link href="https://twitter.com/JunoNetwork" target="_blank" rel="noopener">
+                </Button>
+                <Button>
                     <div className="icon_section">
                         <img alt="juno-twitter" className="twitter_icon" src={twitterIcon} />
                     </div>
                     {variables[props.lang].twitter}
-                </Link>
-                <Link className="no_margin" href="https://discord.gg/QcWPfK4gJ2" target="_blank" rel="noopener">
+                </Button>
+                <Button className="no_margin">
                     <div className="icon_section">
-                        <img alt="juno-discord" src={discordIcon} />
+                        <img alt="telegram" src={discordIcon} />
                     </div>
                     {variables[props.lang].discord}
-                </Link>
-                <Link className="no_margin" href="https://github.com/CosmosContracts" target="_blank" rel="noopener">
+                </Button>
+                <Button className="no_margin">
                     <div className="icon_section">
-                        <img alt="juno-github" src={githubIcon} />
+                        <img alt="juno-twitter" src={githubIcon} />
                     </div>
                     {variables[props.lang].github}
-                </Link>
+                </Button>
             </div>
         </div>
     );
