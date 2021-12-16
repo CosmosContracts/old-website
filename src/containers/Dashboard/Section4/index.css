@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
-    margin: 400px 0;
+    margin: 200px 0;
     padding: 0 100px;
 }
 
@@ -43,7 +43,7 @@
 @media (min-width: 1400px) {
     .section4 {
         max-width: 1400px;
-        margin: 400px auto;
+        margin: 200px auto;
     }
 }
 
