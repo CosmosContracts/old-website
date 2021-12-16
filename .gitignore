@@ -1,6 +1,5 @@
 # dependencies
 node_modules
-www.tar
 
 .idea
 # testing
@@ -8,8 +7,6 @@ www.tar
 
 # production
 /build
-# Gatbsy production
-/public
 
 # misc
 .DS_Store
@@ -21,6 +18,3 @@ www.tar
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Gatsby
-.cache
