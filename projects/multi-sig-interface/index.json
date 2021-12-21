@@ -1,0 +1,11 @@
+{
+    "name": "Multisig Interface",
+    "type": "Dapp",
+    "image": "image.png",
+    "state": 1,
+    "website_link": "https://cw3-fixed-multisig-dapp.vercel.app/",
+    "twitter_link": "",
+    "tg_link": "",
+    "address": "",
+    "github_link": "https://github.com/natlotzy/juno-sale-dapp"
+}

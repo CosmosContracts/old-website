@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { navigate } from 'gatsby';
 import { Button } from '@material-ui/core';
 import junoIcon from '../../../assets/juno.svg';
 import logo1 from '../../../assets/section1/logo1.png';
@@ -27,11 +28,11 @@ const Section1 = (props) => {
                 </span>
             </div>
             <div className="section1_actions">
-                <Button className="get_started_button">
+                <Button className="get_started_button" onClick={() => window.open('https://docs.junochain.com/', '_blank')}>
                     {variables[props.lang].get_started}
                 </Button>
-                <Button className="view_github_button">
-                    {variables[props.lang].view_on_github}
+                <Button className="get_started_button" onClick={() => navigate('/ecosystem')}>
+                    {variables[props.lang].ecosystem}
                 </Button>
             </div>
             <img alt="logo" className="section1_left2_logo" src={junoBlackIcon} />

@@ -17,8 +17,24 @@ const styles = {
 };
 
 const Drawer = (props) => {
-    const stakeDrop = () => {
-        window.open('https://stakedrop.junochain.com', '_blank');
+    const docs = () => {
+        window.open('https://docs.junochain.com/', '_blank');
+    };
+
+    const github = () => {
+        window.open('https://github.com/CosmosContracts', '_blank');
+    };
+
+    const blog = () => {
+        window.open('https://medium.com/@JunoNetwork/', '_blank');
+    };
+
+    const updates = () => {
+        window.open('https://twitter.com/JunoNetwork', '_blank');
+    };
+
+    const discord = () => {
+        window.open('https://discord.gg/QcWPfK4gJ2', '_blank');
     };
 
     return (
@@ -31,23 +47,23 @@ const Drawer = (props) => {
                 onKeyDown={props.hideNavBar}
                 onOpen={props.showNavBar}>
                 <div className="drawer_section">
-                    <div onClick={stakeDrop}>
+                    <div onClick={docs}>
                         {variables[props.lang].docs}
                         <img alt="link" src={externelLink} />
                     </div>
-                    <div onClick={stakeDrop}>
+                    <div onClick={github}>
                         {variables[props.lang].github}
                         <img alt="link" src={externelLink} />
                     </div>
-                    <div onClick={stakeDrop}>
+                    <div onClick={blog}>
                         {variables[props.lang].blog}
                         <img alt="link" src={externelLink} />
                     </div>
-                    <div onClick={stakeDrop}>
+                    <div onClick={updates}>
                         {variables[props.lang].updates}
                         <img alt="link" src={externelLink} />
                     </div>
-                    <div onClick={stakeDrop}>
+                    <div onClick={discord}>
                         {variables[props.lang].discord}
                         <img alt="link" src={externelLink} />
                     </div>
