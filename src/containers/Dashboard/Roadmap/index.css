@@ -1,6 +1,5 @@
 .roadmap {
-    margin-top: 250px;
-    padding: 140px 100px 0 100px;
+    padding: 0px 100px 0 100px;
 }
 
 .roadmap .heading > h2 {
@@ -14,7 +13,6 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     width: 100%;
-    margin-bottom: 100px;
 }
 
 .roadmap .heading > span {
@@ -34,25 +32,21 @@
 }
 
 .roadmap .map {
-    margin: 0 0 20px;
+    margin: 0px 0 20px;
 }
 
 .roadmap .info_block {
     margin: auto auto auto 50%;
     border-left: 2px solid #ff7171;
     display: flex;
-    padding-top: 40px;
+    padding-top: 20px;
     width: 50%;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.roadmap .info_block:last-child {
-    padding-bottom: 20px;
-}
-
 .roadmap .info_block:first-child {
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 .roadmap .map .info_block:nth-child(7) {
@@ -72,8 +66,8 @@
 .roadmap .info_block .dots_section span {
     background: linear-gradient(
             90.02deg, #ff7171 28.95%, rgba(241, 158, 34, 0) 50.01%);
-    width: 150px;
-    min-width: 150px;
+    width: 100px;
+    min-width: 100px;
     height: 1px;
     margin: 0;
 }
@@ -81,7 +75,7 @@
 .roadmap .info_block.reverse .dots_section span {
     background: linear-gradient(
             90.02deg, rgba(241, 158, 34, 0) 28.95%, #ff7171 50.01%);
-    margin: 20px 4px 0 -20px;
+    margin: 40px 4px 0 -20px;
 }
 
 .roadmap .info_block .dots_section .dot1 {
@@ -100,7 +94,7 @@
     min-width: 15px;
     height: 15px;
     border-radius: 50%;
-    margin-left: -90px;
+    margin-left: -60px;
     z-index: 1;
 }
 
@@ -109,7 +103,7 @@
 }
 
 .roadmap .info_block.reverse .dots_section .dot2 {
-    margin-right: -42px;
+    margin-right: -22px;
 }
 
 .roadmap .info_block .info {
@@ -209,7 +203,7 @@
 
 .roadmap .info_block.reverse .info_text {
     text-align: right;
-    margin: 20px 50px 0 0;
+    margin: 36px 50px 0 0;
     padding-bottom: 30px;
 }
 
@@ -245,42 +239,19 @@
 @media (min-width: 1400px) {
     .roadmap {
         max-width: 1400px;
-        margin: 250px auto 50px;
-    }
-}
-
-@media (min-width: 1600px) {
-    .roadmap {
-        max-width: inherit;
-        /*height: 100vh;*/
-        padding: 140px 0 0;
-        margin: auto auto 200px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .roadmap .heading > h2 {
-        /*padding-top: 100px;*/
-        /*margin-bottom: 100px;*/
-        margin-top: 0;
-    }
-
-    .roadmap .info_block {
-        padding-top: 10px;
+        margin: 120px auto 50px;
     }
 }
 
 @media (max-width: 1399px) {
     .roadmap .heading > h2 {
-        font-size: 100px;
+        font-size: 90px;
     }
 }
 
 @media (max-width: 1024px) {
     .roadmap {
-        padding-top: 140px;
+        padding-top: 0px;
         padding-bottom: 100px;
     }
 
@@ -291,12 +262,6 @@
     .roadmap .heading > h2 {
         font-size: 80px;
         margin: 0;
-    }
-}
-
-@media (max-width: 840px) {
-    .roadmap .info_block .info_text a {
-        font-size: 16px;
     }
 }
 
@@ -322,15 +287,9 @@
     .roadmap .info_block .info_text {
         margin-left: 20px;
     }
-}
-
-@media (max-width: 700px) {
-    .roadmap .info_text .heading_text {
-        font-size: 20px;
-    }
 
     .roadmap .info_block .info_text a {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -356,12 +315,12 @@
     }
 
     .roadmap .info_block.reverse .dots_section .dot2 {
-        margin-left: -94px;
+        margin-left: -63px;
     }
 
     .roadmap .info_block.reverse .info_text {
         text-align: left;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .roadmap .info_block .info_text a {
@@ -429,7 +388,7 @@
 @media (max-width: 426px) {
     .roadmap {
         padding: 50px 20px;
-        margin-top: 400px;
+        margin-top: 100px;
     }
 
     .roadmap .heading > h2 {

@@ -8,7 +8,7 @@ const Roadmap = (props) => {
     return (
         <section className="roadmap" id="roadmap">
             <div className="heading">
-                <h2 className="header">{variables[props.lang].roadmap}</h2>
+                <h2>{variables[props.lang].roadmap}</h2>
             </div>
             <div className="map">
                 <div className="info_block">
@@ -25,7 +25,7 @@ const Roadmap = (props) => {
                             <a
                                 href="https://tinyurl.com/m5w9pzpd"
                                 rel="noopener noreferrer" target="_blank" >
-                                https://tinyurl.com/m5w9pzpd
+                                Learn more
                             </a>
                         </div>
                     </div>
@@ -54,6 +54,11 @@ const Roadmap = (props) => {
                             <p className="heading_text">
                                 {variables[props.lang]['roadmap_heading3']}
                             </p>
+                            <a
+                                href="https://emeris.com/"
+                                rel="noopener noreferrer" target="_blank" >
+                                Website
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -70,9 +75,9 @@ const Roadmap = (props) => {
                                 {variables[props.lang]['roadmap_text4']}
                             </p>
                             <a
-                                href="https://app.osmosis.zone/"
+                                href="https://www.gravitydex.io"
                                 rel="noopener noreferrer" target="_blank">
-                                https://app.osmosis.zone/
+                                Website
                             </a>
                         </div>
                     </div>
@@ -111,107 +116,6 @@ const Roadmap = (props) => {
                     <div className="info">
                         <div className="info_text">
                             <p className="heading_text">{variables[props.lang]['roadmap_heading7']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block reverse">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading8']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading9']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block reverse">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading10']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading11']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block reverse">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text link_class">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading12']}</p>
-                            <a
-                                href="https://tinyurl.com/2p838seu"
-                                rel="noopener noreferrer" target="_blank">
-                                https://tinyurl.com/2p838seu
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading13']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block reverse">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading14']}</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="info_block">
-                    <div className="dots_section">
-                        <span className="dot1"> </span>
-                        <span/>
-                        <span className="dot2"> </span>
-                    </div>
-                    <div className="info">
-                        <div className="info_text">
-                            <p className="heading_text">{variables[props.lang]['roadmap_heading15']}</p>
                         </div>
                     </div>
                 </div>
