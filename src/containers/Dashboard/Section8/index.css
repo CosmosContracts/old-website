@@ -1,7 +1,9 @@
 .section8 {
     display: flex;
     align-items: center;
-    margin: 100px auto 100px;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
     padding: 0 100px;
 }
 
@@ -28,16 +30,15 @@
     margin-left: 100px;
 }
 
-.section8_content > a {
+.section8_content > button {
     margin-bottom: 20px;
-    color: white;
 }
 
 .section8_content .no_margin {
     margin-bottom: 0;
 }
 
-.section8_content > a span {
+.section8_content > button span {
    display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
@@ -73,7 +74,26 @@
 @media (min-width: 1400px) {
     .section8 {
         max-width: 1400px;
-        margin: 200px auto 100px;
+        margin: 300px auto 100px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .section8 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        max-width: inherit;
+    }
+
+    .section8_header {
+        width: 700px;
+    }
+
+    .section8_content {
+        width: 600px;
     }
 }
 
@@ -106,7 +126,7 @@
         flex-direction: column;
     }
 
-    .section8_content > a {
+    .section8_content > button {
         margin-bottom: 0;
     }
 
@@ -126,7 +146,7 @@
         display: flex;
     }
 
-    .section8_content > a {
+    .section8_content > button {
         width: 20%;
     }
 
@@ -161,7 +181,7 @@
         border-radius: 33px;
     }
 
-    .section8_content > a span {
+    .section8_content > button span {
         font-size: 20px;
     }
 }
@@ -189,7 +209,7 @@
 }
 
 @media (max-width: 620px) {
-    .section8_content > a {
+    .section8_content > button {
         width: 50%;
     }
 }
@@ -197,7 +217,7 @@
 @media (max-width: 426px) {
     .section8 {
         padding: 0 20px;
-        margin-top: 200px;
+        margin-top: 10px;
     }
 
     .section8_header {
@@ -209,12 +229,11 @@
         flex-direction: column;
     }
 
-    .section8_content > a:first-child {
-        margin: unset;
-        margin-bottom: 50px;
+    .section8_content > button:first-child {
+        margin: unset unset 50px;
     }
 
-    .section8_content > a {
+    .section8_content > button {
         width: unset;
     }
 

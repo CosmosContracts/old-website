@@ -1,6 +1,6 @@
 .section6_parent {
     position: relative;
-    margin: 200px 0 50px;
+    margin: 300px 0;
 }
 
 .section6 {
@@ -31,7 +31,9 @@
     font-size: 120px;
     line-height: 120px;
     text-transform: capitalize;
-    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%), -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
+
+    background: -webkit-linear-gradient(90.12deg, #FFD7D7 0.75%, #FF9999 108.39%),
+    -webkit-linear-gradient(90.12deg, #FFD3FA 0.75%, #9A4997 108.39%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -40,8 +42,9 @@
 
 .section6_s1content {
     font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    line-height: 35px;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
@@ -51,10 +54,11 @@
     background: linear-gradient(156.31deg, rgba(99, 45, 45, 0.5) -2.33%, rgba(0, 0, 0, 0.5) 84.75%);
     backdrop-filter: blur(4px);
     /* Note: backdrop-filter has minimal browser support */
+
     border-radius: 85px;
     width: 32%;
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
@@ -68,7 +72,7 @@
 }
 
 .card_header {
-    font-family: 'Lato', sans-serif;
+    font-family:'Lato', sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
@@ -97,14 +101,15 @@
 
 .section6_logo {
     position: absolute;
-    top: 50%;
+    top: 85%;
     z-index: -1;
     left: -300px;
-    background: linear-gradient(140.35deg, #FFD0D0 7.97%, #FF6F6F 86.25%);
-    transform: rotate(-78.1deg);
+    /*background: linear-gradient(140.35deg, #FFD0D0 7.97%, #FF6F6F 86.25%);*/
+    /*transform: rotate(-78.1deg);*/
     width: 517px;
     height: 517px;
     border-radius: 50%;
+    opacity: 0.6;
 }
 
 .section6_card1 {
@@ -134,6 +139,7 @@
         max-width: 1400px;
         margin: auto auto 100px;
     }
+
     .section6_logo2 {
         right: 0;
     }
@@ -143,8 +149,13 @@
     .section6_logo2 {
         right: 0;
     }
+
     .section6_s1header {
         font-size: 110px;
+    }
+
+    .section6_s1content {
+        font-size: 22px;
     }
 }
 
@@ -152,12 +163,11 @@
     .section6_s1header {
         font-size: 90px;
     }
-    .section6_s1content {
-        font-size: 20px;
-    }
+
     .card_header {
         font-size: 22px;
     }
+
     .card_content {
         font-size: 20px;
     }
@@ -167,6 +177,7 @@
     .section6_card1 {
         top: 55%;
     }
+
     .section6_row2 {
         margin-top: 100px;
     }
@@ -176,26 +187,32 @@
     .section6_s1content {
         margin-bottom: 100px;
     }
+
     .section6_s1header {
         width: 100%;
         font-size: 80px;
         line-height: inherit;
     }
+
     .section6_s2 {
         width: 100%;
         margin-top: 100px;
     }
+
     .card {
         width: 100%;
         margin-bottom: 50px;
     }
+
     .section6_card1 {
         position: unset;
     }
+
     .section6_row2 {
         width: 100%;
         display: unset;
     }
+
     .section6_logo1 {
         left: -150px;
     }
@@ -205,17 +222,29 @@
     .section6 {
         padding: 0 50px;
     }
+
     .section6_logo1 {
         width: 100%;
     }
+
     .section6_s1header {
         font-size: 70px;
         line-height: 100px;
         margin-bottom: 50px;
     }
-    .section6_s1, .section6_s1content, .section6_s1header {
+
+    .section6_s1,
+    .section6_s1content,
+    .section6_s1header {
         width: 100%;
         text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .section6_s1header {
+        font-size: 50px;
+        line-height: 70px;
     }
 }
 
@@ -223,11 +252,17 @@
     .section6 {
         padding: 0 20px;
     }
-    .section6_s1header {
-        font-size: 60px;
-        line-height: 90px;
-    }
+
     .card_content {
         font-size: 18px;
+    }
+
+    .section6_parent {
+        margin: 50px 0;
+    }
+
+    .section6_s1content {
+        font-size: 18px;
+        line-height: 30px;
     }
 }

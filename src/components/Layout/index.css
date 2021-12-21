@@ -13,27 +13,20 @@ body {
   text-align: center;
   background: #232323;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 p {
   margin: unset;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-}
-
 .juno_website {
   position: relative;
 }
 
-.juno_website .common_button {
-  background: rgb(119 119 119 / 21%);
-}
-
-.juno_website .common_button:hover {
-  background: #ff7171;
+.juno_website .header {
+  font-size: 120px;
+  line-height: 120px;
 }
 
 /* scroll bar */
@@ -50,4 +43,43 @@ html::-webkit-scrollbar-thumb,
   box-shadow: inset 0 0 0 20px rgba(0, 0, 0, .24);
   border-radius: 20px;
   background: #fff;
+}
+
+@media (max-width: 1399px) {
+  .juno_website .header {
+      font-size: 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .juno_website .header {
+      font-size: 90px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .juno_website .header {
+      font-size: 80px;
+      line-height: inherit;
+  }
+}
+
+@media (max-width: 769px) {
+  .juno_website .header {
+      font-size: 70px;
+      line-height: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .juno_website .header {
+      font-size: 50px;
+      line-height: 70px;
+  }
+}
+
+@media (max-width: 440px) {
+  .juno_website .header_value {
+      font-size: 50px;
+  }
 }
