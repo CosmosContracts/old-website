@@ -3,9 +3,9 @@
     "type": "Tools",
     "image": "deus.png",
     "state": 1,
-    "twitter_link": "twitter.com/deuslabs",
-    "tg_link": "",
+    "twitter_link": "https://twitter.com/deuslabs",
+    "tg_link": "https://t.me/deuslabs",
     "address": "",
-    "github_link": "",
+    "github_link": "https://github.com/deus-labs/node-tooling/tree/main/grafana-dashboards",
     "website_link": "https://monitor.deuslabs.fi"
 }
