@@ -3,8 +3,8 @@
     "type": "Dapp",
     "image": "deus.png",
     "state": 1,
-    "twitter_link": "twitter.com/deuslabs",
-    "tg_link": "",
+    "twitter_link": "https://twitter.com/deuslabs",
+    "tg_link": "https://t.me/deuslabs",
     "address": "",
     "github_link": "https://github.com/deus-labs/cw1-subkeys-dapp",
     "website_link": "https://subkeys.deuslabs.fi"
