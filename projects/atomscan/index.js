@@ -1,7 +1,7 @@
 {
     "name": "Juno ATOMScan",
     "type": "Tools",
-    "image": "image.png",
+    "image": "atomscan.png",
     "state": 1,
     "website_link": "https://atomcan.com/juno",
     "twitter_link": "",
