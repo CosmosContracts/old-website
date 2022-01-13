@@ -1,0 +1,11 @@
+{
+    "name": "Reinvest Rewards Script",
+    "type": "Tools",
+    "image": "deus.png",
+    "state": 1,
+    "twitter_link": "https://twitter.com/deuslabs",
+    "tg_link": "https://t.me/deuslabs",
+    "address": "",
+    "github_link": "https://github.com/deus-labs/juno-scripts",
+    "website_link": "https://deuslabs.fi/"
+}
