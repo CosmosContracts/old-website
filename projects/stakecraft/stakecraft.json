@@ -1,11 +1,11 @@
 {
-"name": "StakeCraft",
+"name": "StakeCraft Snapshots service",
 "type": "Tools",
-"image": "stakecraft.png",
+"image": "mstakecraft_120x120.png",
 "state": 1,
 "twitter_link": "twitter.com/stakecraft",
 "tg_link": "t.me/stakecraft",
 "address": "",
 "github_link": "https://github.com/Stakecraft",
-"website_link": "https://stakecraft.com"
+"website_link": "https://snapshots.stakecraft.com"
 }
