@@ -28,8 +28,11 @@ type: Choose one of the following:
 Dapp, Contracts or Tools
 
 image: This is the name of your projects thumbnail image that you should have in the same folder that the index.json is inside.
+
 Ensure the image size is 120x120
-example folder path
+
+example folder path:
+
 projects/my-project-name/main-icon.png
 
 state: keep this set to 1
