@@ -3,6 +3,7 @@
 
 
 Create a pull request to add your project to the Juno ecosystem page.
+
 If you are adding a staking interface it must be pre-approved by the team and have significant unique features.
 
 You must create your projects folder inside the projects folder.
