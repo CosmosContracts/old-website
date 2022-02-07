@@ -1,0 +1,10 @@
+{
+    "name": "JunoTools",
+    "type": "Tools",
+    "image": "junotools.png",
+    "state": 1,
+    "twitter_link": "https://twitter.com/junotools",
+    "address": "juno-smartcontract-address",
+    "github_link": "https://github.com/CosmosContracts/juno-tools",
+    "website_link": "http://www.junotools.com/"
+    }
