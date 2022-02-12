@@ -1,10 +1,10 @@
 {
     "name": "JunoMint",
-    "type": "Tools",
+    "type": "Dapp",
     "image": "logo.png",
     "state": 1,
-    "twitter_link": "twitter.com/EZStaking",
-    "tg_link": "t.me/ezstaking",
-    "website_link": "https://junomint.ezstaking.io",
+    "twitter_link": "twitter.com/_JunoMint",
+    "tg_link": "t.me/JunoMint",
+    "website_link": "https://junomint.com",
     "address": "0XAAAAAAAAA"
 }
