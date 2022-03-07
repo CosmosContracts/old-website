@@ -1,53 +1,54 @@
-# How To Submit Your Project To The Ecosystem Page
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
+## 🚀 Quick start
 
+1.  **Create a Gatsby site.**
 
-Create a pull request to add your project to the Juno ecosystem page.
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-If you are adding a staking interface it must be pre-approved by the team and have significant unique features.
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-You must create your projects folder inside the projects folder.
+2.  **Start developing.**
 
-Example:
+    Navigate into your new site’s directory and start it up.
 
-projects/my-project-name/index.json
-```
-{
-"name": "Test Project 1",
-"type": "Contracts",
-"image": "main-icon.png",
-"state": 1,
-"twitter_link": "twitter.com/junonetwork",
-"tg_link": "t.me/junonetwork",
-"address": "juno-smartcontract-address",
-"github_link": "github-link",
-"website_link": "https://junochain.com"
-}
-```
-name: This is the name of your project
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-type: Choose one of the following:
-Dapp, Contracts or Tools
+3.  **Open the code and start customizing!**
 
-image: This is the name of your projects thumbnail image that you should have in the same folder that the index.json is inside.
+    Your site is now running at http://localhost:8000!
 
-Ensure the image size is 120x120
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-example folder path:
+4.  **Learn more**
 
-projects/my-project-name/main-icon.png
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-state: keep this set to 1
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-twitter_link: This is a twitter link for your project (optional)
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-tg_link: This is a telegram link for your project (optional)
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-address: This is the address for your contract, not the entire URL. (optional)
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-github_link: This is the link for your github repo (optional)
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-website_link: This is the url for your website (optional)
+## 🚀 Quick start (Gatsby Cloud)
 
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)

@@ -1,0 +1,102 @@
+.hacks-section{
+  padding:200px 0 160px;
+  position: relative;
+
+  @include media-breakpoint-down(sm){
+    padding:100px 0;
+  }
+
+  .bg{
+    background:url(../images/hack-section-bg.png) no-repeat scroll left top transparent;
+    background-size:contain;
+    position:absolute;
+    left:0;
+    z-index:0;
+    width:100%;
+    bottom:0;
+    top:0;
+
+    @include media-breakpoint-down(md){
+      width:100%;
+    }
+    @include media-breakpoint-down(sm){
+      width:200%;
+    }
+  }
+
+  .bounty{
+    padding:0 25px 45px 0;
+
+    .image{
+      margin-bottom:25px;
+      max-height:96px;
+
+      .gatsby-image-wrapper{
+        height:100%;
+      }
+    }
+
+    &.first{
+      .image{
+        transform:translateX(-20%);
+
+        @include media-breakpoint-down(sm){
+          transform:translateX(-15%);
+        }
+      }
+    }
+
+    .title{
+      font-family: $dm;
+      font-size: 22px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 20px;
+      margin-bottom:10px;
+
+      @include media-breakpoint-down(sm){
+        font-size:20px;
+      }
+    }
+  }
+
+  .feature{
+    padding-top:120px;
+    padding-right:68px;
+
+    @include media-breakpoint-down(sm){
+      padding-right:0;
+      padding-top:60px;
+    }
+
+    &.align-top{
+      padding-top:0;
+      padding-right:0;
+      padding-left:68px;
+
+      @include media-breakpoint-down(sm){
+        padding-left:0;
+        padding-top:60px;
+      }
+    }
+
+    .image{
+      .gatsby-image-wrapper{
+        height:100%;
+      }
+
+      @include media-breakpoint-down(sm){
+        max-width:130px;
+      }
+    }
+
+    .title{
+      font-family: $dm;
+      font-size: 28px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 26px;
+      margin-bottom:20px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.ecosystem{
+  background: rgba(0,67,203,0.05);
+  border-radius: 10px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width:100%;
+  height:100%;
+  padding:20px;
+
+  .icon{
+    height:36px;
+    width:36px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-bottom:10px;
+    position:relative;
+
+    .gatsby-image-wrapper{
+      position:absolute;
+      left:0;
+      top:0;
+      width:100% !important;
+      height:100% !important;
+    }
+  }
+
+  .title{
+    font-family: $dm;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+
+  .text{
+    font-family: $gv;
+    font-weight:normal;
+    font-size: 14px;
+    color: #E9D6D6;
+    letter-spacing: 0.26px;
+    line-height: 18px;
+    margin-top:15px;
+    margin-bottom:20px;
+  }
+
+  .category{
+    font-family: $dl;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #F0827D;
+    letter-spacing: 0;
+    margin-bottom:15px;
+  }
+
+  .socials{
+    a{
+      display:inline-block;
+      width:22px;
+      height:22px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.10);
+      color:#fff;
+      text-align:center;
+      font-size:10px;
+      line-height:24px;
+      margin-right:10px;
+      @include transition(500ms all ease-in-out);
+
+      &:hover{
+        background-color:$red;
+      }
+
+      @include media-breakpoint-down(sm){
+        margin-right:5px;
+      }
+    }
+  }
+}

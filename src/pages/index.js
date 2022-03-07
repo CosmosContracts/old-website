@@ -1,17 +1,23 @@
-import React from 'react';
-import SEO from '../components/SEO';
-import Layout from '../components/Layout';
-import Dashboard from '../containers/Dashboard';
+import * as React from "react"
+import Layout from "../components/layout";
 
-const Home = () => {
+import HeroSection from "../sections/hero-section";
+import EcosystemSection from "../sections/ecosystem-section";
+import ServicesSection from "../sections/services-section";
+import HackSection from "../sections/hacks-section";
+
+const IndexPage = () => {
     return (
-        <>
-            <SEO title="Smart Contracts Zone"/>
+        <div>
             <Layout>
-                <Dashboard />
-            </Layout>
-        </>
-    );
-};
+                <HeroSection/>
+                <EcosystemSection/>
+                <HackSection/>
+                <ServicesSection/>
 
-export default Home;
+            </Layout>
+        </div>
+    )
+}
+
+export default IndexPage

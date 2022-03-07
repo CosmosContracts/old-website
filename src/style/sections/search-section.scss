@@ -1,0 +1,127 @@
+.search-section{
+  .search-field{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 8px;
+    height:50px;
+    position:relative;
+
+    &:after{
+      content: "\e90b";
+      font-family:'juno';
+      position:absolute;
+      right:20px;
+      top:14px;
+      font-size:14px;
+    }
+
+    .form-control{
+      color: #FFFFFF;
+      font-family: $gv;
+      font-weight:500;
+      font-size: 18px;
+      letter-spacing: 0.34px;
+      line-height: 23px;
+      height:48px;
+      padding:0 20px 0 30px;
+      outline: none !important;
+      box-shadow: none !important;
+      background:none;
+      border:none;
+
+      &::placeholder{
+        font-family: $gv;
+        font-weight:500;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.34px;
+        line-height: 23px;
+      }
+
+    }
+  }
+
+  nav{
+    .nav-tabs{
+      background: rgba(0,0,0,0.08);
+      border: 1px solid rgba(87,87,87,0.20);
+      border-radius: 8px;
+      padding:4px;
+      height:50px;
+
+      @include media-breakpoint-down(md){
+        width:100%;
+      }
+      @include media-breakpoint-down(sm){
+        height:auto;
+        margin-bottom:50px;
+      }
+
+      .nav-link{
+        border:none;
+        font-family: $dm;
+        font-size: 14px;
+        color: #574E4F;
+        letter-spacing: 0;
+        text-align: center;
+        text-transform: uppercase;
+        @include transition(500ms all ease-in-out);
+        border-radius: 8px;
+        padding:0 25px;
+
+        @include media-breakpoint-down(lg){
+          padding:0 10px;
+        }
+        @include media-breakpoint-down(md){
+          padding:0 20px;
+          width:20%;
+          font-size:12px;
+        }
+        @include media-breakpoint-down(sm){
+          width:100%;
+          padding:20px;
+          display:none;
+          position:relative;
+
+          &.active{
+            display:block;
+
+            &:after{
+              content: "\e905";
+              font-family:'juno';
+              @include transform(rotate(90deg));
+              @include transition(300ms transform ease-in-out);
+              display:inline-block;
+              position:absolute;
+              right:20px;
+              top:20px;
+              font-size:12px;
+            }
+          }
+        }
+
+        &.active{
+          color:#fff;
+          background: #F0827D;
+          border-radius: 8px;
+        }
+      }
+
+
+      @include media-breakpoint-down(sm){
+        &.opened{
+
+          .nav-link{
+            display:block;
+
+            &.active{
+              &:after{
+                @include transform(rotate(-90deg));
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

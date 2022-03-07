@@ -1,0 +1,94 @@
+.hero-section{
+  position: relative;
+
+  .video-container{
+    width:100%;
+    position: absolute;
+    z-index:1;
+
+    @include media-breakpoint-down(md){
+      position:relative;
+    }
+
+    .video-wrapper{
+      width:100%;
+      padding-top:56%;
+      position: relative;
+
+      @media (min-width: 1920px){
+        padding-top:47%;
+      }
+
+      @include media-breakpoint-down(xl){
+        padding-top:60%;
+      }
+      @include media-breakpoint-down(lg){
+        padding-top:80%;
+      }
+      @include media-breakpoint-down(sm){
+        padding-top:100%;
+      }
+
+      .video-bg, video{
+        position:absolute;
+        width:110%;
+        left:-5%;
+        height:100%;
+        z-index:0;
+        top: 50%;
+        @include transform(translateY(-50%));
+
+        @media (min-width: 1920px){
+          width:100%;
+          left:0;
+          @include transform(translateY(-56%));
+        }
+        @include media-breakpoint-down(xl){
+          width:120%;
+          left:-10%;
+        }
+        @include media-breakpoint-down(lg){
+          width:150%;
+          left:-25%;
+        }
+        @include media-breakpoint-down(md){
+          width:200%;
+          left:-50%;
+        }
+        @include media-breakpoint-down(sm){
+          width:250%;
+          left:-90%;
+        }
+      }
+
+      .video-bg{
+        background:url(../videos/hero-bg.png) no-repeat scroll center center transparent;
+        background-size:contain;
+      }
+    }
+  }
+
+  .container{
+    padding:200px 20px 140px;
+
+    @include media-breakpoint-down(xxl){
+      padding:170px 20px 80px;
+    }
+    @include media-breakpoint-down(md){
+      padding:0 20px 70px;
+      margin-top:-35%;
+    }
+  }
+
+  .text-box{
+    max-width:435px;
+    margin-top:25px;
+    margin-bottom:30px;
+
+    @include media-breakpoint-down(md){
+      max-width:unset;
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+  }
+}

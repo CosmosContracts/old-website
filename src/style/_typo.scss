@@ -1,0 +1,204 @@
+a{
+  text-decoration: none;
+  color:inherit;
+  font-family:inherit;
+  font-style:inherit;
+
+  &:hover{
+    color:inherit;
+  }
+}
+
+h1{
+  font-family: $dm;
+  font-size: 100px;
+  margin:0;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 104px;
+
+  @include media-breakpoint-down(xxl){
+    font-size:80px;
+    line-height:82px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size:60px;
+    line-height:62px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:60px;
+    line-height:62px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size:50px;
+    line-height:52px;
+  }
+}
+
+h2{
+  font-family: $dm;
+  font-size: 80px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1em;
+
+  @include media-breakpoint-down(xxl){
+    font-size:72px;
+  }
+  @include media-breakpoint-down(lg){
+    font-size:60px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:52px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size:40px;
+  }
+}
+
+h3{
+  font-family: $dm;
+  font-size: 50px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.12em;
+  margin:0 0 20px 0;
+
+  @include media-breakpoint-down(xxl){
+    font-size:46px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size:42px;
+  }
+  @include media-breakpoint-down(lg){
+    font-size:36px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:28px;
+  }
+}
+
+h4{
+  font-family: $dm;
+  font-size: 50px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.12em;
+  margin:0 0 20px 0;
+
+
+  @include media-breakpoint-down(xxl){
+    font-size:46px;
+  }
+  @include media-breakpoint-down(lg){
+    font-size:40px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:36px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size:32px;
+  }
+}
+
+h5{
+  font-family: $dm;
+  font-size: 42px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.11em;
+
+  @include media-breakpoint-down(xxl){
+    font-size:40px;
+  }
+  @include media-breakpoint-down(lg){
+    font-size:38px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:32px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size:28px;
+  }
+}
+
+h6{
+  font-family: $dm;
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.11em;
+
+  @include media-breakpoint-down(xxl){
+    font-size:28px;
+  }
+  @include media-breakpoint-down(lg){
+    font-size:26px;
+  }
+  @include media-breakpoint-down(md){
+    font-size:24px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size:20px;
+  }
+}
+
+.text-box{
+  font-family: $gv;
+  font-weight:normal;
+  font-size: 17px;
+  color: #E9D6D6;
+  letter-spacing: 0.32px;
+  line-height: 23px;
+
+  @include media-breakpoint-down(lg){
+    font-size:16px;
+    line-height:22px;
+    letter-spacing:0.3px;
+  }
+
+  ul,ol{
+    margin:20px 0;
+    padding:0;
+
+    li{
+      padding-left:22px;
+      font-family: $dsb;
+      font-size: 18px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 22px;
+      position:relative;
+      margin:5px 0;
+
+      @include media-breakpoint-down(sm){
+        font-size:14px;
+      }
+
+      &:before{
+        position:absolute;
+        content:'';
+        left:0;
+        top:7px;
+        width:10px;
+        height:7px;
+        background:url(../images/SVG/checkmark.svg) no-repeat scroll center center transparent;
+        display:inline-block;
+      }
+    }
+  }
+}
+
+legend{
+  font-family: $dm;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: $purple;
+  letter-spacing: 0.21px;
+  padding:0;
+  margin:0 0 3px 0;
+
+  @include media-breakpoint-down(sm){
+    font-size:12px;
+  }
+}

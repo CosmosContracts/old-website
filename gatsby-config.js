@@ -1,43 +1,53 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
     siteMetadata: {
-        title: 'Juno',
-        titleTemplate: 'Juno - %s',
-        keywords: ['Juno'],
-        description: 'Juno is an interoperable smart contract network and a zone part of the Cosmos Network. Highly scalable, robust, secure and easy to deploy!',
-        url: 'https://junochain.com',
-        image: '/assets/logos/logo_512x512.png',
+        title: `Juno`,
+        siteUrl: `https://junonetwork.io`
     },
-    pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
-    plugins: [
-        {
-            resolve: 'gatsby-plugin-manifest',
-            options: {
-                name: 'Juno',
-                short_name: 'Juno',
-                start_url: '.',
-                background_color: '#000000',
-                theme_color: '#000000',
-                display: 'standalone',
-                icons: [
-                    {
-                        src: 'favicon.ico',
-                        sizes: '64x64 32x32 24x24 16x16',
-                        type: 'image/x-icon',
-                    },
-                    {
-                        src: 'assets/logos/logo_192x192.png',
-                        type: 'image/png',
-                        sizes: '192x192',
-                    },
-                    {
-                        src: 'assets/logos/logo_512x512.png',
-                        type: 'image/png',
-                        sizes: '512x512',
-                    },
-                ],
-            },
+    plugins: ["gatsby-plugin-sass", "gatsby-plugin-scroll-reveal", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+        resolve: "gatsby-plugin-manifest",
+        options: {
+            icon: `./src/images/favicons/favicon-96x96.png`, // This path is relative to the root of the site.
+            theme_color: `#312526`,
+            icons: [
+                {
+                    src: `/images/favicons/android-icon-192x192.png`,
+                    sizes: `192x192`,
+                    type: `image/png`,
+                },
+            ],
         },
-        'gatsby-plugin-offline',
-        'gatsby-plugin-ipfs',
-    ],
+    }, "gatsby-plugin-mdx", "gatsby-transformer-remark", `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-transformer-sharp`,
+            options: {
+                // The option defaults to true
+                checkSupportedExtensions: false,
+            },
+        }, {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            "name": "images",
+            "path": "./src/images/"
+        },
+        __key: "images"
+    }, {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            "name": "pages",
+            "path": "./src/pages/"
+        },
+        __key: "pages"
+    },
+    {
+        resolve: "gatsby-plugin-anchor-links",
+        options: {
+            offset: -100,
+            duration: 300
+        }
+    }
+    ]
 };

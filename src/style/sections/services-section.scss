@@ -1,0 +1,301 @@
+@import "piechart-section";
+
+.services-section{
+  padding-top:110px;
+  position:relative;
+  overflow: hidden;
+
+  .section-bg{
+    background:url(../images/services-bg.png) no-repeat scroll left top 60% transparent;
+    background-size:100%;
+    width:100%;
+    height:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:0;
+
+    @include media-breakpoint-down(sm){
+      background-size: 350%;
+      background-position: center top 60%;
+    }
+  }
+
+  .service{
+    position:relative;
+
+    .inner{
+      background: rgba(0,0,0,0.15);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding:0 50px 50px;
+      border-radius:20px;
+      position: relative;
+      z-index:1;
+
+      @include media-breakpoint-down(lg){
+        padding:0 30px 30px;
+      }
+    }
+
+    &.cosmostation{
+      padding-right:18px;
+
+      @include media-breakpoint-down(md){
+        padding-right:0;
+      }
+
+      &:before, &:after{
+        width:206px;
+        height:206px;
+        position:absolute;
+        left:20px;
+        top:-103px;
+        content:'';
+        background:url(../images/cosmosation.png) no-repeat scroll center center transparent;
+        background-size:contain;
+        z-index:0;
+
+        @include media-breakpoint-down(md){
+          width:156px;
+          height:156px;
+        }
+
+
+      }
+      &:after{
+        z-index:2;
+      }
+
+      .inner{
+        padding-top:128px;
+
+        @include media-breakpoint-down(md){
+          padding-top:80px;
+        }
+      }
+    }
+
+    &.staking-juno{
+      padding-left:18px;
+      margin-top:120px;
+
+      @include media-breakpoint-down(sm){
+        padding-left:0;
+        margin-top:90px;
+      }
+
+      &:before,&:after{
+        width:230px;
+        height:268px;
+        position:absolute;
+        left:0;
+        top:-145px;
+        content:'';
+        background:url(../images/staking-juno.png) no-repeat scroll center center transparent;
+        background-size:contain;
+        z-index:0;
+
+        @include media-breakpoint-down(md){
+          width:161px;
+          height:188px;
+          top:-60px;
+        }
+      }
+      &:after{
+        z-index:2;
+      }
+
+      .inner{
+        padding-top:150px;
+      }
+    }
+
+    &.keplr-wallet{
+      padding-right:18px;
+      margin-top:165px;
+
+      @include media-breakpoint-down(sm){
+        padding-right:0;
+        margin-top:100px;
+      }
+
+      &:before,&:after{
+        width:200px;
+        height:200px;
+        position:absolute;
+        left:20px;
+        top:-100px;
+        content:'';
+        background:url(../images/keplr-wallet.png) no-repeat scroll center center transparent;
+        background-size:contain;
+        z-index:0;
+
+        @include media-breakpoint-down(sm){
+          width:140px;
+          height:140px;
+          top:-60px;
+        }
+      }
+      &:after{
+        z-index:2;
+      }
+
+      .inner{
+        padding-top:125px;
+
+        @include media-breakpoint-down(sm){
+          padding-top:100px;
+        }
+      }
+    }
+
+    .title{
+      font-family: $dm;
+      font-size: 42px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 0.9em;
+      margin-bottom:40px;
+
+      @include media-breakpoint-down(lg){
+        font-size:36px;
+        margin-bottom:30px;
+      }
+
+      @include media-breakpoint-down(md){
+        font-size:28px;
+        margin-bottom:20px;
+      }
+    }
+
+    .image{
+      @include transform(translateY(-50%));
+      margin-bottom:-90px;
+    }
+  }
+
+  .junoswap{
+    margin-top:200px;
+    position:relative;
+
+    @include media-breakpoint-down(sm){
+      margin-top:100px;
+    }
+
+    .z-index-front{
+      z-index:2;
+    }
+
+    .junoswap-graph{
+      position:absolute;
+      width:auto;
+      right:0;
+      top:50%;
+      @include transform(translateY(-50%) translateX(25%));
+      z-index:0;
+
+      @include media-breakpoint-down(xl){
+        width:660px;
+
+        .gatsby-image-wrapper{
+          width:100% !important;
+        }
+      }
+
+      @include media-breakpoint-down(lg){
+        width:760px;
+        @include transform(none);
+      }
+      @include media-breakpoint-down(md){
+        width:460px;
+      }
+      @include media-breakpoint-down(sm){
+        width:360px;
+        top:400px;
+      }
+    }
+
+    .junoswap-box{
+      background: rgba(0,0,0,0.15);
+      padding:50px 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      max-width:440px;
+      border-radius: 22px;
+      font-size: 19px;
+      color: #FFFFFF;
+      letter-spacing: 0.36px;
+      line-height: 23px;
+      margin-top:100px;
+
+      @include media-breakpoint-down(lg){
+        padding:30px;
+      }
+      @include media-breakpoint-down(md){
+        padding:20px;
+        font-size:16px;
+        line-height:20px;
+      }
+      @include media-breakpoint-down(sm){
+        margin-top:100px;
+      }
+
+      .button-white{
+        display:block;
+        width:100%;
+      }
+    }
+  }
+
+  .contributors{
+    margin-top:130px;
+    position:relative;
+
+    @include media-breakpoint-down(sm){
+      margin-top:100px;
+    }
+
+    .carousel-button-group{
+      position:absolute;
+      right:0;
+      top:30px;
+
+      @include media-breakpoint-down(lg){
+        top:10px;
+      }
+    }
+
+    .contributor{
+
+      .name{
+        font-family: $dm;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        margin-bottom:5px;
+      }
+
+      .title{
+        font-family: $gv;
+        font-weight:normal;
+        font-size: 14px;
+        color: #E9D6D6;
+        letter-spacing: 0.26px;
+        line-height: 23px;
+      }
+
+      .twitter{
+        margin-top:8px;
+        font-size:22px;
+        display:inline-block;
+        @include transition(500ms all ease-in-out);
+
+        &:hover{
+          color:$red;
+        }
+      }
+    }
+  }
+
+}
