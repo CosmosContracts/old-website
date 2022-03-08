@@ -112,14 +112,14 @@ export function ServicesSection() {
                                  data-sal="fade"
                                  data-sal-delay="600"
                                  data-sal-duration="1000">
-                                <div className={'col-auto'}>
+                                <div className={'col-auto pb-3'}>
                                     <a href={menu.junoswap} target={'_blank'} rel={'noreferrer'}>
                                         <button type={'button'}>Enter JunoSwap</button>
                                     </a>
                                 </div>
-                                <div className={'col-auto'}>
+                                <div className={'col-auto pb-3'}>
                                     <a href={menu.osmosis} target={'_blank'} rel={'noreferrer'}>
-                                        <div className={'link'}><i className={'icon-arrow-right'} aria-label={'Enter Osmosis'}></i>Enter Osmosis</div>
+                                        <button type={'button'}>Enter Osmosis</button>
                                     </a>
                                 </div>
                             </div>

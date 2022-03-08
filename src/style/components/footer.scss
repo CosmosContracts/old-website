@@ -109,12 +109,16 @@ footer{
   }
 
   .black-box{
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.25);
     border-radius:20px;
     padding:40px 50px 50px 50px;
     margin:50px 0 0 0;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+
+    @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(0,0,0,0.15);
+    }
 
     @include media-breakpoint-down(lg){
       padding:30px 35px;

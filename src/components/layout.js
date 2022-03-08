@@ -20,7 +20,7 @@ export default function Layout({ children }) {
                 <meta content="Juno is an interoperable smart contract network and a zone part of the Cosmos Network. Highly scalable, robust, secure and easy to deploy!" name="description"/>
                 <meta content="Smart Contracts Zone" property="og:site_name"/>
                 <meta content="https://junonetwork.io/" property="og:url"/>
-                <meta content="" property="og:image"/>
+                <meta content="/src/images/ogimage.png" property="og:image"/>
 
                 <link rel="apple-touch-icon" href="/src/images/favicons/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/src/images/favicons/apple-icon-72x72.png" />

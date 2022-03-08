@@ -19,9 +19,13 @@ header{
   &.blur{
     padding:25px 0;
     height:100px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    background-color:rgba(0,0,0,.4);
+    background-color:rgba(0,0,0,.7);
+
+    @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(0,0,0,0.4);
+    }
   }
 
   .logo{
