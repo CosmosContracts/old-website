@@ -67,16 +67,6 @@ footer{
     max-width:1160px;
 
     @include media-breakpoint-down(xxl){
-      padding-top:150px;
-    }
-
-    @include media-breakpoint-down(xl){
-      padding-top:120px;
-    }
-    @include media-breakpoint-down(lg){
-      padding-top:100px;
-    }
-    @include media-breakpoint-down(md){
       padding-top:50px;
     }
   }
