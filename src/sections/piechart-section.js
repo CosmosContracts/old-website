@@ -24,25 +24,25 @@ class PiechartSection extends React.Component {
                                      data-sal-delay="700"
                                      data-sal-duration="1000"
                                      data-sal-easing="ease">
-                                    Core Development Reserve:
-                                    <em>(Vested over 12 years, i.e. non-circulating):</em>
-                                    <span>10.084.396 $JUNO</span>
+                                    Smart Contract Challenges:
+                                    <span>2.373.341 $JUNO</span>
                                 </div>
                                 <div className={'text text3'}
                                      data-sal="slide-up"
                                      data-sal-delay="1100"
                                      data-sal-duration="1000"
                                      data-sal-easing="ease">
-                                    Community Pool:
-                                    <span>20.000.000 $JUNO</span>
+                                    Core Development Reserve:
+                                    <em>(Vested over 12 years, i.e. non-circulating):</em>
+                                    <span>10.084.396 $JUNO</span>
                                 </div>
                                 <div className={'text text4'}
                                      data-sal="slide-down"
                                      data-sal-delay="900"
                                      data-sal-duration="1000"
                                      data-sal-easing="ease">
-                                    Smart Contract Challenges:
-                                    <span>2.373.341 $JUNO</span>
+                                    Community Pool:
+                                    <span>20.000.000 $JUNO</span>
                                 </div>
                                 <div className={'text text5'}
                                      data-sal="slide-down"
