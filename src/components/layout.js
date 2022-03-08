@@ -46,8 +46,8 @@ export default function Layout({ children }) {
                 <meta property="og:url" content="https://junonetwork.io/" />
 
                 <meta property="og:image" content={ogimage} key="ogimage" />
-                <meta property="og:image:height" content={944} />
-                <meta property="og:image:width" content={1905} />
+                <meta property="og:image:height" content={930} />
+                <meta property="og:image:width" content={1900} />
                 <meta name="twitter:image" content={ogimage} key="twimage" />
                 <meta name="twitter:card" content="summary_large_image"/>
 
