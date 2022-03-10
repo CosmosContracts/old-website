@@ -1,4 +1,59 @@
 [{
+  "icon": "cardinal-finance.jpg",
+  "title": "Cardinal Finance",
+  "text": "Decentralized Finance - Lending Protocol",
+  "featured": true,
+  "category": "Dapp",
+  "website": "https://www.chequefinance.org/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "hopegalaxy.jpg",
+  "title": "Hope Galaxy",
+  "text": "NFT collection based on the native asset $HOPE",
+  "featured": true,
+  "category": "Contract",
+  "website": "https://www.hopegalaxy.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/HopeGalaxyNFT",
+  "telegram": ""
+},{
+  "icon": "racoon.jpg",
+  "title": "Racoon",
+  "text": "Racøøn will grants access to unique AI generated NFTs",
+  "featured": true,
+  "category": "Contract",
+  "website": "https://www.racoon.supply/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/RacoonSupply",
+  "telegram": ""
+},{
+  "icon": "aqua.jpg",
+  "title": "Aqua",
+  "text": "A revolutionary DAO dedicated to ending the world water crisis",
+  "featured": true,
+  "category": "Contract",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/AquaOnJuno",
+  "telegram": ""
+},{
+  "icon": "hansum.jpg",
+  "title": "Hansum",
+  "text": "The most $HANSUM token in Cosmos",
+  "featured": true,
+  "category": "Contract",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/HANSUMtoken",
+  "telegram": "https://t.co/5XwjpaJnqM"
+},{
   "icon": "junoswap.png",
   "title": "JunoSwap",
   "text": "Interchain AMM - Permission-less listing of cw-20s and native cosmos sdk assets.",

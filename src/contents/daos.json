@@ -1,4 +1,26 @@
 [{
+  "icon": "arto-dao.jpg",
+  "title": "Arto Dao",
+  "text": "Arto DAO aims to democratize and reintroduce physical art collection and appreciation through NFTs",
+  "featured": true,
+  "category": "DAO",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/ArtoDAO",
+  "telegram": ""
+},{
+  "icon": "nmn.jpg",
+  "title": "OpenNMN",
+  "text": "OpenNMN is Decentralized Biotech",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://www.opennmn.com/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/OpenNMN",
+  "telegram": ""
+},{
   "icon": "daodao.png",
   "title": "DaoDao",
   "text": "A DAO that builds DAO tooling.",
