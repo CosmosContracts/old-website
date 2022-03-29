@@ -647,16 +647,16 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
-},{
-  "icon": "fortis.png",
-  "title": "Fortis Oeconomia",
-  "text": "Innovative Financial Toolkit",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://www.fortisoeconomia.com/",
-  "github": "https://github.com/FortisOeconomia-dev",
-  "discord": "https://discord.gg/VQtNVZtX",
-  "twitter": "https://twitter.com/Fortisoeconomia",
-  "telegram": "https://t.me/fortisoeconomia"
-} 
+},
+{
+  "name": "Fortis Oeconomia",
+  "type": "Dapp",
+  "image": "fortis.png",
+  "state": 1,
+  "twitter_link": "https://twitter.com/Fortisoeconomia",
+  "tg_link": "https://t.me/fortisoeconomia",
+  "address": "juno1xmpenz0ykxfy8rxr3yc3d4dtqq4dpas4zz3xl6sh873us3vajlpshzp69d",
+  "github_link": "https://github.com/FortisOeconomia-dev",
+  "website_link": "https://www.fortisoeconomia.com/"
+  }
 ]
