@@ -1,15 +1,4 @@
 [{
-  "icon": "cardinal-finance.jpg",
-  "title": "Cardinal Finance",
-  "text": "Decentralized Finance - Lending Protocol",
-  "featured": true,
-  "category": "Dapp",
-  "website": "https://www.chequefinance.org/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
   "text": "NFT collection based on the native asset $HOPE",
