@@ -1,15 +1,4 @@
 [{
-  "icon": "cardinal-finance.jpg",
-  "title": "Cardinal Finance",
-  "text": "Decentralized Finance - Lending Protocol",
-  "featured": true,
-  "category": "Dapp",
-  "website": "https://www.chequefinance.org/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
   "text": "NFT collection based on the native asset $HOPE",
@@ -647,5 +636,16 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
+},{
+  "icon": "fortis.png",
+  "title": "Fortis Oeconomia",
+  "text": "Innovative Financial Toolkit.",
+  "featured": true,
+  "category": "Dapp",
+  "website": "https://www.fortisoeconomia.com/",
+  "github": "https://github.com/FortisOeconomia-dev",
+  "discord": "https://discord.com/invite/NPHwzZA5",
+  "twitter": "https://twitter.com/Fortisoeconomia",
+  "telegram": "https://t.me/fortisoeconomia"  
 }
 ]
