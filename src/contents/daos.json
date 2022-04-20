@@ -1,0 +1,112 @@
+[{
+  "icon": "arto-dao.jpg",
+  "title": "Arto Dao",
+  "text": "Arto DAO aims to democratize and reintroduce physical art collection and appreciation through NFTs",
+  "featured": true,
+  "category": "DAO",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/ArtoDAO",
+  "telegram": ""
+},{
+  "icon": "nmn.jpg",
+  "title": "OpenNMN",
+  "text": "OpenNMN is Decentralized Biotech",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://www.opennmn.com/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/OpenNMN",
+  "telegram": ""
+},{
+  "icon": "daodao.png",
+  "title": "DaoDao",
+  "text": "A DAO that builds DAO tooling.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://daodao.zone/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "interwasm.png",
+  "title": "InterWasm DAO",
+  "text": "Core development & expansion of CosmWasm.",
+  "featured": true,
+  "category": "DAO",
+  "website": "",
+  "github": "https://github.com/InterWasm/DAO",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "owlies.png",
+  "title": "Owlies",
+  "text": "Community Driven Cross-Chain NFT Trading Game DAO.",
+  "featured": true,
+  "category": "DAO",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/OwliesNFT",
+  "telegram": ""
+},{
+  "icon": "core1.png",
+  "title": "Core-1",
+  "text": "Core web3 infrastructure development at Juno.",
+  "featured": true,
+  "category": "DAO",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/Core1_official",
+  "telegram": ""
+},{
+  "icon": "marble-dao.png",
+  "title": "Marble DAO",
+  "text": "A DAO that governs the Marble Interchain AMM.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://app.marbledao.finance/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "universe.png",
+  "title": "Universe DAO",
+  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://universedao.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "kleomedes.png",
+  "title": "Kleomedes",
+  "text": "Decentralized enterprise",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://kleomed.es/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "aqua.png",
+  "title": "AQUA",
+  "text": "A revolutionary DAO dedicated to ending the world water crisis.",
+  "featured": true,
+  "category": "Project",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/AquaOnJuno",
+  "telegram": ""
+}
+]

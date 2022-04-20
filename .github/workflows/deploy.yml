@@ -1,30 +1,19 @@
-name: Deploy to Skynet
+name: 'publish'
 
 on:
-  pull_request:
   push:
-    branches: [main]
+    tags:
+      - v*
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to Skynet
-        uses: kwypchlo/deploy-to-skynet-action@main
-        with:
-          upload-dir: public
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          registry-seed: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.REGISTRY_SEED || '' }}
+      - name: build
+        run: |
+          echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_USER }}" --password-stdin
+          docker build -f Dockerfile . --tag ghcr.io/cosmoscontracts/website:${GITHUB_REF#refs/tags/}
+          docker tag ghcr.io/cosmoscontracts/website:${GITHUB_REF#refs/tags/} ghcr.io/cosmoscontracts/website:latest
+          docker push ghcr.io/cosmoscontracts/website:${GITHUB_REF#refs/tags/}
+          docker push ghcr.io/cosmoscontracts/website:latest

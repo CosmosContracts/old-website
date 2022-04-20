@@ -1,0 +1,51 @@
+.ecosystem-section{
+  .video-container{
+    width:100%;
+
+    .video-wrapper{
+      padding-top:86%;
+      width:100%;
+      position: relative;
+
+      @include media-breakpoint-down(lg){
+        max-width: 500px;
+        margin: auto;
+        padding-top:74%;
+      }
+
+      @include media-breakpoint-down(md){
+        padding-top:60%;
+      }
+
+      video, #video-bg{
+        position:absolute;
+        right:0;
+        width:155%;
+        height:100%;
+        top:0;
+
+        @include media-breakpoint-down(xxl){
+          width:130%;
+          right:0;
+        }
+
+        @include media-breakpoint-down(lg){
+          width:140%;
+        }
+
+        @include media-breakpoint-down(md){
+          width:150%;
+          left:50%;
+          @include transform(translateX(-50%));
+          max-width:500px;
+        }
+
+      }
+
+      #video-bg{
+        background:url(../videos/ecosystem-bg.png) no-repeat scroll center center transparent;
+        background-size:contain;
+      }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+@import "reset";
+@import "config";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "mixins";
+@import "fonts";
+@import "variables";
+@import "typo";
+@import "buttons";
+
+@import "hamburgers";
+
+@import "components/header";
+@import "components/footer";
+@import "components/ecosystem";
+
+@import "sections/hero-section";
+@import "sections/ecosystem-section";
+@import "sections/hacks-section";
+@import "sections/services-section";
+@import "sections/search-section";
+
+body{
+  background:$bgColor;
+  font-family: $gv;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.36px;
+  line-height: 20px;
+  height:100vh;
+}
+
+main{
+  margin:auto;
+  position:relative;
+  overflow:hidden;
+}
+
+section{
+  .section-inner{
+    margin:auto;
+    position:relative;
+    max-width:1920px;
+  }
+  .container{
+    max-width:1160px;
+    width:100%;
+    margin:auto;
+    position: relative;
+    z-index:1;
+    padding-left:20px;
+    padding-right:20px;
+  }
+}
+
+.ecosystem-page{
+  background:url(../images/ecosystem-page-bg.png) no-repeat scroll left center transparent;
+  background-size:contain;
+
+  .hero-section{
+    overflow:hidden;
+
+    .video-container{
+      width:55%;
+      z-index:1;
+      right:-50px;
+      top:50%;
+
+      @include media-breakpoint-down(md){
+        width:100%;
+        right:unset;
+        position:relative;
+        top:unset;
+      }
+
+      .video-wrapper{
+        padding-top:86%;
+        width:100%;
+        position: relative;
+
+        @include media-breakpoint-down(md){
+          padding-top:47%;
+        }
+
+        @include media-breakpoint-down(sm){
+          padding-top:76%;
+        }
+
+        video, .video-bg{
+          position:absolute;
+          right:0;
+          width:155%;
+          top:0;
+          left:unset;
+          background:none;
+
+          @include media-breakpoint-down(md){
+            width:100%;
+            transform:none;
+          }
+          @include media-breakpoint-down(sm){
+            width:150%;
+            right:-25%;
+          }
+        }
+
+
+        .video-bg{
+          position:absolute;
+          height:100%;
+          background:url(../videos/ecosystem-bg.png) no-repeat scroll center center transparent;
+          z-index:0;
+          background-size:contain;
+        }
+      }
+    }
+    .container{
+      z-index:unset;
+      & > .row{
+        z-index:2;
+        position: relative;
+
+        @include media-breakpoint-down(md){
+          margin-top:-100px;
+        }
+      }
+
+      @include media-breakpoint-down(md){
+        margin-top:0;
+        padding-top:100px;
+      }
+      @include media-breakpoint-down(md){
+        padding-bottom:50px;
+      }
+    }
+  }
+
+  .ecosystems-section{
+    .react-multi-carousel-list{
+      margin-left:-10px;
+      width:calc(100% + 20px);
+      .ecosystem-item{
+        padding:10px;
+      }
+    }
+  }
+
+}
+
+// CAROUSEL ARROWS
+.react-multiple-carousel__arrow{
+  padding:0;
+  background-color: rgba(240,130,125,0.10);
+  border-radius: 50%;
+  transition:500ms all ease-in-out;
+
+  &:hover{
+    background-color: #F0827D;
+  }
+
+  &:before{
+    font-size:15px;
+    font-family: 'juno';
+  }
+
+  &.react-multiple-carousel__arrow--left{
+    left:0;
+    &:before{
+      content: "\e906";
+    }
+  }
+  &.react-multiple-carousel__arrow--right{
+    right:0;
+    &:before{
+      content: "\e905";
+    }
+  }
+}
+
+.carousel-button-group{
+  position:relative;
+  margin-top:10px;
+
+  button{
+    padding:0;
+    background-color: rgba(240,130,125,0.10);
+    border-radius: 50%;
+    transition:500ms all ease-in-out;
+    margin-right:20px;
+    width:30px;
+    height:30px;
+    line-height:30px;
+
+    &:hover{
+      background-color: #F0827D;
+    }
+
+    &:before{
+      font-size:12px;
+      font-family: 'juno';
+    }
+
+    &.left-arrow{
+      left:0;
+      &:before{
+        content: "\e906";
+      }
+    }
+    &.right-arrow{
+      right:0;
+      &:before{
+        content: "\e905";
+      }
+    }
+  }
+}
