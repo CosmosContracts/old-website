@@ -67,14 +67,14 @@
 },{
   "icon": "junomint.png",
   "title": "JunoMint",
-  "text": "",
+  "text": "The easiest and fastest way to create your own CW20 token on the Juno Network.",
   "featured": false,
-  "category": "Tools",
-  "website": "https://junomint.ezstaking.io/",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/EZStaking",
-  "telegram": "https://t.me/ezstaking"
+  "category": "Dapp",
+  "website": "https://junomint.com/",
+  "github": "https://github.com/JunoMint",
+  "discord": "https://discord.gg/NvxMxm7zZK",
+  "twitter": "https://twitter.com/_JunoMint",
+  "telegram": "https://t.me/junomint"
 },{
   "icon": "cosmverse.png",
   "title": "Cosmverse",
