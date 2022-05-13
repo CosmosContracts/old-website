@@ -153,9 +153,9 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
-                                            ecosystem.category === 'Dapp' && !ecosystem.featured ? (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            ecosystem.category === 'Dapp' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
-                                            </div>) : ''
+                                            </div>)
                                         )
                                     })}
                                 </div>
@@ -171,9 +171,9 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
-                                            ecosystem.category === 'Contracts' && !ecosystem.featured ? (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            ecosystem.category === 'Contracts' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
-                                            </div>) : ''
+                                            </div>)
                                         )
                                     })}
                                 </div>
@@ -189,9 +189,9 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
-                                            ecosystem.category === 'Tools' && !ecosystem.featured ? (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            ecosystem.category === 'Tools' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
-                                            </div>) : ''
+                                            </div>)
                                         )
                                     })}
                                 </div>
@@ -199,15 +199,15 @@ const EcosystemPage = (props) => {
 
                             <div className="tab-pane fade" id="nav-dao" role="tabpanel"
                                  aria-labelledby="nav-dao-tab">
-                                <div className={'row mt-5 d-none'}>
+                                <div className={'row mt-5'}>
                                     <div className={'col-12'}>
                                         <h6 className={'mb-2'}>DAOs</h6>
                                     </div>
                                 </div>
-                                <div className={'row d-none'}>
+                                <div className={'row'}>
                                     {daos.map((dao,index) => {
                                         return (
-                                            !dao.featured && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            dao.category === 'DAO' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={dao}/>
                                             </div>)
                                         )
