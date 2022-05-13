@@ -121,7 +121,7 @@ const EcosystemPage = (props) => {
                                     {ecosystems.map((ecosystem, index) => {
                                         return (
                                             ecosystem.featured && (<div key={index} className={'col-12 col-sm-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem} category={'DAPP'}/>
+                                                <Ecosystem ecosystem={ecosystem}/>
                                             </div>)
                                         )
                                     })}
@@ -142,26 +142,14 @@ const EcosystemPage = (props) => {
                                     })}
                                 </div>
                             </div>
+
                             <div className="tab-pane fade" id="nav-dapp" role="tabpanel"
                                  aria-labelledby="nav-dapp-tab">
-                                <div className={'row'}>
-                                    <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>Featured DAPPS</h6>
-                                    </div>
-                                    {ecosystems.map((ecosystem, index) => {
-                                        return (
-                                            ecosystem.featured && (<div key={index} className={'col-12 col-sm-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem} category={'DAPP'}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
                                 <div className={'row mt-5'}>
                                     <div className={'col-12'}>
                                         <h6 className={'mb-2'}>DAPPS</h6>
                                     </div>
                                 </div>
-
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
@@ -172,26 +160,14 @@ const EcosystemPage = (props) => {
                                     })}
                                 </div>
                             </div>
+
                             <div className="tab-pane fade" id="nav-contracts" role="tabpanel"
                                  aria-labelledby="nav-contracts-tab">
-                                <div className={'row'}>
-                                    <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>Featured Contracts</h6>
-                                    </div>
-                                    {ecosystems.map((ecosystem,index) => {
-                                        return (
-                                            ecosystem.featured && (<div key={index} className={'col-12 col-sm-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem} category={'Contracts'}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
                                 <div className={'row mt-5'}>
                                     <div className={'col-12'}>
                                         <h6 className={'mb-2'}>Contracts</h6>
                                     </div>
                                 </div>
-
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
@@ -202,26 +178,14 @@ const EcosystemPage = (props) => {
                                     })}
                                 </div>
                             </div>
+
                             <div className="tab-pane fade" id="nav-tools" role="tabpanel"
                                  aria-labelledby="nav-tools-tab">
-                                <div className={'row'}>
-                                    <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>Featured Tools</h6>
-                                    </div>
-                                    {ecosystems.map((ecosystem,index) => {
-                                        return (
-                                            ecosystem.featured && (<div key={index} className={'col-12 col-sm-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem} category={'Tool'}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
                                 <div className={'row mt-5'}>
                                     <div className={'col-12'}>
                                         <h6 className={'mb-2'}>Tools</h6>
                                     </div>
                                 </div>
-
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
@@ -232,33 +196,14 @@ const EcosystemPage = (props) => {
                                     })}
                                 </div>
                             </div>
+
                             <div className="tab-pane fade" id="nav-dao" role="tabpanel"
                                  aria-labelledby="nav-dao-tab">
-                                <div className={'row justify-content-between align-items-center'}>
-                                    <div className={'col-auto'}>
-                                        <h6 className={'mb-2'}>Featured DAOs</h6>
-                                    </div>
-                                    <div className={'col-auto'}>
-                                        <a href={menu.daolink} target={'_blank'} rel={'noreferrer'}>
-                                            <div className={'link'}><i className={'icon-arrow-right'} aria-label={'View all DAOs'}></i>View all DAOs</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className={'row'}>
-                                    {daos.map((dao,index) => {
-                                        return (
-                                            dao.featured && (<div key={index} className={'col-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={dao}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
                                 <div className={'row mt-5 d-none'}>
                                     <div className={'col-12'}>
                                         <h6 className={'mb-2'}>DAOs</h6>
                                     </div>
                                 </div>
-
                                 <div className={'row d-none'}>
                                     {daos.map((dao,index) => {
                                         return (

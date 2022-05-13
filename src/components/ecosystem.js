@@ -8,7 +8,7 @@ const Ecosystem = (props) => {
                 <EcosystemLogo alt={props.ecosystem.title} filename={'ecosystems/'+props.ecosystem.icon}/>
             </div>
             <div className={'title'}>{props.ecosystem.title}</div>
-            <div className={'category'}>{props.category ? props.category : props.ecosystem.category}</div>
+            <div className={'category'}>{props.ecosystem.category}</div>
 
 
             <div className={'socials'}>
