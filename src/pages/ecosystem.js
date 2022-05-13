@@ -207,9 +207,9 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {daos.map((dao,index) => {
                                         return (
-                                            dao.category === 'DAO' && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            <div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={dao}/>
-                                            </div>)
+                                            </div>
                                         )
                                     })}
                                 </div>
