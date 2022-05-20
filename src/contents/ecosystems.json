@@ -368,9 +368,9 @@
   "featured": true,
   "category": "Tools",
   "website": "https://juno.tools/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
+  "github": "https://github.com/CosmosContracts/juno-tools",
+  "discord": "https://discord.com/channels/816256689078403103/915265063470895155",
+  "twitter": "https://twitter.com/junotools",
   "telegram": ""
 },{
   "icon": "lockbox.png",
