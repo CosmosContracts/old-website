@@ -105,6 +105,11 @@ const EcosystemPage = (props) => {
                                                 data-bs-target="#nav-dao" type="button" role="tab"
                                                 aria-controls="nav-dao" aria-selected="false">Dao
                                         </button>
+                                        <button className="nav-link" id="nav-dao-tab" data-bs-toggle="tab"
+                                                onClick={()=>toggleNav()}
+                                                data-bs-target="#nav-soon" type="button" role="tab"
+                                                aria-controls="nav-soon" aria-selected="false">Soon
+                                        </button>
                                     </div>
                                 </nav>
                             </div>
@@ -128,14 +133,14 @@ const EcosystemPage = (props) => {
                                 </div>
                                 <div className={'row mt-5'}>
                                     <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>All DAPPS, Contracts, Tools</h6>
+                                        <h6 className={'mb-2'}>All DAPPS, Tools, Coming Soon</h6>
                                     </div>
                                 </div>
 
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem, index) => {
                                         return (
-                                            !ecosystem.featured && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            !ecosystem.featured && ecosystem.category !== 'Contract' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
                                             </div>)
                                         )
@@ -171,7 +176,7 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
-                                            ecosystem.category === 'Contracts' && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            ecosystem.category === 'Contract' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
                                             </div>)
                                         )
@@ -189,7 +194,7 @@ const EcosystemPage = (props) => {
                                 <div className={'row'}>
                                     {ecosystems.map((ecosystem,index) => {
                                         return (
-                                            ecosystem.category === 'Tools' && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                            ecosystem.category === 'Tool' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
                                             </div>)
                                         )
@@ -214,6 +219,25 @@ const EcosystemPage = (props) => {
                                     })}
                                 </div>
                             </div>
+
+                            <div className="tab-pane fade" id="nav-soon" role="tabpanel"
+                                 aria-labelledby="nav-soon-tab">
+                                <div className={'row mt-5'}>
+                                    <div className={'col-12'}>
+                                        <h6 className={'mb-2'}>Coming Soon</h6>
+                                    </div>
+                                </div>
+                                <div className={'row'}>
+                                    {ecosystems.map((ecosystem,index) => {
+                                        return (
+                                            ecosystem.category === 'Soon' && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                                <Ecosystem ecosystem={ecosystem}/>
+                                            </div>)
+                                        )
+                                    })}
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>

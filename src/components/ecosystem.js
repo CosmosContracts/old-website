@@ -19,7 +19,7 @@ const Ecosystem = (props) => {
                 {props.ecosystem.telegram && <a href={props.ecosystem.telegram} target={'_blank'} rel={'noreferrer'}><i className={'icon-social-telegram'} aria-label={'Telegram'}></i></a>}
             </div>
 
-            <div className={'text'}>{props.ecosystem.featured && props.ecosystem.text}</div>
+            <div className={'text'}>{props.ecosystem.text}</div>
         </div>
     );
 };
