@@ -626,6 +626,17 @@
   "twitter": "",
   "telegram": ""
 },{
+  "icon": "universe.png",
+  "title": "Universe",
+  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
+  "featured": false,
+  "category": "Project",
+  "website": "https://universedao.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
   "icon": "JunoJuicer_TransparentBG.png",
   "title": "Juno Juicer",
   "text": "A decentralized protocol for private transactions on JunoNetwork.",
