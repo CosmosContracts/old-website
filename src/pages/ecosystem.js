@@ -5,7 +5,7 @@ import Ecosystem from "../components/ecosystem";
 import EcosystemVideoMov from "../videos/ecosystem.mp4";
 import EcosystemVideo from "../videos/ecosystem.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
-import {useEffect} from "react";
+import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
 const ecosystems = require('../contents/ecosystems.json');
@@ -21,8 +21,19 @@ function loadTab(props){
 }
 
 const EcosystemPage = (props) => {
+    function checkSoon(){
+        for (var index = 0; index < ecosystems.length; ++index) {
+            var ecosystem = ecosystems[index];
+            if(ecosystem.category == "Soon"){
+                setSoon(true);
+                break;
+            }
+        }
+    }
+    const [hasSoon, setSoon] = useState(false);
     useEffect(() => {
         loadTab(props);
+        checkSoon()
         document.getElementById('filter-nav').classList.remove('opened');
         window.scrollTo(0,0)
     });
@@ -228,13 +239,18 @@ const EcosystemPage = (props) => {
                                     </div>
                                 </div>
                                 <div className={'row'}>
-                                    {ecosystems.map((ecosystem,index) => {
+                                    {hasSoon && ecosystems.map((ecosystem,index) => {
                                         return (
                                             ecosystem.category === 'Soon' && (<div key={index} className={'col-6 col-md-3 p-2'}>
                                                 <Ecosystem ecosystem={ecosystem}/>
                                             </div>)
                                         )
                                     })}
+                                    {!hasSoon && 
+                                        <div className={'text-box'} data-sal="fade">
+                                            Have an ongoing project coming up on Juno? Let us know. <a className={'p-1'} href={'https://github.com/CosmosContracts/website/pulls'} target={'_blank'} rel={'noreferrer'}><i className={'icon-social-github'} aria-label={'Github'}></i></a>
+                                        </div>
+                                    }
                                 </div>
                             </div>
 
