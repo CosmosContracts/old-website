@@ -1,47 +1,201 @@
 [{
+  "icon": "passage.png",
+  "title": "Passage",
+  "text": "NFT marketplace on Juno - Developed by the Passage3D team.",
+  "featured": false,
+  "category": "Project",
+  "website": "https://market.passage3d.com/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "universe.png",
+  "title": "Universe",
+  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
+  "featured": false,
+  "category": "Project",
+  "website": "https://universedao.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "junokit_logo_2.png",
+  "title": "Junokit development framework",
+  "text": "Junokit is a development framework for building Juno contracts. The aim of the project is to make juno contracts development process simple, efficient and scalable.",
+  "featured": false,
+  "category": "Tool",
+  "website": "",
+  "github": "https://github.com/arufa-research/junokit",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "stakeeasy_logo_1.png",
+  "title": "StakeEasy - staking derivatives protocol",
+  "text": "StakeEasy is a staking derivatives protocol.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://juno-testnet.stakeeasy.finance/",
+  "github": "",
+  "discord": "https://discord.gg/gKjzApDstD",
+  "twitter": "https://twitter.com/StakeEasy",
+  "telegram": "https://t.me/StakeEasyProtocol"
+},{
+  "icon": "loopfinance.png",
+  "title": "Loop Finance",
+  "text": "Loop Finance is an innovative DEX, NFT Marketplace and Launchpad",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://www.loop.markets/",
+  "github": "",
+  "discord": "discord.gg/loopfinance",
+  "twitter": "https://twitter.com/loop_finance",
+  "telegram": "t.me/loopfinance"
+},{
+  "icon": "kado.jpg",
+  "title": "Kado",
+  "text": "Kado brings payments infrastructure and fiat on/off ramp solutions to users, wallets and apps in the Junoverse.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://www.kado.money/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
+},{
+  "icon": "fanfury.png",
+  "title": "Fanfury",
+  "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://fury.fan/",
+  "github": "",
+  "discord": "https://discord.com/invite/fanfuryofficial",
+  "twitter": "https://twitter.com/FanfuryOfficial",
+  "telegram": "https://t.me/fanfuryofficial"
+},{
+  "icon": "subquery.png",
+  "title": "SubQuery",
+  "text": "SubQuery is an open data indexer that is flexible and fast. Our open indexing tool is designed to help developers build their own API in hours, and it’s designed to index chains incredibly quickly with the assistance of dictionaries.",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://linktr.ee/subquerynetwork",
+  "github": "https://github.com/subquery/juno-subql-starter",
+  "discord": "https://discord.com/invite/subquery",
+  "twitter": "https://twitter.com/SubQueryNetwork",
+  "telegram": "https://t.me/subquerynetwork"    
+},{
+  "icon": "coinhall.jpg",
+  "title": "Coinhall",
+  "text": "Coinhall provides real-time price charts and analytics for the Juno ecosystem.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://coinhall.org/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/coinhall_org",
+  "telegram": "https://t.me/coinhall_org"  
+},{
+  "icon": "thegraph.png",
+  "title": "The Graph",
+  "text": "Making blockchain data easily accessible. The Graph is a web3 protocol for indexing and querying blockchain data with GraphQL",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://thegraph.com/",
+  "github": "https://github.com/graphprotocol",
+  "discord": "https://discord.gg/vtvv7FP",
+  "twitter": "https://twitter.com/graphprotocol",
+  "telegram": "http://t.me/graphprotocol"    
+},{
+  "icon": "cosmywasmy.png",
+  "title": "CosmyWasmy",
+  "text": "CosmyWasmy is a vscode extension to interact with CosmWasm smart contracts",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy",
+  "github": "https://github.com/spoo-bar/cosmy-wasmy",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
+},{  
+  "icon": "terrand.png",
+  "title": "Terrand",
+  "text": "Terrand is an oracle smart contract CosmWasm compatible to get distributed randomness beacon. Verifiable, unpredictable, and unbiased random numbers as a service.",
+  "featured": false,
+  "category": "Contract",
+  "website": "https://docs.terrand.dev/#juno",
+  "github": "https://github.com/LoTerra",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{  
+  "icon": "howl.png",
+  "title": "Howl",
+  "text": "Howl is on an chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "discord https://discord.gg/WfajGjGPv3",
+  "twitter": "https://twitter.com/howl_social",
+  "telegram": ""
+},{
+  "icon": "pupmos.png",
+  "title": "Pupmos",
+  "text": "Pupmos is an innovative autonomous self-aggregating community profit protocol.",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/pupmos",
+  "telegram": ""
+},{      
+  "icon": "JunoJuicer_TransparentBG.png",
+  "title": "Juno Juicer",
+  "text": "A decentralized protocol for private transactions on JunoNetwork.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://junojuicer.netlify.app/",
+  "github": "https://github.com/WasmJuicer",
+  "discord": "https://discord.gg/habBd6nkkX",
+  "twitter": "https://twitter.com/JunoJuicer",
+  "telegram": ""
+},{
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
   "text": "NFT collection based on the native asset $HOPE",
   "featured": false,
-  "category": "Contract",
+  "category": "Dapp",
   "website": "https://www.hopegalaxy.io/",
   "github": "",
   "discord": "",
   "twitter": "https://twitter.com/HopeGalaxyNFT",
   "telegram": ""
 },{
+  "icon": "Hopers.png",
+  "title": "Dapp",
+  "text": "Hopers.io is an Interchain IBC NFT marketplace that is fully community driven with a revshare model for the $HOPE governance Token stakers on the Hope Dao.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://hopers.io/",
+  "github": "",
+  "discord": "https://discord.com/invite/BfKPacc5jF",
+  "twitter": "https://twitter.com/Hopers_io",
+  "telegram": ""
+},{  
   "icon": "racoon.jpg",
   "title": "Racoon",
   "text": "Racøøn will grants access to unique AI generated NFTs",
   "featured": false,
-  "category": "Contract",
+  "category": "Dapp",
   "website": "https://www.racoon.supply/",
   "github": "",
   "discord": "",
   "twitter": "https://twitter.com/RacoonSupply",
   "telegram": ""
-},{
-  "icon": "aqua.jpg",
-  "title": "Aqua",
-  "text": "A revolutionary DAO dedicated to ending the world water crisis",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/AquaOnJuno",
-  "telegram": ""
-},{
-  "icon": "hansum.jpg",
-  "title": "Hansum",
-  "text": "The most $HANSUM token in Cosmos",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/HANSUMtoken",
-  "telegram": "https://t.co/5XwjpaJnqM"
 },{
   "icon": "junoswap.png",
   "title": "JunoSwap",
@@ -54,42 +208,20 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "junoscan.png",
-  "title": "JunoScan",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://junoscan.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "junomint.png",
   "title": "JunoMint",
   "text": "The easiest and fastest way to create your own CW20 token on the Juno Network.",
   "featured": false,
-  "category": "Dapp",
+  "category": "Tool",
   "website": "https://junomint.com/",
   "github": "https://github.com/JunoMint",
   "discord": "https://discord.gg/NvxMxm7zZK",
   "twitter": "https://twitter.com/_JunoMint",
   "telegram": "https://t.me/junomint"
 },{
-  "icon": "cosmverse.png",
-  "title": "Cosmverse",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://cosmverse.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/Cosmverse",
-  "telegram": "https://t.me/cosmverse_official"
-},{
   "icon": "juno-atomscan.png",
   "title": "Juno ATOMScan",
-  "text": "",
+  "text": "Blockchain explorer",
   "featured": false,
   "category": "Tool",
   "website": "https://atomscan.com/juno",
@@ -97,39 +229,6 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
-},{
-  "icon": "juno-blueprints.png",
-  "title": "Juno Blueprints",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://blueprints.juno.giansalex.dev/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "bondcamp.png",
-  "title": "BondCamp",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "https://github.com/envoylabs/cw20-bondcamp",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cannalabs.png",
-  "title": "CannaLabs",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "https://www.cannalabs420.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/cannalabs420",
-  "telegram": "https://t.me/cannalabs420"
 },{
   "icon": "chain-monitor.png",
   "title": "Chain Monitor",
@@ -140,28 +239,6 @@
   "github": "https://github.com/crosnest",
   "discord": "",
   "twitter": "https://twitter.com/crosnest_com",
-  "telegram": ""
-},{
-  "icon": "citadel-one.png",
-  "title": "Citadel.one",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://citadel.one/",
-  "github": "https://github.com/citadeldao",
-  "discord": "",
-  "twitter": "https://twitter.com/CitadelDAO",
-  "telegram": "https://t.me/citadelofficial"
-},{
-  "icon": "juno-data-center.png",
-  "title": "JUNO Data Center",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://cosmos.fan/#/data",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/JackLin127",
   "telegram": ""
 },{
   "icon": "cosmwasm-devtools.png",
@@ -179,7 +256,7 @@
   "title": "CW1 Subkeys",
   "text": "",
   "featured": false,
-  "category": "Dapp",
+  "category": "Contract",
   "website": "https://subkeys.deuslabs.fi/",
   "github": "https://github.com/deus-labs/cw1-subkeys-dapp",
   "discord": "",
@@ -219,17 +296,6 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "cw20-transfer.png",
-  "title": "CW20 Transfer",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://giansalex.github.io/juno-cw20/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "cw20-wrapper.png",
   "title": "CW20 Wrapper",
   "text": "",
@@ -263,26 +329,15 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "juno-dapp-starter-kit.png",
-  "title": "Juno Dapp Starter Kit",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://next-cosmwasm-keplr-starter.vercel.app/",
-  "github": "https://github.com/ebaker/next-cosmwasm-keplr-starter",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "dens.png",
   "title": "(de) NS",
-  "text": "Decentralized name service.",
+  "text": "Dens is a decentralized name service built on Juno network.",
   "featured": true,
   "category": "Dapp",
   "website": "https://dens.sh/",
   "github": "",
-  "discord": "",
-  "twitter": "",
+  "discord": "https://discord.gg/WfajGjGPv3",
+  "twitter": "https://twitter.com/decentralizedns",
   "telegram": ""
 },{
   "icon": "validator-monitor.png",
@@ -296,17 +351,6 @@
   "twitter": "https://twitter.com/deuslabs",
   "telegram": "https://t.me/deuslabs"
 },{
-  "icon": "discord-validators-status.png",
-  "title": "Discord Validators Status",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://www.activenodes.io/",
-  "github": "https://github.com/activenodes",
-  "discord": "",
-  "twitter": "https://twitter.com/activenodes_io",
-  "telegram": ""
-},{
   "icon": "disperze-juno-staking.png",
   "title": "Disperze Juno Staking",
   "text": "",
@@ -317,28 +361,6 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
-},{
-  "icon": "fungi-family.png",
-  "title": "Fungi Family",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/FungiFamilyNFT",
-  "telegram": ""
-},{
-  "icon": "imperator.png",
-  "title": "Imperator",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/imperator_co",
-  "telegram": "https://t.me/ImperatorAnnouncements"
 },{
   "icon": "itastakers.png",
   "title": "ItaStakers Juno Staking",
@@ -377,7 +399,7 @@
   "title": "LockBox",
   "text": "",
   "featured": false,
-  "category": "Dapp",
+  "category": "Contract",
   "website": "",
   "github": "https://github.com/disperze/cw-contracts/tree/master/contracts/lockbox",
   "discord": "",
@@ -397,22 +419,11 @@
 },{
   "icon": "juno-mintscan.png",
   "title": "Juno MintScan",
-  "text": "",
+  "text": "Blockchain explorer",
   "featured": false,
   "category": "Tool",
   "website": "https://www.mintscan.io/juno",
   "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "multisig-interface.png",
-  "title": "Multisig Interface",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://cw3-fixed-multisig-dapp.vercel.app/",
-  "github": "https://github.com/natlotzy/juno-sale-dapp",
   "discord": "",
   "twitter": "",
   "telegram": ""
@@ -424,7 +435,7 @@
   "category": "Contract",
   "website": "http://www.neta.money/",
   "github": "https://github.com/CosmosContracts/neta-airdrop",
-  "discord": "",
+  "discord": "https://discord.gg/WTPXHe4mmz",
   "twitter": "https://twitter.com/NetaMoney",
   "telegram": ""
 },{
@@ -465,23 +476,12 @@
   "title": "Reinvest Rewards  Script",
   "text": "",
   "featured": false,
-  "category": "Tool",
+  "category": "Contract",
   "website": "https://deuslabs.fi/",
   "github": "https://github.com/deus-labs/juno-scripts",
   "discord": "",
   "twitter": "https://twitter.com/deuslabs",
   "telegram": "https://t.me/deuslabs"
-},{
-  "icon": "scramble-cash.png",
-  "title": "Scramble Cash",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://scramble.cash/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
 },{
   "icon": "smart-contracts-workspace.png",
   "title": "Smart Contracts Workspace",
@@ -516,17 +516,6 @@
   "twitter": "https://twitter.com/SputnikNetwork",
   "telegram": "https://t.me/SputnikNetworkBot"
 },{
-  "icon": "stakecraft.png",
-  "title": "StakeCraft Snapshots Service",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://snapshots.stakecraft.com/",
-  "github": "https://github.com/Stakecraft",
-  "discord": "",
-  "twitter": "https://twitter.com/stakecraft",
-  "telegram": "https://t.me/stakecraft"
-},{
   "icon": "juno-mainnet-faucet.png",
   "title": "Juno Mainnet Faucet",
   "text": "",
@@ -537,28 +526,6 @@
   "discord": "",
   "twitter": "https://twitter.com/Stakely_io",
   "telegram": "https://t.me/Stakely"
-},{
-  "icon": "telegram-price-bot.png",
-  "title": "Telegram Price Bot",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "",
-  "github": "https://github.com/",
-  "discord": "",
-  "twitter": "https://twitter.com/Bro_n_Bro",
-  "telegram": "https://t.me/statsjuno_bot"
-},{
-  "icon": "telegram-staking-bot.png",
-  "title": "Telegram Staking Bot",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "",
-  "github": "https://github.com/",
-  "discord": "",
-  "twitter": "",
-  "telegram": "https://t.me/ProvalidatorJunoBot"
 },{
   "icon": "token-royalties.png",
   "title": "Token Royalties",
@@ -575,7 +542,7 @@
   "title": "Token Sale",
   "text": "",
   "featured": false,
-  "category": "Dapp",
+  "category": "Contract",
   "website": "",
   "github": "https://github.com/natlotzy/juno-sale-dapp",
   "discord": "",
@@ -593,17 +560,6 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "wrapped-token.png",
-  "title": "Wrapped Token Interface",
-  "text": "",
-  "featured": false,
-  "category": "Dapp",
-  "website": "https://bafybeih6sxpnmdlemjb7x2gxiycvzkzbk44usujepe5c7orrsqia32oaei.ipfs.dweb.link/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "wynd.png",
   "title": "WYND",
   "text": "WYND suite - Includes a variety of Refi protocols.",
@@ -612,40 +568,7 @@
   "website": "",
   "github": "",
   "discord": "",
-  "twitter": "https://twitter.com/Wyndverse",
+  "twitter": "https://twitter.com/wynddao",
   "telegram": ""
-},{
-  "icon": "passage.png",
-  "title": "Passage",
-  "text": "NFT marketplace on Juno - Developed by the Passage3D team.",
-  "featured": false,
-  "category": "Project",
-  "website": "https://market.passage3d.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "universe.png",
-  "title": "Universe",
-  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
-  "featured": false,
-  "category": "Project",
-  "website": "https://universedao.io/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "JunoJuicer_TransparentBG.png",
-  "title": "Juno Juicer",
-  "text": "A decentralized protocol for private transactions on JunoNetwork.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://junojuicer.netlify.app/",
-  "github": "https://github.com/WasmJuicer",
-  "discord": "https://discord.gg/habBd6nkkX",
-  "twitter": "https://twitter.com/JunoJuicer",
-  "telegram": ""
-}
+} 
 ]
