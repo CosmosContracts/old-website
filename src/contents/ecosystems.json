@@ -1,4 +1,169 @@
 [{
+  "icon": "passage.png",
+  "title": "Passage",
+  "text": "NFT marketplace on Juno - Developed by the Passage3D team.",
+  "featured": false,
+  "category": "Project",
+  "website": "https://market.passage3d.com/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "universe.png",
+  "title": "Universe",
+  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
+  "featured": false,
+  "category": "Project",
+  "website": "https://universedao.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "junokit_logo_2.png",
+  "title": "Junokit development framework",
+  "text": "Junokit is a development framework for building Juno contracts. The aim of the project is to make juno contracts development process simple, efficient and scalable.",
+  "featured": false,
+  "category": "Tool",
+  "website": "",
+  "github": "https://github.com/arufa-research/junokit",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "stakeeasy_logo_1.png",
+  "title": "StakeEasy - staking derivatives protocol",
+  "text": "StakeEasy is a staking derivatives protocol.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://juno-testnet.stakeeasy.finance/",
+  "github": "",
+  "discord": "https://discord.gg/gKjzApDstD",
+  "twitter": "https://twitter.com/StakeEasy",
+  "telegram": "https://t.me/StakeEasyProtocol"
+},{
+  "icon": "loopfinance.png",
+  "title": "Loop Finance",
+  "text": "Loop Finance is an innovative DEX, NFT Marketplace and Launchpad",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://www.loop.markets/",
+  "github": "",
+  "discord": "discord.gg/loopfinance",
+  "twitter": "https://twitter.com/loop_finance",
+  "telegram": "t.me/loopfinance"
+},{
+  "icon": "kado.jpg",
+  "title": "Kado",
+  "text": "Kado brings payments infrastructure and fiat on/off ramp solutions to users, wallets and apps in the Junoverse.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://www.kado.money/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
+},{
+  "icon": "fanfury.png",
+  "title": "Fanfury",
+  "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://fury.fan/",
+  "github": "",
+  "discord": "https://discord.com/invite/fanfuryofficial",
+  "twitter": "https://twitter.com/FanfuryOfficial",
+  "telegram": "https://t.me/fanfuryofficial"
+},{
+  "icon": "subquery.png",
+  "title": "SubQuery",
+  "text": "SubQuery is an open data indexer that is flexible and fast. Our open indexing tool is designed to help developers build their own API in hours, and it’s designed to index chains incredibly quickly with the assistance of dictionaries.",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://linktr.ee/subquerynetwork",
+  "github": "https://github.com/subquery/juno-subql-starter",
+  "discord": "https://discord.com/invite/subquery",
+  "twitter": "https://twitter.com/SubQueryNetwork",
+  "telegram": "https://t.me/subquerynetwork"    
+},{
+  "icon": "coinhall.jpg",
+  "title": "Coinhall",
+  "text": "Coinhall provides real-time price charts and analytics for the Juno ecosystem.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://coinhall.org/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/coinhall_org",
+  "telegram": "https://t.me/coinhall_org"  
+},{
+  "icon": "thegraph.png",
+  "title": "The Graph",
+  "text": "Making blockchain data easily accessible. The Graph is a web3 protocol for indexing and querying blockchain data with GraphQL",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://thegraph.com/",
+  "github": "https://github.com/graphprotocol",
+  "discord": "https://discord.gg/vtvv7FP",
+  "twitter": "https://twitter.com/graphprotocol",
+  "telegram": "http://t.me/graphprotocol"    
+},{
+  "icon": "cosmywasmy.png",
+  "title": "CosmyWasmy",
+  "text": "CosmyWasmy is a vscode extension to interact with CosmWasm smart contracts",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy",
+  "github": "https://github.com/spoo-bar/cosmy-wasmy",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
+},{  
+  "icon": "terrand.png",
+  "title": "Terrand",
+  "text": "Terrand is an oracle smart contract CosmWasm compatible to get distributed randomness beacon. Verifiable, unpredictable, and unbiased random numbers as a service.",
+  "featured": false,
+  "category": "Contract",
+  "website": "https://docs.terrand.dev/#juno",
+  "github": "https://github.com/LoTerra",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{  
+  "icon": "howl.png",
+  "title": "Howl",
+  "text": "Howl is on an chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "discord https://discord.gg/WfajGjGPv3",
+  "twitter": "https://twitter.com/howl_social",
+  "telegram": ""
+},{
+  "icon": "pupmos.png",
+  "title": "Pupmos",
+  "text": "Pupmos is an innovative autonomous self-aggregating community profit protocol.",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/pupmos",
+  "telegram": ""
+},{      
+  "icon": "JunoJuicer_TransparentBG.png",
+  "title": "Juno Juicer",
+  "text": "A decentralized protocol for private transactions on JunoNetwork.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://junojuicer.netlify.app/",
+  "github": "https://github.com/WasmJuicer",
+  "discord": "https://discord.gg/habBd6nkkX",
+  "twitter": "https://twitter.com/JunoJuicer",
+  "telegram": ""
+},{
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
   "text": "NFT collection based on the native asset $HOPE",
@@ -65,17 +230,6 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "juno-blueprints.png",
-  "title": "Juno Blueprints",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://blueprints.juno.giansalex.dev/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "chain-monitor.png",
   "title": "Chain Monitor",
   "text": "",
@@ -85,28 +239,6 @@
   "github": "https://github.com/crosnest",
   "discord": "",
   "twitter": "https://twitter.com/crosnest_com",
-  "telegram": ""
-},{
-  "icon": "citadel-one.png",
-  "title": "Citadel.one",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://citadel.one/",
-  "github": "https://github.com/citadeldao",
-  "discord": "",
-  "twitter": "https://twitter.com/CitadelDAO",
-  "telegram": "https://t.me/citadelofficial"
-},{
-  "icon": "juno-data-center.png",
-  "title": "JUNO Data Center",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://cosmos.fan/#/data",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/JackLin127",
   "telegram": ""
 },{
   "icon": "cosmwasm-devtools.png",
@@ -193,17 +325,6 @@
   "category": "Dapp",
   "website": "https://daodao.zone",
   "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "juno-dapp-starter-kit.png",
-  "title": "Juno Dapp Starter Kit",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://next-cosmwasm-keplr-starter.vercel.app/",
-  "github": "https://github.com/ebaker/next-cosmwasm-keplr-starter",
   "discord": "",
   "twitter": "",
   "telegram": ""
@@ -395,17 +516,6 @@
   "twitter": "https://twitter.com/SputnikNetwork",
   "telegram": "https://t.me/SputnikNetworkBot"
 },{
-  "icon": "stakecraft.png",
-  "title": "StakeCraft Snapshots Service",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://snapshots.stakecraft.com/",
-  "github": "https://github.com/Stakecraft",
-  "discord": "",
-  "twitter": "https://twitter.com/stakecraft",
-  "telegram": "https://t.me/stakecraft"
-},{
   "icon": "juno-mainnet-faucet.png",
   "title": "Juno Mainnet Faucet",
   "text": "",
@@ -458,172 +568,7 @@
   "website": "",
   "github": "",
   "discord": "",
-  "twitter": "https://twitter.com/Wyndverse",
+  "twitter": "https://twitter.com/wynddao",
   "telegram": ""
-},{
-  "icon": "passage.png",
-  "title": "Passage",
-  "text": "NFT marketplace on Juno - Developed by the Passage3D team.",
-  "featured": false,
-  "category": "Project",
-  "website": "https://market.passage3d.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "universe.png",
-  "title": "Universe",
-  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
-  "featured": false,
-  "category": "Project",
-  "website": "https://universedao.io/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "junokit_logo_2.png",
-  "title": "Junokit development framework",
-  "text": "Junokit is a development framework for building Juno contracts. The aim of the project is to make juno contracts development process simple, efficient and scalable.",
-  "featured": false,
-  "category": "Tool",
-  "website": "",
-  "github": "https://github.com/arufa-research/junokit",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "stakeeasy_logo_1.png",
-  "title": "StakeEasy - staking derivatives protocol",
-  "text": "StakeEasy is a staking derivatives protocol.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://juno-testnet.stakeeasy.finance/",
-  "github": "",
-  "discord": "https://discord.gg/gKjzApDstD",
-  "twitter": "https://twitter.com/StakeEasy",
-  "telegram": "https://t.me/StakeEasyProtocol"
-},{
-  "icon": "loopfinance.png",
-  "title": "Loop Finance",
-  "text": "Loop Finance is an innovative DEX, NFT Marketplace and Launchpad",
-  "featured": true,
-  "category": "Soon",
-  "website": "https://www.loop.markets/",
-  "github": "",
-  "discord": "discord.gg/loopfinance",
-  "twitter": "https://twitter.com/loop_finance",
-  "telegram": "t.me/loopfinance"
-},{
-  "icon": "kado.jpg",
-  "title": "Kado",
-  "text": "Kado brings payments infrastructure and fiat on/off ramp solutions to users, wallets and apps in the Junoverse.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://www.kado.money/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""  
-},{
-  "icon": "fanfury.png",
-  "title": "Fanfury",
-  "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
-  "featured": true,
-  "category": "Soon",
-  "website": "https://fury.fan/",
-  "github": "",
-  "discord": "https://discord.com/invite/fanfuryofficial",
-  "twitter": "https://twitter.com/FanfuryOfficial",
-  "telegram": "https://t.me/fanfuryofficial"
-},{
-  "icon": "subquery.png",
-  "title": "SubQuery",
-  "text": "SubQuery is an open data indexer that is flexible and fast. Our open indexing tool is designed to help developers build their own API in hours, and it’s designed to index chains incredibly quickly with the assistance of dictionaries.",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://linktr.ee/subquerynetwork",
-  "github": "https://github.com/subquery/juno-subql-starter",
-  "discord": "https://discord.com/invite/subquery",
-  "twitter": "https://twitter.com/SubQueryNetwork",
-  "telegram": "https://t.me/subquerynetwork"    
-},{
-  "icon": "coinhall.jpg",
-  "title": "Coinhall",
-  "text": "Coinhall provides real-time price charts and analytics for the Juno ecosystem.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://coinhall.org/",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/coinhall_org",
-  "telegram": "https://t.me/coinhall_org"  
-},{
-  "icon": "thegraph.png",
-  "title": "The Graph",
-  "text": "Making blockchain data easily accessible. The Graph is a web3 protocol for indexing and querying blockchain data with GraphQL",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://thegraph.com/",
-  "github": "https://github.com/graphprotocol",
-  "discord": "https://discord.gg/vtvv7FP",
-  "twitter": "https://twitter.com/graphprotocol",
-  "telegram": "http://t.me/graphprotocol"    
-},{
-  "icon": "cosmywasmy.png",
-  "title": "CosmyWasmy",
-  "text": "CosmyWasmy is a vscode extension to interact with CosmWasm smart contracts",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy",
-  "github": "https://github.com/spoo-bar/cosmy-wasmy",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""  
-},{  
-  "icon": "terrand.png",
-  "title": "Terrand",
-  "text": "Terrand is an oracle smart contract CosmWasm compatible to get distributed randomness beacon. Verifiable, unpredictable, and unbiased random numbers as a service.",
-  "featured": false,
-  "category": "Contract",
-  "website": "https://docs.terrand.dev/#juno",
-  "github": "https://github.com/LoTerra",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{  
-  "icon": "howl.png",
-  "title": "Howl",
-  "text": "Howl is on an chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
-  "featured": false,
-  "category": "Soon",
-  "website": "",
-  "github": "",
-  "discord": "discord https://discord.gg/WfajGjGPv3",
-  "twitter": "https://twitter.com/howl_social",
-  "telegram": ""
-},{
-  "icon": "pupmos.png",
-  "title": "Pupmos",
-  "text": "Pupmos is an innovative autonomous self-aggregating community profit protocol.",
-  "featured": false,
-  "category": "Soon",
-  "website": "",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/pupmos",
-  "telegram": ""
-},{      
-  "icon": "JunoJuicer_TransparentBG.png",
-  "title": "Juno Juicer",
-  "text": "A decentralized protocol for private transactions on JunoNetwork.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://junojuicer.netlify.app/",
-  "github": "https://github.com/WasmJuicer",
-  "discord": "https://discord.gg/habBd6nkkX",
-  "twitter": "https://twitter.com/JunoJuicer",
-  "telegram": ""
-}
+} 
 ]
