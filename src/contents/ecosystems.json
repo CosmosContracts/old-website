@@ -32,7 +32,7 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "stakeeasy_logo_1.png",
+  "icon": "stakeeasy_logo_plain.png",
   "title": "StakeEasy - staking derivatives protocol",
   "text": "StakeEasy is a staking derivatives protocol.",
   "featured": false,
@@ -142,9 +142,53 @@
   "twitter": "https://twitter.com/howl_social",
   "telegram": ""
 },{
+  "icon": "wefund.jpg",
+  "title": "WeFund",
+  "text": "WeFund is a crowdfunding incubator and launchpad for blockchain and real-world projects built on Juno.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://wefund.app/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/WeFund_Official",
+  "telegram": "https://t.me/wefundofficial"
+},{  
+  "icon": "talis.png",
+  "title": "Talis",
+  "text": "A platform where artists can sell their creations as well as offer services through Print on Demand option.",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://talis.art/",
+  "github": "",
+  "discord": "https://discord.gg/pgxEttXaZa",
+  "twitter": "https://twitter.com/ProtocolTalis",
+  "telegram": "https://t.me/talisprotocol"
+},{  
+  "icon": "margined.png",
+  "title": "Margined Protcol",
+  "text": "Margined Protocol is developing decentralized perpetual protocols and multichain margin engines for CosmWasm networks.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://www.margined.io/",
+  "github": "https://github.com/margined-protocol",
+  "discord": "http://discord.gg/NsmHWB8vaJ",
+  "twitter": "https://twitter.com/margined_io",
+  "telegram": ""  
+},{      
+  "icon": "tfm.jpg",
+  "title": "TFM",
+  "text": "A Defi protocol incorporating the first DEX and NFT aggregator on Juno, with comprehensive analytical tools and farming mechanisms",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://tfm.com/",
+  "github": "",
+  "discord": "https://discord.gg/538PrcubY9",
+  "twitter": "https://twitter.com/tfm_com",
+  "telegram": "https://t.me/tfmofficialchat"
+},{        
   "icon": "pupmos.png",
   "title": "Pupmos",
-  "text": "Pupmos is an innovative autonomous self-aggregating community profit protocol.",
+  "text": "Community powered liquid staking.",
   "featured": false,
   "category": "Soon",
   "website": "",
@@ -219,6 +263,17 @@
   "twitter": "https://twitter.com/_JunoMint",
   "telegram": "https://t.me/junomint"
 },{
+  "icon": "chess.png",
+  "title": "Chess",
+  "text": "Juno Chess. A CosmWasm smart contract for creating and playing chess games.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://junochess.pages.dev/",
+  "github": "https://github.com/jeremyfee/cosmwasm-chess",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{  
   "icon": "juno-atomscan.png",
   "title": "Juno ATOMScan",
   "text": "Blockchain explorer",
