@@ -180,7 +180,7 @@
   "text": "A Defi protocol incorporating the first DEX and NFT aggregator on Juno, with comprehensive analytical tools and farming mechanisms",
   "featured": false,
   "category": "Soon",
-  "website": "https://tfm.com/",
+  "website": "https://juno.tfm.com/",
   "github": "",
   "discord": "https://discord.gg/538PrcubY9",
   "twitter": "https://twitter.com/tfm_com",
@@ -636,5 +636,16 @@
   "discord": "",
   "twitter": "https://twitter.com/wynddao",
   "telegram": ""
+},{
+  "icon": "selina.jpg",
+  "title": "Selina.ai",
+  "text": "Prediction Modeling using Socially Engineered Linguistic Analysis, powered by SLNA tokens and with forecasts that are digitally signed on Juno",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://selina.ai/",
+  "github": "",
+  "discord": "https://discord.gg/J75hykyzZH",
+  "twitter": "https://twitter.com/NotFinAdv",
+  "telegram": ""  
 } 
 ]
