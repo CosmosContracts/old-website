@@ -68,7 +68,7 @@
   "icon": "fanfury.png",
   "title": "Fanfury",
   "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
-  "featured": true,
+  "featured": false,
   "category": "Soon",
   "website": "https://fury.fan/",
   "github": "",
@@ -178,8 +178,8 @@
   "icon": "tfm.jpg",
   "title": "TFM",
   "text": "A Defi protocol incorporating the first DEX and NFT aggregator on Juno, with comprehensive analytical tools and farming mechanisms",
-  "featured": false,
-  "category": "Soon",
+  "featured": true,
+  "category": "Dapp",
   "website": "https://juno.tfm.com/",
   "github": "",
   "discord": "https://discord.gg/538PrcubY9",
@@ -647,5 +647,16 @@
   "discord": "https://discord.gg/J75hykyzZH",
   "twitter": "https://twitter.com/NotFinAdv",
   "telegram": ""  
+},{
+  "icon": "GLTO.png",
+  "title": "Gelotto",
+  "text": "IBC luck based game platform built on Juno.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://gelotto.io/",
+  "github": "https://github.com/Gelotto",
+  "discord": "https://discord.gg/juno",
+  "twitter": "https://twitter.com/Gelotto2",
+  "telegram": ""    
 } 
 ]
