@@ -658,5 +658,16 @@
   "discord": "https://discord.gg/juno",
   "twitter": "https://twitter.com/Gelotto2",
   "telegram": ""    
+},{
+  "icon": "restake.png",
+  "title": "REStake.app",
+  "text": "REStake allows validators to auto-compound your staking rewards for you",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://restake.app/",
+  "github": "https://github.com/eco-stake/restake",
+  "discord": "https://discord.gg/MuB7qfBncg",
+  "twitter": "https://twitter.com/eco_stake",
+  "telegram": ""
 } 
 ]
