@@ -76,6 +76,17 @@
   "twitter": "https://twitter.com/FanfuryOfficial",
   "telegram": "https://t.me/fanfuryofficial"
 },{
+  "icon": "levana.png",
+  "title": "Levana",
+  "text": "Levana builds innovative decentralized finance solutions designed to make leverage trading accessible to everyone",
+  "featured": true,
+  "category": "Soon",
+  "website": "https://www.levana.finance/",
+  "github": "",
+  "discord": "https://discord.com/invite/rfFbjQnuZV",
+  "twitter": "https://twitter.com/Levana_protocol",
+  "telegram": "https://t.me/levanaprotocol"    
+},{  
   "icon": "subquery.png",
   "title": "SubQuery",
   "text": "SubQuery is an open data indexer that is flexible and fast. Our open indexing tool is designed to help developers build their own API in hours, and it’s designed to index chains incredibly quickly with the assistance of dictionaries.",
@@ -109,28 +120,6 @@
   "twitter": "https://twitter.com/graphprotocol",
   "telegram": "http://t.me/graphprotocol"    
 },{
-  "icon": "cosmywasmy.png",
-  "title": "CosmyWasmy",
-  "text": "CosmyWasmy is a vscode extension to interact with CosmWasm smart contracts",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy",
-  "github": "https://github.com/spoo-bar/cosmy-wasmy",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""  
-},{  
-  "icon": "terrand.png",
-  "title": "Terrand",
-  "text": "Terrand is an oracle smart contract CosmWasm compatible to get distributed randomness beacon. Verifiable, unpredictable, and unbiased random numbers as a service.",
-  "featured": false,
-  "category": "Contract",
-  "website": "https://docs.terrand.dev/#juno",
-  "github": "https://github.com/LoTerra",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{  
   "icon": "howl.png",
   "title": "Howl",
   "text": "Howl is on an chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
@@ -244,7 +233,7 @@
   "icon": "junoswap.png",
   "title": "JunoSwap",
   "text": "Interchain AMM - Permission-less listing of cw-20s and native cosmos sdk assets.",
-  "featured": true,
+  "featured": false,
   "category": "Dapp",
   "website": "https://junoswap.com/",
   "github": "",
@@ -263,6 +252,17 @@
   "twitter": "https://twitter.com/_JunoMint",
   "telegram": "https://t.me/junomint"
 },{
+  "icon": "roguenet.jpg",
+  "title": "RogueNET",
+  "text": "Adventure RPG | Gaming ecosystem | GameFi's best kept secret...",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/roguenet_",
+  "telegram": ""  
+},{  
   "icon": "chess.png",
   "title": "Chess",
   "text": "Juno Chess. A CosmWasm smart contract for creating and playing chess games.",
@@ -285,104 +285,49 @@
   "twitter": "https://twitter.com/SparkIBC",
   "telegram": "https://t.me/+OQy0jks3Dhs0NDBh"
 },{  
-  "icon": "juno-atomscan.png",
-  "title": "Juno ATOMScan",
-  "text": "Blockchain explorer",
+  "icon": "skip.png",
+  "title": "SKIP",
+  "text": "Skip is building ecosystem-aligned MEV products.",
   "featured": false,
-  "category": "Tool",
-  "website": "https://atomscan.com/juno",
+  "category": "Soon",
+  "website": "https://skip.money/",
   "github": "",
   "discord": "",
   "twitter": "",
   "telegram": ""
-},{
-  "icon": "chain-monitor.png",
-  "title": "Chain Monitor",
-  "text": "",
+},{    
+  "icon": "GLTO.png",
+  "title": "Gelotto",
+  "text": "IBC luck based game platform built on Juno.",
   "featured": false,
-  "category": "Tool",
-  "website": "https://chain-monitor.cros-nest.com/d/Cros-nest/block-chain-information?var-chain_id=juno-1",
-  "github": "https://github.com/crosnest",
-  "discord": "",
-  "twitter": "https://twitter.com/crosnest_com",
+  "category": "Soon",
+  "website": "https://gelotto.io/",
+  "github": "https://github.com/Gelotto",
+  "discord": "https://discord.gg/juno",
+  "twitter": "https://twitter.com/Gelotto2",
+  "telegram": ""
+},{ 
+  "icon": "selina.jpg",
+  "title": "Selina.ai",
+  "text": "Prediction Modeling using Socially Engineered Linguistic Analysis, powered by SLNA tokens and with forecasts that are digitally signed on Juno",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://selina.ai/",
+  "github": "",
+  "discord": "https://discord.gg/J75hykyzZH",
+  "twitter": "https://twitter.com/NotFinAdv",
   "telegram": ""
 },{
-  "icon": "cosmwasm-devtools.png",
-  "title": "cøsmwasm devtøøls",
-  "text": "",
+  "icon": "wynd.png",
+  "title": "WYND",
+  "text": "WYND suite - Includes a variety of Refi protocols.",
   "featured": false,
-  "category": "Tool",
-  "website": "https://cosmwasm.tools/",
-  "github": "https://github.com/aswever/cosmwasm-devtools",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cw1-subkeys.png",
-  "title": "CW1 Subkeys",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "https://subkeys.deuslabs.fi/",
-  "github": "https://github.com/deus-labs/cw1-subkeys-dapp",
-  "discord": "",
-  "twitter": "https://twitter.com/deuslabs",
-  "telegram": "https://t.me/deuslabs"
-},{
-  "icon": "cw20-sale-contract.png",
-  "title": "CW20 Sale Contract",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
+  "category": "Project",
   "website": "",
-  "github": "https://github.com/ben2x4/cw20-sale-contract",
+  "github": "",
   "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cw20-streams.png",
-  "title": "CW20 Streams",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "https://github.com/verminator23/cw-stream",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cw20-transfer-listener.png",
-  "title": "CW20 Transfer Listener",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "https://gist.github.com/giansalex/44ec1848124ca0b531792c679e38591b",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cw20-wrapper.png",
-  "title": "CW20 Wrapper",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "https://github.com/disperze/cw-contracts/tree/master/contracts/wrap",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "cw-editions.png",
-  "title": "CW721 Editions",
-  "text": "",
-  "featured": false,
-  "category": "Contract",
-  "website": "",
-  "github": "https://github.com/verminator23/cw-editions",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
+  "twitter": "https://twitter.com/wynddao",
+  "telegram": ""  
 },{
   "icon": "daodao.png",
   "title": "DAODAO",
@@ -404,39 +349,6 @@
   "github": "",
   "discord": "https://discord.gg/WfajGjGPv3",
   "twitter": "https://twitter.com/decentralizedns",
-  "telegram": ""
-},{
-  "icon": "validator-monitor.png",
-  "title": "Validator Monitor",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://monitor.deuslabs.fi/",
-  "github": "https://github.com/deus-labs/node-tooling/tree/main/grafana-dashboards",
-  "discord": "",
-  "twitter": "https://twitter.com/deuslabs",
-  "telegram": "https://t.me/deuslabs"
-},{
-  "icon": "disperze-juno-staking.png",
-  "title": "Disperze Juno Staking",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://juno.disperze.network/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
-  "icon": "itastakers.png",
-  "title": "ItaStakers Juno Staking",
-  "text": "",
-  "featured": false,
-  "category": "Tool",
-  "website": "https://quickstake.itastakers.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
   "telegram": ""
 },{
   "icon": "daoup.png",
@@ -461,6 +373,39 @@
   "twitter": "https://twitter.com/junotools",
   "telegram": ""
 },{
+  "icon": "cosmywasmy.png",
+  "title": "CosmyWasmy",
+  "text": "CosmyWasmy is a vscode extension to interact with CosmWasm smart contracts",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy",
+  "github": "https://github.com/spoo-bar/cosmy-wasmy",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
+},{    
+  "icon": "cosmwasm-devtools.png",
+  "title": "cøsmwasm devtøøls",
+  "text": "",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://cosmwasm.tools/",
+  "github": "https://github.com/aswever/cosmwasm-devtools",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{  
+  "icon": "terrand.png",
+  "title": "Terrand",
+  "text": "Terrand is an oracle smart contract CosmWasm compatible to get distributed randomness beacon. Verifiable, unpredictable, and unbiased random numbers as a service.",
+  "featured": false,
+  "category": "Contract",
+  "website": "https://docs.terrand.dev/#juno",
+  "github": "https://github.com/LoTerra",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{    
   "icon": "lockbox.png",
   "title": "LockBox",
   "text": "",
@@ -505,6 +450,39 @@
   "twitter": "https://twitter.com/NetaMoney",
   "telegram": ""
 },{
+  "icon": "validator-monitor.png",
+  "title": "Validator Monitor",
+  "text": "",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://monitor.deuslabs.fi/",
+  "github": "https://github.com/deus-labs/node-tooling/tree/main/grafana-dashboards",
+  "discord": "",
+  "twitter": "https://twitter.com/deuslabs",
+  "telegram": "https://t.me/deuslabs"
+},{
+  "icon": "disperze-juno-staking.png",
+  "title": "Disperze Juno Staking",
+  "text": "",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://juno.disperze.network/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "itastakers.png",
+  "title": "ItaStakers Juno Staking",
+  "text": "",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://quickstake.itastakers.com/",
+  "github": "",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{  
   "icon": "network-monitor.png",
   "title": "Network Monitor",
   "text": "",
@@ -625,38 +603,93 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
-},{
-  "icon": "wynd.png",
-  "title": "WYND",
-  "text": "WYND suite - Includes a variety of Refi protocols.",
+},{  
+  "icon": "juno-atomscan.png",
+  "title": "Juno ATOMScan",
+  "text": "Blockchain explorer",
   "featured": false,
-  "category": "Project",
-  "website": "",
+  "category": "Tool",
+  "website": "https://atomscan.com/juno",
   "github": "",
   "discord": "",
-  "twitter": "https://twitter.com/wynddao",
+  "twitter": "",
   "telegram": ""
 },{
-  "icon": "selina.jpg",
-  "title": "Selina.ai",
-  "text": "Prediction Modeling using Socially Engineered Linguistic Analysis, powered by SLNA tokens and with forecasts that are digitally signed on Juno",
+  "icon": "chain-monitor.png",
+  "title": "Chain Monitor",
+  "text": "",
   "featured": false,
-  "category": "Dapp",
-  "website": "https://selina.ai/",
-  "github": "",
-  "discord": "https://discord.gg/J75hykyzZH",
-  "twitter": "https://twitter.com/NotFinAdv",
-  "telegram": ""  
+  "category": "Tool",
+  "website": "https://chain-monitor.cros-nest.com/d/Cros-nest/block-chain-information?var-chain_id=juno-1",
+  "github": "https://github.com/crosnest",
+  "discord": "",
+  "twitter": "https://twitter.com/crosnest_com",
+  "telegram": ""
 },{
-  "icon": "GLTO.png",
-  "title": "Gelotto",
-  "text": "IBC luck based game platform built on Juno.",
+  "icon": "cw1-subkeys.png",
+  "title": "CW1 Subkeys",
+  "text": "",
   "featured": false,
-  "category": "Soon",
-  "website": "https://gelotto.io/",
-  "github": "https://github.com/Gelotto",
-  "discord": "https://discord.gg/juno",
-  "twitter": "https://twitter.com/Gelotto2",
-  "telegram": ""    
+  "category": "Contract",
+  "website": "https://subkeys.deuslabs.fi/",
+  "github": "https://github.com/deus-labs/cw1-subkeys-dapp",
+  "discord": "",
+  "twitter": "https://twitter.com/deuslabs",
+  "telegram": "https://t.me/deuslabs"
+},{
+  "icon": "cw20-sale-contract.png",
+  "title": "CW20 Sale Contract",
+  "text": "",
+  "featured": false,
+  "category": "Contract",
+  "website": "",
+  "github": "https://github.com/ben2x4/cw20-sale-contract",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "cw20-streams.png",
+  "title": "CW20 Streams",
+  "text": "",
+  "featured": false,
+  "category": "Contract",
+  "website": "",
+  "github": "https://github.com/verminator23/cw-stream",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "cw20-transfer-listener.png",
+  "title": "CW20 Transfer Listener",
+  "text": "",
+  "featured": false,
+  "category": "Contract",
+  "website": "",
+  "github": "https://gist.github.com/giansalex/44ec1848124ca0b531792c679e38591b",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "cw20-wrapper.png",
+  "title": "CW20 Wrapper",
+  "text": "",
+  "featured": false,
+  "category": "Contract",
+  "website": "",
+  "github": "https://github.com/disperze/cw-contracts/tree/master/contracts/wrap",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
+},{
+  "icon": "cw-editions.png",
+  "title": "CW721 Editions",
+  "text": "",
+  "featured": false,
+  "category": "Contract",
+  "website": "",
+  "github": "https://github.com/verminator23/cw-editions",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""  
 } 
 ]
