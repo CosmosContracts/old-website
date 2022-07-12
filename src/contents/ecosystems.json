@@ -187,14 +187,14 @@
   "telegram": ""
 },{      
   "icon": "JunoJuicer_TransparentBG.png",
-  "title": "Juno Juicer",
+  "title": "Juicer Protocol",
   "text": "A decentralized protocol for private transactions on JunoNetwork.",
   "featured": false,
   "category": "Soon",
   "website": "https://junojuicer.netlify.app/",
   "github": "https://github.com/WasmJuicer",
   "discord": "https://discord.gg/habBd6nkkX",
-  "twitter": "https://twitter.com/JunoJuicer",
+  "twitter": "https://twitter.com/JuicerProtocol",
   "telegram": ""
 },{
   "icon": "hopegalaxy.jpg",
