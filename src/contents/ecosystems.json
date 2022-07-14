@@ -197,6 +197,17 @@
   "twitter": "https://twitter.com/JuicerProtocol",
   "telegram": ""
 },{
+  "icon": "eclipse.jpg",
+  "title": "Eclipse Pad",
+  "text": "An innovative IDO launchpad for the people and projects of the Cosmos.",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/EclipsePad",
+  "telegram": "https://t.me/EclipsePad"
+},{        
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
   "text": "NFT collection based on the native asset $HOPE",
