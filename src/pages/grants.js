@@ -3,10 +3,15 @@ import Layout from "../components/layout";
 import EcosystemVideoMov from "../videos/ecosystem.mp4";
 import EcosystemVideo from "../videos/ecosystem.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
+import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
 
 const GrantsPage = () => {
+    const [isSafari, setSafari] = useState(false)
+    useEffect(() => {
+        setSafari(/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)));
+    });
     return (
         <div className={'ecosystem-page'}>
             <Layout>
@@ -16,8 +21,12 @@ const GrantsPage = () => {
                             <div className={'video-wrapper'}>
                                 <div className={'video-bg'}/>
                                 <video autoPlay={true} loop={true} preload={'none'} playsInline={true} muted={true} poster={EcosystemPoster}>
-                                    <source src={EcosystemVideoMov} type='video/mp4;codecs="hvc1"'/>
-                                    <source src={EcosystemVideo} type="video/webm" />
+                                    {isSafari &&
+                                        <source src={EcosystemVideoMov} type='video/mp4;codecs="hvc1"'/>
+                                    }
+                                    {!isSafari &&
+                                        <source src={EcosystemVideo} type="video/webm" />
+                                    }
                                 </video>
                             </div>
                         </div>
