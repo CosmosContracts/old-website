@@ -102,8 +102,8 @@
   "title": "Coinhall",
   "text": "Coinhall provides real-time price charts and analytics for the Juno ecosystem.",
   "featured": false,
-  "category": "Soon",
-  "website": "https://coinhall.org/",
+  "category": "Dapp",
+  "website": "https://coinhall.org/?chains=Juno&tab=All&sort=Market+Cap&dir=desc&filter=All&quote=usd",
   "github": "",
   "discord": "",
   "twitter": "https://twitter.com/coinhall_org",
@@ -174,7 +174,18 @@
   "discord": "https://discord.gg/538PrcubY9",
   "twitter": "https://twitter.com/tfm_com",
   "telegram": "https://t.me/tfmofficialchat"
-},{        
+},{
+  "icon": "whitewhale.png",
+  "title": "White Whale",
+  "text": "Arbitrage Platform built on Juno.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://whitewhale.money/",
+  "github": "https://github.com/White-Whale-Defi-Platform",
+  "discord": "https://discord.gg/pc5EXCBfEw",
+  "twitter": "https://twitter.com/WhiteWhaleDefi",
+  "telegram": "https://t.me/whitewhaleofficial"
+},{  
   "icon": "pupmos.png",
   "title": "Pupmos",
   "text": "Community powered liquid staking.",
@@ -296,7 +307,7 @@
   "twitter": "https://twitter.com/SparkIBC",
   "telegram": "https://t.me/+OQy0jks3Dhs0NDBh"
 },{  
-  "icon": "skip.png",
+  "icon": "skipnew.jpg",
   "title": "SKIP",
   "text": "Skip is building ecosystem-aligned MEV products.",
   "featured": false,
@@ -304,7 +315,7 @@
   "website": "https://skip.money/",
   "github": "",
   "discord": "",
-  "twitter": "",
+  "twitter": "https://twitter.com/SkipProtocol",
   "telegram": ""
 },{    
   "icon": "GLTO.png",
