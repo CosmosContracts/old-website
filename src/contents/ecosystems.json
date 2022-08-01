@@ -177,7 +177,7 @@
 },{
   "icon": "whitewhale.png",
   "title": "White Whale",
-  "text": "Arbitrage Platform built on Juno.",
+  "text": "Inter-chain arbitrage protocol built on Juno.",
   "featured": false,
   "category": "Soon",
   "website": "https://whitewhale.money/",
@@ -240,6 +240,17 @@
   "discord": "https://discord.com/invite/BfKPacc5jF",
   "twitter": "https://twitter.com/Hopers_io",
   "telegram": ""
+},{
+  "icon": "ULTRA.png",
+  "title": "ULTRA",
+  "text": "Ultra is a CosmWasm stablecoin protocol developed on JunoNetwork. Inspired by Liquity, Ultra features rapid liquidations, instant redemptions, and fully autonomous stability.",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/ultrastablejuno",
+  "telegram": ""  
 },{  
   "icon": "racoon.jpg",
   "title": "Racoon",
@@ -724,5 +735,16 @@
   "discord": "https://discord.gg/MuB7qfBncg",
   "twitter": "https://twitter.com/eco_stake",
   "telegram": ""
-} 
+},{
+  "icon": "yieldmos.jpg",
+  "title": "Yieldmos",
+  "text": "Inter-chain Yield Optimizer",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://www.yieldmos.com/",
+  "github": "",
+  "discord": "https://discord.gg/FPUzr9xjse",
+  "twitter": "https://twitter.com/yieldmos",
+  "telegram": ""  
+}
 ]
