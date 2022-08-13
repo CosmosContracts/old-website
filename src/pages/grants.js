@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
-import EcosystemVideoMov from "../videos/ecosystem.mp4";
-import EcosystemVideo from "../videos/ecosystem.webm";
+import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
+import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
 import {useState, useEffect} from "react";
 
