@@ -746,5 +746,17 @@
   "discord": "https://discord.gg/FPUzr9xjse",
   "twitter": "https://twitter.com/yieldmos",
   "telegram": ""  
+},
+{
+  "icon": "abstract.png",
+  "title": "Abstract",
+  "text": "Modular Smart-Contract Infrastructure",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://abstract.money/",
+  "github": "https://github.com/Abstract-OS",
+  "discord": "https://discord.gg/uch3Tq3aym",
+  "twitter": "https://twitter.com/abstract_os",
+  "telegram": ""
 }
 ]
