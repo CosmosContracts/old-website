@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
-import EcosystemVideoMov from "../videos/ecosystem.mp4";
-import EcosystemVideo from "../videos/ecosystem.webm";
+import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
+import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
 import {useState, useEffect} from "react";
 
@@ -16,7 +16,7 @@ const GrantsPage = () => {
         <div className={'ecosystem-page'}>
             <Layout>
                 <section className={'hero-section'}>
-                    <div className={'container'}>
+                    <div className={'container-grants'}>
                         <div className={'video-container'}>
                             <div className={'video-wrapper'}>
                                 <div className={'video-bg'}/>
@@ -41,6 +41,11 @@ const GrantsPage = () => {
                                      data-sal-delay="400"
                                      data-sal-duration="1000">
                                     Apply for a grant to incentivize your development on Junø
+                                </div>
+                                <div className={'text-box'} data-sal="fade"
+                                     data-sal-delay="400"
+                                     data-sal-duration="1000">
+                                    Note that Hack Juno grants are separate and applications should follow the instructions <a className={'anchor-link'} target={'_blank'} rel={'noreferrer'} href='https://medium.com/hack-juno-dao/hack-juno-280670cd71b2'>here</a>
                                 </div>
                             </div>
                         </div>

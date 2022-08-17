@@ -43,6 +43,17 @@ section{
     position:relative;
     max-width:1920px;
   }
+  
+  .container-grants{
+    max-width:1160px;
+    width:100%;
+    margin:auto;
+    position: relative;
+    z-index:1;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
   .container{
     max-width:1160px;
     width:100%;
@@ -115,6 +126,32 @@ section{
         }
       }
     }
+
+    .container-grants{
+      padding:200px 20px 1px;
+
+      @include media-breakpoint-down(xxl){
+        padding:170px 20px 80px;
+      }
+      z-index:unset;
+      & > .row{
+        z-index:2;
+        position: relative;
+
+        @include media-breakpoint-down(md){
+          margin-top:-100px;
+        }
+      }
+
+      @include media-breakpoint-down(md){
+        margin-top:0;
+        padding-top:100px;
+      }
+      @include media-breakpoint-down(md){
+        padding-bottom:50px;
+      }
+    }
+
     .container{
       z-index:unset;
       & > .row{

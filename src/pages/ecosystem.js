@@ -2,8 +2,8 @@ import * as React from "react"
 import {AnchorLink} from "gatsby-plugin-anchor-links";
 import Layout from "../components/layout";
 import Ecosystem from "../components/ecosystem";
-import EcosystemVideoMov from "../videos/ecosystem.mp4";
-import EcosystemVideo from "../videos/ecosystem.webm";
+import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
+import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
 import {useState, useEffect} from "react";
 
@@ -91,7 +91,7 @@ const EcosystemPage = (props) => {
                                 <h5 className={'mb-3 mb-lg-4 mb-xl-5'}
                                     data-sal="fade"
                                     data-sal-delay="200"
-                                    data-sal-duration="1000">Browse Juno ecosystem
+                                    data-sal-duration="1000">Browse Juno Ecosystem
                                 </h5>
                             </div>
                             <div className={'col-12 col-md-auto'}>

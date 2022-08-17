@@ -14,20 +14,20 @@ projects/my-project-name/index.json
 ```
 {
 "name": "Test Project 1",
-"type": "Contracts",
+"type": "Contract",
 "image": "main-icon.png",
 "state": 1,
 "twitter_link": "twitter.com/junonetwork",
 "tg_link": "t.me/junonetwork",
 "address": "juno-smartcontract-address",
 "github_link": "github-link",
-"website_link": "https://junochain.com"
+"website_link": "https://junonetwork.io"
 }
 ```
 name: This is the name of your project
 
 type: Choose one of the following:
-Dapp, Contracts or Tools
+`Dapp`, `Contract` or `Tool`
 
 image: This is the name of your projects thumbnail image that you should have in the same folder that the index.json is inside.
 

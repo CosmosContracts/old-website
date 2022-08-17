@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "gatsby";
 import {StaticImage} from "gatsby-plugin-image";
-import FooterVideoMov from "../videos/footer.mp4";
-import FooterVideo from "../videos/footer.webm";
+import FooterVideoMov from "../videos/footer-cropped.mp4";
+import FooterVideo from "../videos/footer-cropped.webm";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json')

@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "gatsby";
-import EcosystemVideo from "../videos/ecosystem.webm";
+import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
+import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
-import EcosystemVideoMov from "../videos/ecosystem.mp4";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
