@@ -746,11 +746,21 @@
   "discord": "https://discord.gg/FPUzr9xjse",
   "twitter": "https://twitter.com/yieldmos",
   "telegram": ""  
-},
-{
+},{  
+  "icon": "croncat.png",
+  "title": "Croncat",
+  "text": "Decentralized automation for DeFi, NFTs, Staking, DAOs & more. Croncat is the IFTTT layer for the interchain.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://cron.cat",
+  "github": "https://github.com/CronCats",
+  "discord": "https://discord.gg/FAEWDk3NCN",
+  "twitter": "https://twitter.com/croncats",
+  "telegram": ""
+},{
   "icon": "abstract.png",
   "title": "Abstract",
-  "text": "Modular Smart-Contract Infrastructure",
+  "text": "Modular smart contract infrastructure for the interchain. Create your own interoperable dapp with prebuilt and custom modules.",
   "featured": false,
   "category": "Dapp",
   "website": "https://abstract.money/",
