@@ -757,5 +757,16 @@
   "discord": "https://discord.gg/FAEWDk3NCN",
   "twitter": "https://twitter.com/croncats",
   "telegram": ""
+},{  
+  "icon": "nodejumper.jpg",
+  "title": "Nodejumper Tools",
+  "text": "Advanced utility tools for validator and on-chain analytics",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://nodejumper.io/juno",
+  "github": "https://github.com/nodejumper-org",
+  "discord": "",
+  "twitter": "https://twitter.com/nodejumper",
+  "telegram": ""  
 }
 ]
