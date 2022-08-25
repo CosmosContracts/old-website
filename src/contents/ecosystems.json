@@ -306,6 +306,17 @@
   "discord": "",
   "twitter": "",
   "telegram": ""
+},{    
+  "icon": "steak.png",
+  "title": "Steak",
+  "text": "Steak is a liquid staking protocol for Juno.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://juno.liquidstaking.app/",
+  "github": "https://github.com/PFC-Developer/steak-contracts",
+  "discord": "",
+  "twitter": "",
+  "telegram": ""
 },{  
   "icon": "sparkibc-logo.png",
   "title": "Spark IBC",
