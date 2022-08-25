@@ -768,5 +768,16 @@
   "discord": "",
   "twitter": "https://twitter.com/nodejumper",
   "telegram": ""  
+},{
+  "icon": "abstract.png",
+  "title": "Abstract",
+  "text": "Modular smart contract infrastructure for the interchain. Create your own interoperable dapp with prebuilt and custom modules.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://abstract.money/",
+  "github": "https://github.com/Abstract-OS",
+  "discord": "https://discord.gg/uch3Tq3aym",
+  "twitter": "https://twitter.com/abstract_os",
+  "telegram": ""
 }
 ]
