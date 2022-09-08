@@ -790,5 +790,16 @@
   "discord": "https://discord.gg/uch3Tq3aym",
   "twitter": "https://twitter.com/abstract_os",
   "telegram": ""
+},{
+  "icon": "komple.png",
+  "title": "Komple Marketplace",
+  "text": "No code, community-centric NFT marketplace builder",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://komple.io",
+  "github": "https://github.com/KompleTeam",
+  "discord": "https://discord.gg/UkbmeFCUSG",
+  "twitter": "https://twitter.com/KompleSocial",
+  "telegram": "https://t.me/komple_marketplace"
 }
 ]
