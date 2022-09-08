@@ -97,6 +97,17 @@
   "discord": "https://discord.com/invite/subquery",
   "twitter": "https://twitter.com/SubQueryNetwork",
   "telegram": "https://t.me/subquerynetwork"    
+},{  
+  "icon": "cosmology.jpg",
+  "title": "Cosmology",
+  "text": "Tools for web3 builders in the cosmos ecosystem.",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://cosmology.tech/",
+  "github": "https://github.com/cosmology-tech",
+  "discord": "https://discord.gg/xh3ZwHj2qQ",
+  "twitter": "https://twitter.com/cosmology_tech",
+  "telegram": "https://t.me/cosmologytech"    
 },{
   "icon": "coinhall.jpg",
   "title": "Coinhall",
@@ -795,7 +806,7 @@
   "title": "Komple Marketplace",
   "text": "No code, community-centric NFT marketplace builder",
   "featured": false,
-  "category": "Tool",
+  "category": "Soon",
   "website": "https://komple.io",
   "github": "https://github.com/KompleTeam",
   "discord": "https://discord.gg/UkbmeFCUSG",
