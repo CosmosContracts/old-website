@@ -812,5 +812,18 @@
   "discord": "https://discord.gg/UkbmeFCUSG",
   "twitter": "https://twitter.com/KompleSocial",
   "telegram": "https://t.me/komple_marketplace"
+},{
+  "icon": "musedao.png",
+  "title": "Muse Dao",
+  "text": "The 21st century’s answer to live music patronage.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://www.muse-dao.co/",
+  "github": "github.com/MuseDAO",
+  "discord": "",
+  "twitter": "twitter.com/muse_token_DAO",
+  "telegram": "t.me/musedaoteam"
+  
+
 }
 ]
