@@ -825,5 +825,16 @@
   "telegram": "t.me/musedaoteam"
   
 
+},{
+  "icon": "Leno.png",
+  "title": "Leno Network",
+  "text": "The Lending Money Market and Launchpad for Decentralized Crypto Assets on Juno Network.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://lenonetwork.io",
+  "github": "https://github.com/LenoNetwork",
+  "discord": "https://discord.gg/RCFnsSAC9h",
+  "twitter": "https://twitter.com/LenoNetwork",
+  "telegram": ""
 }
 ]
