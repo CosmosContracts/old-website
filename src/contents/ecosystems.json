@@ -823,8 +823,6 @@
   "discord": "",
   "twitter": "twitter.com/muse_token_DAO",
   "telegram": "t.me/musedaoteam"
-  
-
 },{
   "icon": "Leno.png",
   "title": "Leno Network",
@@ -835,6 +833,17 @@
   "github": "https://github.com/LenoNetwork",
   "discord": "https://discord.gg/RCFnsSAC9h",
   "twitter": "https://twitter.com/LenoNetwork",
+  "telegram": ""
+},{
+  "icon": "Tradooors.png",
+  "title": "Tradooors",
+  "text": "Lossless price prediction game for IBC Assets.",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://nft-juno.loop.markets/exploreCollection/tradooors",
+  "github": "",
+  "discord": "https://discord.gg/A3qv34YMc7",
+  "twitter": "https://twitter.com/TradooorsNFT",
   "telegram": ""
 }
 ]

@@ -37,11 +37,11 @@ const EcosystemSection = () => {
                                 data-sal-duration="1000">ECOSYSTEM</legend>
                         <h3 data-sal="fade"
                              data-sal-delay="200"
-                             data-sal-duration="1000">50+ apps, contracts, tools and 2000+ DAO's built on Juno</h3>
+                             data-sal-duration="1000">50+ Dapps, Contracts, Tools and 2000+ DAOs built on Juno</h3>
                         <div className={'text-box'} data-sal="fade"
                              data-sal-delay="600"
                              data-sal-duration="1000">
-                            Discover a wide variety of dapps, contracts and tools, built in the Junø ecosystem by developers and contributors from across the globe
+                            Discover a wide variety of dapps, contracts, tools and DAOs built in the Junø ecosystem by developers and contributors from across the globe
                         </div>
                         <Link to={menu.ecosystem}>
                             <div className={'link'} data-sal="fade"
