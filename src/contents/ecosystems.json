@@ -196,6 +196,17 @@
   "discord": "https://discord.gg/pc5EXCBfEw",
   "twitter": "https://twitter.com/WhiteWhaleDefi",
   "telegram": "https://t.me/whitewhaleofficial"
+},{
+  "icon": "kelepar.jpg",
+  "title": "Kelepar",
+  "text": "Turn-based strategy RPG in an epic cyberpunk setting launching on Juno Network",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://kelepar.com/",
+  "github": "",
+  "discord": "https://discord.gg/nMmr9pAe4N",
+  "twitter": "https://twitter.com/KeleparGame",
+  "telegram": "https://t.me/kelepar"  
 },{  
   "icon": "govmos.jpg",
   "title": "GOVMØS",
@@ -845,5 +856,126 @@
   "discord": "https://discord.gg/A3qv34YMc7",
   "twitter": "https://twitter.com/TradooorsNFT",
   "telegram": ""
+},{  
+  "icon": "pulsarfinance.jpg",
+  "title": "Pulsar Finance",
+  "text": "All-in-one interface to manage your assets.",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://app.pulsar.finance/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/pulsarfinance",
+  "telegram": "https://t.me/pulsarfinance"
+},{
+  "icon": "samurai.jpg",
+  "title": "Undefeated Samurai",
+  "text": "Undefeated Samurai is a multiplayer VR role-playing game that combines VR technology with NFT experience on Juno Network",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://undefeatedsamurai.com/",
+  "github": "",
+  "discord": "http://discord.gg/8sfSN8VfYA",
+  "twitter": "https://twitter.com/undftedsamurai",
+  "telegram": ""
+},{
+  "icon": "StakeDragon.jpg",
+  "title": "Stake Dragons",
+  "text": "First Fly 2 Earn mobile NFT game building on Juno Network",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://stakedragons.net/",
+  "github": "https://github.com/StakeDragons/StakeDragons",
+  "discord": "https://discord.gg/ehmsvgK6Tz",
+  "twitter": "https://twitter.com/stakedragons",
+  "telegram": "https://t.me/stakedragons"
+},{
+  "icon": "HNC.png",
+  "title": "Hot‘n Cold",
+  "text": "Layered DeFi platform, Build on Juno Network",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://hotncold.tech/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/Hotcoldfinance",
+  "telegram": "https://t.me/hotncoldtech"
+},{
+  "icon": "colossus.jpg",
+  "title": "Colossus Studio",
+  "text": "Creating next generation of AR-NFTs on Juno Network",
+  "featured": false,
+  "category": "Soon",
+  "website": "https://colossus.studio/",
+  "github": "",
+  "discord": "https://discord.gg/fkGPN5MQjg",
+  "twitter": "https://twitter.com/colossusAR",
+  "telegram": ""
+},{
+  "icon": "inspirest.jpg",
+  "title": "Inspirest",
+  "text": "Smart Fashion Ecosystem built on Juno Network",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://inspirest.io/",
+  "github": "",
+  "discord": "https://discord.gg/BbTzCfP8tU",
+  "twitter": "https://twitter.com/inspirest_io",
+  "telegram": "http://t.me/InspirestGlobal"
+},{
+  "icon": "cosmwander.jpg",
+  "title": "CosmWander",
+  "text": "A tool that makes it super easy to skim through smart contracts. So you can focus on building your project faster.",
+  "featured": false,
+  "category": "Tool",
+  "website": "https://cosmwander.xyz/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/cosmwander",
+  "telegram": "https://t.me/+jK9QOgdmmJEzYzlh"
+},{
+  "icon": "idols.jpg",
+  "title": "Idols",
+  "text": "Collect ancient idols who love to make mischief in the land of IBC. Dynamic NFT's based on your wallets activity. First Dao to help Neta DAO",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://idols.zone/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/BeholdIdols",
+  "telegram": ""
+},{
+  "icon": "neta_troopr.png",
+  "title": "Neta Troopr",
+  "text": "NETA Trooprs will donate 80% of these mint proceeds to the Neta DAO to help fund their mission to accelerate the growth of teams and dApps on the Juno Network!",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://nft-juno.loop.markets/launchpad/neta-trooprs",
+  "github": "https://github.com/netadao",
+  "discord": "https://discord.gg/WTPXHe4mmz",
+  "twitter": "https://twitter.com/BeholdIdols",
+  "telegram": ""  
+},{
+  "icon": "skymonks.jpg",
+  "title": "Cosmic Sky Monks",
+  "text": "Sky Monks Second Generation. Bringing the cosmic soundscape to your NFTs. Cosmo's first generative music NFT collection.",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://nft-juno.loop.markets/launchpad/cosmic-sky-monks",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/SkyMonkNFT",
+  "telegram": ""
+},{
+  "icon": "rekt_bulls.jpg",
+  "title": "Rekt Bulls",
+  "text": "1st Cross-chain NFTs on Juno Network powered by Axelar.",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://rektwolf.io/",
+  "github": "",
+  "discord": "http://discord.gg/CBQvMtCpm6",
+  "twitter": "https://twitter.com/rekt_gang",
+  "telegram": ""      
 }
 ]
