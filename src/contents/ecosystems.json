@@ -909,7 +909,7 @@
   "website": "https://colossus.studio/",
   "github": "",
   "discord": "https://discord.gg/fkGPN5MQjg",
-  "twitter": "",
+  "twitter": "https://twitter.com/colossusAR",
   "telegram": ""
 },{
   "icon": "inspirest.jpg",
@@ -932,6 +932,50 @@
   "github": "",
   "discord": "",
   "twitter": "https://twitter.com/cosmwander",
-  "telegram": "https://t.me/+jK9QOgdmmJEzYzlh"  
+  "telegram": "https://t.me/+jK9QOgdmmJEzYzlh"
+},{
+  "icon": "idols.jpg",
+  "title": "Idols",
+  "text": "Collect ancient idols who love to make mischief in the land of IBC. Dynamic NFT's based on your wallets activity. First Dao to help Neta DAO",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://idols.zone/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/BeholdIdols",
+  "telegram": ""
+},{
+  "icon": "neta_troopr.png",
+  "title": "Neta Troopr",
+  "text": "NETA Trooprs will donate 80% of these mint proceeds to the Neta DAO to help fund their mission to accelerate the growth of teams and dApps on the Juno Network!",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://nft-juno.loop.markets/launchpad/neta-trooprs",
+  "github": "https://github.com/netadao",
+  "discord": "https://discord.gg/WTPXHe4mmz",
+  "twitter": "https://twitter.com/BeholdIdols",
+  "telegram": ""  
+},{
+  "icon": "skymonks.jpg",
+  "title": "Cosmic Sky Monks",
+  "text": "Sky Monks Second Generation. Bringing the cosmic soundscape to your NFTs. Cosmo's first generative music NFT collection.",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://nft-juno.loop.markets/launchpad/cosmic-sky-monks",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/SkyMonkNFT",
+  "telegram": ""
+},{
+  "icon": "rekt_bulls.jpg",
+  "title": "Rekt Bulls",
+  "text": "1st Cross-chain NFTs on Juno Network powered by Axelar.",
+  "featured": false,
+  "category": "NFT",
+  "website": "https://rektwolf.io/",
+  "github": "",
+  "discord": "http://discord.gg/CBQvMtCpm6",
+  "twitter": "https://twitter.com/rekt_gang",
+  "telegram": ""      
 }
 ]
