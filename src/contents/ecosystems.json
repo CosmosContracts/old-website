@@ -69,7 +69,7 @@
   "title": "Fanfury",
   "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
   "featured": false,
-  "category": "Soon",
+  "category": "Dapp",
   "website": "https://fury.fan/",
   "github": "",
   "discord": "https://discord.com/invite/fanfuryofficial",
@@ -80,7 +80,7 @@
   "title": "Levana",
   "text": "Levana builds innovative decentralized finance solutions designed to make leverage trading accessible to everyone",
   "featured": true,
-  "category": "Soon",
+  "category": "Dapp",
   "website": "https://www.levana.finance/",
   "github": "",
   "discord": "https://discord.com/invite/rfFbjQnuZV",
@@ -366,7 +366,7 @@
   "title": "Gelotto",
   "text": "IBC luck based game platform built on Juno.",
   "featured": false,
-  "category": "Soon",
+  "category": "Dapp",
   "website": "https://gelotto.io/",
   "github": "https://github.com/Gelotto",
   "discord": "https://discord.gg/juno",
@@ -830,10 +830,10 @@
   "featured": false,
   "category": "Dapp",
   "website": "https://www.muse-dao.co/",
-  "github": "github.com/MuseDAO",
-  "discord": "",
-  "twitter": "twitter.com/muse_token_DAO",
-  "telegram": "t.me/musedaoteam"
+  "github": "https://github.com/MuseDAO",
+  "discord": "https://discord.gg/VqdZfM5B6j",
+  "twitter": "https://twitter.com/muse_token_DAO",
+  "telegram": "https://t.me/musedaoteam"
 },{
   "icon": "Leno.png",
   "title": "Leno Network",
@@ -861,7 +861,7 @@
   "title": "Pulsar Finance",
   "text": "All-in-one interface to manage your assets.",
   "featured": false,
-  "category": "Soon",
+  "category": "Dapp",
   "website": "https://app.pulsar.finance/",
   "github": "",
   "discord": "",
@@ -976,6 +976,17 @@
   "github": "",
   "discord": "http://discord.gg/CBQvMtCpm6",
   "twitter": "https://twitter.com/rekt_gang",
-  "telegram": ""      
+  "telegram": ""
+},{
+  "icon": "Orbem_Wars.png",
+  "title": "Orbem Wars",
+  "text": "Orbem Wars is a full-blown P&E tower defense game.",
+  "featured": false,
+  "category": "Soon",
+  "website": "",
+  "github": "",
+  "discord": "http://discord.gg/Q2fWU6kzAv",
+  "twitter": "https://twitter.com/DomeriumLabs",
+  "telegram": ""  
 }
 ]
