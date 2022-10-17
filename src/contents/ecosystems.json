@@ -830,10 +830,10 @@
   "featured": false,
   "category": "Dapp",
   "website": "https://www.muse-dao.co/",
-  "github": "github.com/MuseDAO",
-  "discord": "",
-  "twitter": "twitter.com/muse_token_DAO",
-  "telegram": "t.me/musedaoteam"
+  "github": "https://github.com/MuseDAO",
+  "discord": "https://discord.gg/VqdZfM5B6j",
+  "twitter": "https://twitter.com/muse_token_DAO",
+  "telegram": "https://t.me/musedaoteam"
 },{
   "icon": "Leno.png",
   "title": "Leno Network",
