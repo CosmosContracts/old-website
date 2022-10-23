@@ -16,8 +16,11 @@ function toggleNav(){
 }
 
 function loadTab(props){
-    const currentCategory = props.location.hash ? props.location.hash.substring(1) : 'all';
-    document.getElementById('nav-'+currentCategory+'-tab').click();
+    const hashtag = window.location.hash
+    if (!hashtag) {
+        const currentCategory = props.location.hash ? props.location.hash.substring(1) : 'all';
+        document.getElementById('nav-'+currentCategory+'-tab').click();
+    }
 }
 
 const EcosystemPage = (props) => {
