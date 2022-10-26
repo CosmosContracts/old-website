@@ -10,17 +10,6 @@
   "twitter": "",
   "telegram": ""
 },{
-  "icon": "universe.png",
-  "title": "Universe",
-  "text": "Cross-chain launchpad platform backed by a decentralized reserve currency protocol.",
-  "featured": false,
-  "category": "Project",
-  "website": "https://universedao.io/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
-},{
   "icon": "junokit_logo_2.png",
   "title": "Junokit development framework",
   "text": "Junokit is a development framework for building Juno contracts. The aim of the project is to make juno contracts development process simple, efficient and scalable.",
