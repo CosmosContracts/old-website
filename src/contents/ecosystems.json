@@ -331,7 +331,7 @@
 },{  
   "icon": "sparkibc-logo.png",
   "title": "Spark IBC",
-  "text": "Rewarding and promoting decentralization and innovation within the Cosmos. Now validating Juno",
+  "text": "Rewarding and promoting decentralization and innovation within the Cosmos.",
   "featured": false,
   "category": "Dapp",
   "website": "https://sparkibc.zone/",
@@ -977,5 +977,16 @@
   "discord": "http://discord.gg/Q2fWU6kzAv",
   "twitter": "https://twitter.com/DomeriumLabs",
   "telegram": ""  
+},{
+  "icon": "nopixels.png",
+  "title": "NoPixels",
+  "text": "The Interchain Pixel Playground",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://nopixels.io/",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/NoPixels_",
+  "telegram": ""
 }
 ]
