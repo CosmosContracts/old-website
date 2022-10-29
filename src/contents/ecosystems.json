@@ -130,18 +130,7 @@
   "discord": "discord https://discord.gg/WfajGjGPv3",
   "twitter": "https://twitter.com/howl_social",
   "telegram": ""
-},{
-  "icon": "wefund.jpg",
-  "title": "WeFund",
-  "text": "WeFund is a crowdfunding incubator and launchpad for blockchain and real-world projects built on Juno.",
-  "featured": false,
-  "category": "Soon",
-  "website": "https://wefund.app/",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/WeFund_Official",
-  "telegram": "https://t.me/wefundofficial"
-},{  
+},,{  
   "icon": "talis.png",
   "title": "Talis",
   "text": "A platform where artists can sell their creations as well as offer services through Print on Demand option.",
