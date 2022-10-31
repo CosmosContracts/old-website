@@ -384,6 +384,17 @@
   "twitter": "",
   "telegram": ""
 },{
+  "icon": "mintdao.jpg",
+  "title": "MintDAO",
+  "text": "The first Cross-Chain NFT launchpad.",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://app.mintdao.io/",
+  "github": "",
+  "discord": "https://discord.com/invite/BRF2PEetea",
+  "twitter": "https://twitter.com/mintdao_io",
+  "telegram": "https://t.me/mintdaoio"  
+},{  
   "icon": "dens.png",
   "title": "(de) NS",
   "text": "Dens is a decentralized name service built on Juno network.",
