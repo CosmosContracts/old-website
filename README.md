@@ -10,7 +10,6 @@ Example:
   "icon": "main-icon.png",
   "title": "Test Project",
   "text": "This is a test project.",
-  "featured": false,
   "category": "Dapp",
   "website": "https://testproject.testproject",
   "github": "https://github.com/GitAccount/TestProject",
@@ -24,8 +23,6 @@ Example:
 **title**: This is the name of your project
 
 **text**: This is the description of your project
-
-**featured**: This should be set to false unless coordinated with the team to be featured on the website
 
 **category**: This is the type of your project. Choose between `Dapp`, `Contract`, `Tool`, `Project`, `NFT`, or `Soon` (if your project is coming soon and not launched yet)
 
