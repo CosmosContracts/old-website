@@ -18,7 +18,7 @@ function toggleNav(){
 function loadTab(props){
     const hashtag = window.location.hash
     if (!hashtag) {
-        const currentCategory = props.location.hash ? props.location.hash.substring(1) : 'all';
+        const currentCategory = props.location.hash ? props.location.hash.substring(1) : 'dapp';
         document.getElementById('nav-'+currentCategory+'-tab').click();
     }
 }
@@ -100,12 +100,7 @@ const EcosystemPage = (props) => {
                             <div className={'col-auto col-md-auto'}>
                                 <nav>
                                     <div className="nav nav-tabs" id="filter-nav" role="tablist">
-                                        <button className="nav-link active" id="nav-all-tab"
-                                                onClick={()=>toggleNav()}
-                                                data-bs-toggle="tab" data-bs-target="#nav-all" type="button"
-                                                role="tab" aria-controls="nav-all" aria-selected="true">All
-                                        </button>
-                                        <button className="nav-link" id="nav-dapp-tab"
+                                        <button className="nav-link active" id="nav-dapp-tab"
                                                 onClick={()=>toggleNav()}
                                                 data-bs-toggle="tab" data-bs-target="#nav-dapp" type="button"
                                                 role="tab" aria-controls="nav-dapp" aria-selected="true">Dapp
@@ -135,6 +130,11 @@ const EcosystemPage = (props) => {
                                                 data-bs-target="#nav-soon" type="button" role="tab"
                                                 aria-controls="nav-soon" aria-selected="false">Soon
                                         </button>
+                                        <button className="nav-link" id="nav-all-tab"
+                                                onClick={()=>toggleNav()}
+                                                data-bs-toggle="tab" data-bs-target="#nav-all" type="button"
+                                                role="tab" aria-controls="nav-all" aria-selected="true">All
+                                        </button>
                                     </div>
                                 </nav>
                             </div>
@@ -142,38 +142,8 @@ const EcosystemPage = (props) => {
 
 
                         <div className="tab-content pt-3" id="nav-tabContent">
-                            <div className="tab-pane fade show active" id="nav-all" role="tabpanel"
-                                 aria-labelledby="nav-all-tab">
-                                <div className={'row mt-5'}>
-                                    <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>Featured</h6>
-                                    </div>
-                                    {ecosystems.map((ecosystem, index) => {
-                                        return (
-                                            ecosystem.featured && (<div key={index} className={'col-12 col-sm-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
-                                <div className={'row mt-2'}>
-                                    <div className={'col-12'}>
-                                        <h6 className={'mb-2'}>All</h6>
-                                    </div>
-                                </div>
 
-                                <div className={'row'}>
-                                    {ecosystems.map((ecosystem, index) => {
-                                        return (
-                                            !ecosystem.featured && ecosystem.category !== 'Contract' && (<div key={index} className={'col-6 col-md-3 p-2'}>
-                                                <Ecosystem ecosystem={ecosystem}/>
-                                            </div>)
-                                        )
-                                    })}
-                                </div>
-                            </div>
-
-                            <div className="tab-pane fade" id="nav-dapp" role="tabpanel"
+                            <div className="tab-pane fade show active" id="nav-dapp" role="tabpanel"
                                  aria-labelledby="nav-dapp-tab">
                                 <div className={'row mt-5'}>
                                     <div className={'col-12'}>
@@ -283,6 +253,26 @@ const EcosystemPage = (props) => {
                                             Have an ongoing project coming up on Juno? Let us know. <a className={'p-1'} href={'https://github.com/CosmosContracts/website/pulls'} target={'_blank'} rel={'noreferrer'}><i className={'icon-social-github'} aria-label={'Github'}></i></a>
                                         </div>
                                     }
+                                </div>
+                            </div>
+
+
+                            <div className="tab-pane fade" id="nav-all" role="tabpanel"
+                                 aria-labelledby="nav-all-tab">
+                                <div className={'row mt-5'}>
+                                    <div className={'col-12'}>
+                                        <h6 className={'mb-2'}>All</h6>
+                                    </div>
+                                </div>
+
+                                <div className={'row'}>
+                                    {ecosystems.map((ecosystem, index) => {
+                                        return (
+                                            ecosystem.category !== 'Contract' && (<div key={index} className={'col-6 col-md-3 p-2'}>
+                                                <Ecosystem ecosystem={ecosystem}/>
+                                            </div>)
+                                        )
+                                    })}
                                 </div>
                             </div>
 
