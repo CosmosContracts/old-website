@@ -988,5 +988,15 @@
   "discord": "",
   "twitter": "https://twitter.com/NoPixels_",
   "telegram": ""
+},{
+  "icon": "rango.png",
+  "title": "Rango Exchange",
+  "text": "First MultiChain Bridge and Dex Aggregator Supporting 10,000 Tokens across +40 Chains, including EVMs and Cosmos IBC",
+  "featured": false,
+  "category": "Dapp",
+  "website": "https://app.rango.exchange",
+  "github": "https://github.com/rango-exchange",
+  "twitter": "https://twitter.com/RangoExchange",
+  "telegram": "https://t.me/rangoexchange"
 }
 ]
