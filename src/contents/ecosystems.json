@@ -329,15 +329,15 @@
   "twitter": "https://twitter.com/NotFinAdv",
   "telegram": ""
 },{
-  "icon": "wynd.png",
+  "icon": "wynddao.jpg",
   "title": "WYND",
-  "text": "WYND suite - Includes a variety of Refi protocols.",
-  "category": "Project",
-  "website": "",
-  "github": "",
-  "discord": "",
+  "text": "WYND DAO is an innovative, multi-protocol DAO that harvests the best of DeFi to fund positive real-world environmental impact.",
+  "category": "Dapp",
+  "website": "https://www.wynddao.com/",
+  "github": "https://github.com/cosmorama",
+  "discord": "http://discord.gg/GAMrnkbmj4",
   "twitter": "https://twitter.com/wynddao",
-  "telegram": ""  
+  "telegram": "https://telegram.me/wynd_dao"  
 },{
   "icon": "daodao.png",
   "title": "DAODAO",
