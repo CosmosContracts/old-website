@@ -198,6 +198,17 @@
   "discord": "",
   "twitter": "https://twitter.com/EclipsePad",
   "telegram": "https://t.me/EclipsePad"
+},
+{
+  "icon": "deliverdao.png",
+  "title": "Førecast",
+  "text": "Førecast is a prediction market based on the Juno price action.",
+  "category": "Dapp",
+  "website": "https://forecast.deliverdao.org/",
+  "github": "https://github.com/Deliver-Dao",
+  "discord": "",
+  "twitter": "https://twitter.com/deliver_dao",
+  "telegram": ""
 },{        
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
