@@ -32,6 +32,17 @@
   "twitter": "",
   "telegram": ""
 },{
+  "icon": "deliverdao.png",
+  "title": "DeliverDAO",
+  "text": "A Developer DAO that focuses on delivering high quality dApps to the cosmos.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://daodao.zone/dao/juno1qw7da3njp4kuke55g4feaccshvk5s6uz5mjjn2ldkl08ruk9l7dsvrveuw",
+  "github": "https://github.com/Deliver-Dao",
+  "discord": "",
+  "twitter": "https://twitter.com/deliver_dao",
+  "telegram": ""
+},{
   "icon": "interwasm.png",
   "title": "InterWasm DAO",
   "text": "Core development & expansion of CosmWasm.",
