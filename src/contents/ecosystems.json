@@ -918,5 +918,15 @@
   "github": "https://github.com/rango-exchange",
   "twitter": "https://twitter.com/RangoExchange",
   "telegram": "https://t.me/rangoexchange"
+},{
+"icon": "bronbro_monitor.png",
+  "title": "Monitor Dashboards",
+  "text": "Detailed on-chain analytics in one place",
+  "category": "Tool",
+  "website": "https://monitor.bronbro.io/d/juno-stats",
+  "github": "https://github.com/bro-n-bro/",
+  "discord": "",
+  "twitter": "https://twitter.com/Bro_n_Bro",
+  "telegram": "https://t.me/bro_n_bro_community"  
 }
 ]
