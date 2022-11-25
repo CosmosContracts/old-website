@@ -501,14 +501,14 @@
   "telegram": ""
 },{  
   "icon": "bronbro_monitor.png",
-  "title": "Network Monitor",
-  "text": "",
+  "title": "Network Monitor Dashboards",
+  "text": "Detailed on-chain analytics in one place",
   "category": "Tool",
   "website": "https://monitor.bronbro.io/d/juno-stats/juno-stats",
-  "github": "https://github.com/",
+  "github": "https://github.com/bro-n-bro",
   "discord": "",
   "twitter": "https://twitter.com/Bro_n_Bro",
-  "telegram": ""
+  "telegram": "https://t.me/bro_n_bro_community"
 },{
   "icon": "omniflix-staking.png",
   "title": "Omniflix Staking",
