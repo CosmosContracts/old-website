@@ -918,5 +918,15 @@
   "github": "https://github.com/rango-exchange",
   "twitter": "https://twitter.com/RangoExchange",
   "telegram": "https://t.me/rangoexchange"
+},{
+  "icon": "Angel.png",
+  "title": "Angel Protocol",
+  "text": "Angel Protocol leverages Web3 for global social impact, aligning donors, investors, charitable NGO's & impact DAOs around shared incentives; win and help win",
+  "category": "Dapp",
+  "website": "https://angelprotocol.io/",
+  "github": "",
+  "discord": "https://discord.gg/angelprotocol",
+  "twitter": "https://twitter.com/AngelProtocol",
+  "telegram": "https://t.me/angelprotocoI"
 }
 ]
