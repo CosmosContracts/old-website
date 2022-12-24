@@ -928,5 +928,15 @@
   "discord": "https://discord.gg/angelprotocol",
   "twitter": "https://twitter.com/AngelProtocol",
   "telegram": "https://t.me/angelprotocoI"
+},{
+  "icon": "apello.png",
+  "title": "Apello",
+  "text": "Apello is a set of tools for Juno NFT projects. ",
+  "category": "Tool",
+  "website": "https://www.apello.xyz/",
+  "github": "https://github.com/Apello-xyz",
+  "discord": "",
+  "twitter": "https://twitter.com/apelloxyz",
+  "telegram": ""
 }
 ]
