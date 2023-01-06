@@ -198,6 +198,17 @@
   "discord": "",
   "twitter": "https://twitter.com/EclipsePad",
   "telegram": "https://t.me/EclipsePad"
+},
+{
+  "icon": "deliverdao.png",
+  "title": "Førecast",
+  "text": "Førecast is a prediction market based on the Juno price action.",
+  "category": "Dapp",
+  "website": "https://forecast.deliverdao.org/",
+  "github": "https://github.com/Deliver-Dao",
+  "discord": "",
+  "twitter": "https://twitter.com/deliver_dao",
+  "telegram": ""
 },{        
   "icon": "hopegalaxy.jpg",
   "title": "Hope Galaxy",
@@ -489,15 +500,15 @@
   "twitter": "",
   "telegram": ""
 },{  
-  "icon": "network-monitor.png",
-  "title": "Network Monitor",
-  "text": "",
+  "icon": "bronbro_monitor.png",
+  "title": "Network Monitor Dashboards",
+  "text": "Detailed on-chain analytics in one place",
   "category": "Tool",
   "website": "https://monitor.bronbro.io/d/juno-stats/juno-stats",
-  "github": "https://github.com/",
+  "github": "https://github.com/bro-n-bro",
   "discord": "",
   "twitter": "https://twitter.com/Bro_n_Bro",
-  "telegram": ""
+  "telegram": "https://t.me/bro_n_bro_community"
 },{
   "icon": "omniflix-staking.png",
   "title": "Omniflix Staking",
@@ -826,7 +837,7 @@
   "website": "https://inspirest.io/",
   "github": "",
   "discord": "https://discord.gg/BbTzCfP8tU",
-  "twitter": "https://twitter.com/inspirest_io",
+  "twitter": "https://twitter.com/theinspirest",
   "telegram": "http://t.me/InspirestGlobal"
 },{
   "icon": "cosmwander.jpg",
@@ -907,5 +918,25 @@
   "github": "https://github.com/rango-exchange",
   "twitter": "https://twitter.com/RangoExchange",
   "telegram": "https://t.me/rangoexchange"
+},{
+  "icon": "Angel.png",
+  "title": "Angel Protocol",
+  "text": "Angel Protocol leverages Web3 for global social impact, aligning donors, investors, charitable NGO's & impact DAOs around shared incentives; win and help win",
+  "category": "Dapp",
+  "website": "https://angelprotocol.io/",
+  "github": "",
+  "discord": "https://discord.gg/angelprotocol",
+  "twitter": "https://twitter.com/AngelProtocol",
+  "telegram": "https://t.me/angelprotocoI"
+},{
+  "icon": "apello.png",
+  "title": "Apello",
+  "text": "Apello is a set of tools for Juno NFT projects. ",
+  "category": "Tool",
+  "website": "https://www.apello.xyz/",
+  "github": "https://github.com/Apello-xyz",
+  "discord": "",
+  "twitter": "https://twitter.com/apelloxyz",
+  "telegram": ""
 }
 ]
