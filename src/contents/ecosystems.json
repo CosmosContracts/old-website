@@ -938,5 +938,15 @@
   "discord": "",
   "twitter": "https://twitter.com/apelloxyz",
   "telegram": ""
+},{
+  "icon": "leap.jpg",
+  "title": "Leap Wallet",
+  "text": "The Super Wallet for Cosmos.",
+  "category": "Tool",
+  "website": "https://www.leapwallet.io/cosmos",
+  "github": "",
+  "discord": "",
+  "twitter": "https://twitter.com/leap_cosmos",
+  "telegram": "https://t.me/leap_cosmos"  
 }
 ]
