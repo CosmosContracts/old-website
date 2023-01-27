@@ -27,13 +27,13 @@ class HackSection extends React.Component {
                                     The Moneta Hacks are the largest incentivised smart contract challenges in the world.
                                 </p>
                                 <p>
-                                    Developers from across the world may deploy smart contracts onto the permission-less interoperable smart contract base layer called Juno.
+                                    Developers from across the world may deploy smart contracts onto the permission-less interoperable smart contract base layer called Junø.
                                 </p>
                             </div>
-                            <a href={menu["hacks-and-bounties"]} target={'_blank'} rel={'noreferrer'}>
-                                <div className={'link'} data-sal="fade"
+                            <a href={menu['hacks-and-bounties']} data-sal="fade"
                                      data-sal-delay="600"
-                                     data-sal-duration="1000"><i className={'icon-arrow-right'}></i> Learn more</div>
+                                     data-sal-duration="1000" target={'_blank'} rel={'noreferrer'}>
+                                <button type={'button'}>Learn more</button>
                             </a>
                         </div>
                         <div className={'col-12 col-md-6 pt-5 pt-md-0 ps-md-5'}>
@@ -68,7 +68,7 @@ class HackSection extends React.Component {
                                         </div>
                                         <div className={'title'}>Gaming/Gamification</div>
                                         <div className={'text-box'}>
-                                            Metaverse - Creation of digital worlds, games and gamification
+                                            Metaverse - Creation of digital worlds, games and gamification.
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ class HackSection extends React.Component {
                                         </div>
                                         <div className={'title'}>Privacy</div>
                                         <div className={'text-box'}>
-                                            Privacy preserving protocols on Juno
+                                            Privacy preserving protocols on Junø.
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,11 @@ class HackSection extends React.Component {
                             <h3 className={'mb-4'}
                                 data-sal="fade"
                                 data-sal-delay="200"
-                                data-sal-duration="1000">Interoperable Smart Contracts - Home of CosmWasm</h3>
+                                data-sal-duration="1000">Interoperable Smart Contracts</h3>
+                            <h6 className={'mb-4'}
+                                data-sal="fade"
+                                data-sal-delay="300"
+                                data-sal-duration="1000">Home of CosmWasm</h6>
                             <div className={'text-box'}
                                  data-sal="fade"
                                  data-sal-delay="400"
@@ -158,7 +162,7 @@ class HackSection extends React.Component {
                                             />
                                         </div>
                                         <div className={'title'}>Speed</div>
-                                        <div className={'text-box'}>Utilizing the Cosmos SDK & Tendermint Consensus to ensure high throughput and fast contract execution</div>
+                                        <div className={'text-box'}>Utilizing the Cosmos SDK & Tendermint Consensus to ensure high throughput and fast contract execution.</div>
                                     </div>
                                 </div>
                                 <div className={'col-12 col-sm-6'}>
@@ -173,7 +177,7 @@ class HackSection extends React.Component {
                                             />
                                         </div>
                                         <div className={'title'}>Cost</div>
-                                        <div className={'text-box'}>Low cost deployment up to 35000 times cheaper than gen 2 blockchain networks</div>
+                                        <div className={'text-box'}>Low cost deployment up to 35000 times cheaper than gen 2 blockchain networks.</div>
                                     </div>
                                 </div>
                                 <div className={'col-12 col-sm-6'}>
@@ -188,7 +192,7 @@ class HackSection extends React.Component {
                                             />
                                         </div>
                                         <div className={'title'}>Interoperability</div>
-                                        <div className={'text-box'}>Deployment on Juno and interoperable with all networks in the cosmos ecosystem via IBC</div>
+                                        <div className={'text-box'}>Deployment on Junø and interoperable with all networks in the cosmos ecosystem via IBC.</div>
                                     </div>
                                 </div>
                                 <div className={'col-12 col-sm-6'}>
@@ -204,7 +208,7 @@ class HackSection extends React.Component {
                                             />
                                         </div>
                                         <div className={'title'}>Smart Contracts</div>
-                                        <div className={'text-box'}>Code & deploy your contracts in multiple languages via the powerful CosmWasm Contract framework</div>
+                                        <div className={'text-box'}>Code & deploy your contracts in multiple languages via the powerful CosmWasm Contract framework.</div>
                                     </div>
                                 </div>
                             </div>

@@ -42,11 +42,11 @@ export function ServicesSection() {
                                 <div className={'inner'}>
                                     <div className={'title'}>Staking Juno</div>
                                     <div className={'text-box'}>
-                                        When the staking (delegation) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via a non-custodial wallet.
+                                        Junø is a proof-of-stake blockchain which allows users to stake their funds, as staking rewards are distributed to stakers every block. At any time, stakers can claim their accumulated rewards via their wallet.
                                         <ul>
-                                            <li>Secure the network</li>
-                                            <li>Earn rewards</li>
-                                            <li>Vote for the future</li>
+                                            <li>Secure the Network</li>
+                                            <li>Earn Staking Rewards</li>
+                                            <li>Govern the Network</li>
                                         </ul>
                                     </div>
                                     <div className={'row'}>
@@ -100,74 +100,37 @@ export function ServicesSection() {
                                 data-sal="fade"
                                 data-sal-delay="200"
                                 data-sal-duration="1000">
-                                Easy access to JunoSwap and Osmosis
+                                Easy access to Decentralized Exchanges
                             </h3>
                             <div className={'text-box pe-5'}
                                  data-sal="fade"
                                  data-sal-delay="400"
                                  data-sal-duration="1000">
-                                Swap & LP your Juno on the largest Cosmos decentralized exchanges.
+                                Swap & LP your Juno on various Interchain DEXs.
                             </div>
                             <div className={'row mt-4'}
                                  data-sal="fade"
                                  data-sal-delay="600"
                                  data-sal-duration="1000">
-                                <div className={'col-auto pb-3'}>
-                                    <a href={menu.junoswap} target={'_blank'} rel={'noreferrer'}>
-                                        <button type={'button'}>Enter JunoSwap</button>
-                                    </a>
-                                </div>
-                                <div className={'col-auto pb-3'}>
+                                <div className={'col-5 pb-3'}>
                                     <a href={menu.osmosis} target={'_blank'} rel={'noreferrer'}>
                                         <button type={'button'}>Enter Osmosis</button>
                                     </a>
                                 </div>
-                            </div>
-                        </div>
-                        <div className={'col-12 col-md-12 col-lg-7 ps-lg-5'}>
-                            <div className={'junoswap-box'}
-                                 data-sal="fade"
-                                 data-sal-delay="400"
-                                 data-sal-duration="1000">
-                                <StaticImage
-                                    src={'../images/junoswap-logo.png'}
-                                    alt={'Junoswap'}
-                                    width={258}
-                                    height={59}
-                                    placeholder="blurred"
-                                />
-                                <a href={menu['connect-keplr']} target={'_blank'} rel={'noreferrer'}
-                                   data-sal="fade"
-                                   data-sal-delay="600"
-                                   data-sal-duration="1000">
-                                    <button type={'button'} className={'button-white mt-4'}>Connect Keplr</button>
-                                </a>
-
-                                <div className={'row mt-4 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-hash'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Swap
-                                    </div>
+                                <div className={'col-5 pb-3'}>
+                                    <a href={menu.wynd} target={'_blank'} rel={'noreferrer'}>
+                                        <button type={'button'}>Enter Wynd</button>
+                                    </a>
                                 </div>
-
-                                <div className={'row mt-3 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-transfer'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Transfer
-                                    </div>
+                                <div className={'col-5 pb-3'}>
+                                    <a href={menu.loopmarkets} target={'_blank'} rel={'noreferrer'}>
+                                        <button type={'button'}>Enter Loop</button>
+                                    </a>
                                 </div>
-
-                                <div className={'row mt-3 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-liquidity'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Liquidity
-                                    </div>
+                                <div className={'col-5 pb-3'}>
+                                    <a href={menu.hopers} target={'_blank'} rel={'noreferrer'}>
+                                        <button type={'button'}>Enter Hopers</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
