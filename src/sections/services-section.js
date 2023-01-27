@@ -83,18 +83,18 @@ export function ServicesSection() {
                         </div>
                     </div>
 
-                    <div className={'row junoswap'}>
-                        <Parallax translateY={['100px', '0px']}>
-                            <div className={'junoswap-graph'}>
-                                <StaticImage
-                                    src={'../images/junoswap.png'}
-                                    alt={'Smart Contracts'}
-                                    width={827}
-                                    height={781}
-                                    placeholder="blurred"
-                                />
-                            </div>
-                        </Parallax>
+                    <div className={'row pt-md-5 align-items-center'}>
+                        <div className={'col-12 col-md-6 pe-md-5'}>
+                            <Parallax translateY={['100px', '0px']}>
+                                    <StaticImage
+                                        src={'../images/junoswap.png'}
+                                        alt={'Smart Contracts'}
+                                        width={827}
+                                        height={781}
+                                        placeholder="blurred"
+                                    />
+                            </Parallax>
+                        </div>
                         <div className={'col-12 col-md-12 col-lg-5 pe-lg-4 z-index-front'}>
                             <h3
                                 data-sal="fade"
