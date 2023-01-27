@@ -60,7 +60,6 @@ class Header extends React.Component {
                             <li><a href={menu.docs} target={'_blank'} rel={'noreferrer'}>Docs</a></li>
                             <li><a href={menu.blog} target={'_blank'} rel={'noreferrer'}>Blog</a></li>
                             <li><a href={menu.updates} target={'_blank'} rel={'noreferrer'}>Updates</a></li>
-                            <li><Link to={menu.grants}>Grants</Link></li>
                             <li className={'social'}><a href={menu.github} target={'_blank'} rel={'noreferrer'}><i className={'icon-social-github'} aria-label={'Github'}></i></a></li>
                             <li className={'social'}><a href={menu.discord} target={'_blank'} rel={'noreferrer'}><i className={'icon-social-discord'} aria-label={'Discord'}></i></a></li>
                         </ul>
