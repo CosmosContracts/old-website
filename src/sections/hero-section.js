@@ -32,15 +32,15 @@ const HeroSection = () => {
                     <div className={'col-12 col-xl-6'}>
                         <h1 data-sal="fade"
                             data-sal-delay="200"
-                            data-sal-duration="1000">Smart <br/>
-                            Contracts <br/>
-                            Evolved
+                            data-sal-duration="1000">The<br/>
+                            Interchain<br/>
+                            Incubator
                         </h1>
 
                         <div className={'text-box'} data-sal="fade"
                              data-sal-delay="400"
                              data-sal-duration="1000">
-                            Use & create interoperable applications on Juno. <br/>
+                            Use & create interoperable applications on Junø. <br/>
                             A decentralized, public, permission-less network for cross-chain smart contracts.
                         </div>
 

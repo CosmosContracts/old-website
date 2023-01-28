@@ -41,7 +41,7 @@ const EcosystemSection = () => {
                         <div className={'text-box'} data-sal="fade"
                              data-sal-delay="600"
                              data-sal-duration="1000">
-                            Discover a wide variety of dapps, contracts, tools and DAOs built in the Junø ecosystem by developers and contributors from across the globe
+                            Discover a wide variety of dapps, contracts, tools and DAOs built in the Junø ecosystem by developers and contributors from across the globe.
                         </div>
                         <Link to={menu.ecosystem}>
                             <div className={'link'} data-sal="fade"

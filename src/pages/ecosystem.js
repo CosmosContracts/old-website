@@ -97,7 +97,7 @@ const EcosystemPage = (props) => {
                                     data-sal-duration="1000">Browse Juno Ecosystem
                                 </h5>
                             </div>
-                            <div className={'col-auto col-md-auto'}>
+                            <div className={'col-12 col-md-auto'}>
                                 <nav>
                                     <div className="nav nav-tabs" id="filter-nav" role="tablist">
                                         <button className="nav-link active" id="nav-dapp-tab"
