@@ -48,7 +48,7 @@ const HeroSection = () => {
                              data-sal-delay="600"
                              data-sal-duration="1000">
                             <div className={'col-auto'}>
-                                <a href={menu["get-started"]}>
+                                <a href={menu["get-started"]} target={'_blank'} rel={'noreferrer'}>
                                     <button type={'button'}>Get Started</button>
                                 </a>
                             </div>
