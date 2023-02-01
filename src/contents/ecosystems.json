@@ -250,15 +250,15 @@
   "twitter": "https://twitter.com/RacoonSupply",
   "telegram": ""
 },{
-  "icon": "junoswap.png",
-  "title": "JunoSwap",
-  "text": "Interchain AMM - Permission-less listing of cw-20s and native cosmos sdk assets.",
+  "icon": "wynddao.jpg",
+  "title": "WYND",
+  "text": "Innovative cross chain DeFi Hub",
   "category": "Dapp",
-  "website": "https://junoswap.com/",
-  "github": "",
-  "discord": "",
-  "twitter": "",
-  "telegram": ""
+  "website": "https://www.wynddao.com/",
+  "github": "https://github.com/cosmorama",
+  "discord": "http://discord.gg/GAMrnkbmj4",
+  "twitter": "https://twitter.com/wynddao",
+  "telegram": "https://telegram.me/wynd_dao"
 },{
   "icon": "junomint.png",
   "title": "JunoMint",
@@ -338,17 +338,7 @@
   "github": "",
   "discord": "https://discord.gg/J75hykyzZH",
   "twitter": "https://twitter.com/NotFinAdv",
-  "telegram": ""
-},{
-  "icon": "wynddao.jpg",
-  "title": "WYND",
-  "text": "WYND DAO is an innovative, multi-protocol DAO that harvests the best of DeFi to fund positive real-world environmental impact.",
-  "category": "Dapp",
-  "website": "https://www.wynddao.com/",
-  "github": "https://github.com/cosmorama",
-  "discord": "http://discord.gg/GAMrnkbmj4",
-  "twitter": "https://twitter.com/wynddao",
-  "telegram": "https://telegram.me/wynd_dao"  
+  "telegram": "" 
 },{
   "icon": "daodao.png",
   "title": "DAODAO",
