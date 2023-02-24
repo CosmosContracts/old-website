@@ -928,5 +928,25 @@
   "discord": "",
   "twitter": "https://twitter.com/leap_cosmos",
   "telegram": "https://t.me/leap_cosmos"  
+},{
+  "icon": "erisprotocol.png",
+  "title": "Eris protocol",
+  "text": "ERIS is a Liquid Staking and Slow-burn Arbitrage Protocol.",
+  "category": "Dapp",
+  "website": "https://www.erisprotocol.com/",
+  "github": "https://github.com/erisprotocol",
+  "discord": "",
+  "twitter": "https://twitter.com/eris_protocol",
+  "telegram": "https://t.me/eris_protocol"  
+},{
+  "icon": "cypher.png",
+  "title": "Cypher Wallet,
+  "text": "Multi-chain crypto wallet focused on EVM+Cosmos chains",
+  "category": "Tool",
+  "website": "https://www.cypherwallet.io/",
+  "github": "https://github.com/CypherD-IO",
+  "discord": "https://discord.gg/qz4MBm8BrW",
+  "twitter": "https://twitter.com/CypherWalletIO",
+  "telegram": ""  
 }
 ]
