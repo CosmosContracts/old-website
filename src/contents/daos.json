@@ -118,6 +118,17 @@
   "github": "",
   "discord": "",
   "twitter": "https://twitter.com/Juno_Apes",
-  "telegram": "https://t.me/junounofficialapes"  
+  "telegram": "https://t.me/junounofficialapes"
+},{
+  "icon": "signal.png",
+  "title": "Signal",
+  "text": "Art collective DAO producing unique gaming experiences and NFTs.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://signal.contact/",
+  "github": "",
+  "discord": "https://discord.gg/vgAAg73ubt",
+  "twitter": "https://twitter.com/SignalSGNL",
+  "telegram": ""  
 }
 ]
