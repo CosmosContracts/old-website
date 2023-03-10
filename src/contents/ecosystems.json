@@ -938,5 +938,15 @@
   "discord": "https://discord.gg/qz4MBm8BrW",
   "twitter": "https://twitter.com/CypherWalletIO",
   "telegram": ""  
+},
+{  
+  "icon": "cosmodash.png",
+  "title": "Cosmodash",
+  "text": "A stats aggregator dashboard. Currently tracking Osmosis LPs and 95+ chains in the cosmos ecosystem.",
+  "category": "Tool",
+  "website": "https://www.cosmodash.zone/",
+  "discord": "https://discord.gg/SRDJHEhHST",
+  "twitter": "https://twitter.com/evianetwork",
+  "telegram": "https://t.me/eviachat"
 }
 ]
