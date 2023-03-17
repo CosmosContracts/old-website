@@ -1,4 +1,14 @@
 [{
+  "icon": "lava.png",
+  "title": "Lava Network",
+  "text": "Lava is a decentralized network of top-tier API and RPC providers that developers can subscribe to for access to any blockchain.",
+  "category": "Protocol",
+  "website": "https://www.lavanet.xyz/",
+  "github": "https://github.com/lavanet",
+  "discord": "https://discord.gg/lavanetxyz",
+  "twitter": "https://twitter.com/lavanetxyz",
+  "telegram": ""
+},{
   "icon": "passage.png",
   "title": "Passage",
   "text": "NFT marketplace on Juno - Developed by the Passage3D team.",
