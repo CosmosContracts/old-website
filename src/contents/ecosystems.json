@@ -61,7 +61,7 @@
 },{
   "icon": "fanfury.png",
   "title": "Fanfury",
-  "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, Liquidty and Rewards.",
+  "text": "Fanfury is a Decentralized Daily Fantasy Sports platform built on Juno. $Fury is the deflationary token used in Gameplay, Staking, Governance, liquidity and Rewards.",
   "category": "Dapp",
   "website": "https://fury.fan/",
   "github": "",
@@ -121,7 +121,7 @@
 },{
   "icon": "howl.png",
   "title": "Howl",
-  "text": "Howl is on an chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
+  "text": "Howl is an on chain micro-blogging protocol, with one difference. Howl allows you to support creators directly and earn rewards yourself!",
   "category": "Soon",
   "website": "",
   "github": "",
@@ -140,7 +140,7 @@
   "telegram": "https://t.me/talisprotocol"
 },{  
   "icon": "margined.png",
-  "title": "Margined Protcol",
+  "title": "Margined Protocol",
   "text": "Margined Protocol is developing decentralized perpetual protocols and multichain margin engines for CosmWasm networks.",
   "category": "Soon",
   "website": "https://www.margined.io/",
@@ -242,7 +242,7 @@
 },{  
   "icon": "racoon.jpg",
   "title": "Racoon",
-  "text": "Racøøn will grants access to unique AI generated NFTs",
+  "text": "Racøøn will grant access to unique AI generated NFTs",
   "category": "Dapp",
   "website": "https://www.racoon.supply/",
   "github": "",
