@@ -948,5 +948,12 @@
   "discord": "https://discord.gg/qz4MBm8BrW",
   "twitter": "https://twitter.com/CypherWalletIO",
   "telegram": ""  
+},{
+  "icon": "welldone-code.png",
+  "title": "WELLDONE Code",
+  "text": "WELLDONE Code is a Remix IDE plugin to deploy and execute CosmWasm smart contracts",
+  "category": "Tool",
+  "website": "https://docs.welldonestudio.io/code/getting-started",
+  "twitter": "https://twitter.com/WelldoneStudio_"
 }
 ]
