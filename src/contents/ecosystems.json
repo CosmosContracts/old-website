@@ -934,5 +934,15 @@
   "category": "Tool",
   "website": "https://docs.welldonestudio.io/code/getting-started",
   "twitter": "https://twitter.com/WelldoneStudio_"
+},{
+  "icon": "mempools.png",
+  "title": "Mempools",
+  "text": "Instant blockchain alerts - Drive user adoption with timely, actionable blockchain notifications",
+  "category": "Tool",
+  "website": "https://mempools.com/",
+  "github": "https://github.com/mempools",
+  "discord": "https://discord.com/invite/eMqWYWEBKq",
+  "twitter": "https://twitter.com/MempoolsAPI",
+  "telegram": "https://t.me/+3J96qjtEP3g1NDAx"    
 }
 ]
