@@ -934,5 +934,15 @@
   "discord": "https://discord.com/invite/eMqWYWEBKq",
   "twitter": "https://twitter.com/MempoolsAPI",
   "telegram": "https://t.me/+3J96qjtEP3g1NDAx"    
+},{
+  "icon": "nRide.png",
+  "title": "nRide",
+  "text": "A Peer-to-Peer Ride Hailing Protocol",
+  "category": "Dapp",
+  "website": "https://www.nride.com/",
+  "github": "",
+  "discord": "https://discord.gg/xHnBHSeT",
+  "twitter": "https://twitter.com/nRide12",
+  "telegram": ""    
 }
 ]
