@@ -943,6 +943,16 @@
   "github": "",
   "discord": "https://discord.gg/xHnBHSeT",
   "twitter": "https://twitter.com/nRide12",
-  "telegram": ""    
+  "telegram": ""
+},{
+  "icon": "swift.jpg",
+  "title": "Swift Protocol",
+  "text": "Deploy your e-commerce site on Juno in seconds. Launch Q2 2023.",
+  "category": "soon",
+  "website": "https://www.swiftprotocol.zone/",
+  "github": "https://github.com/swiftprotocol",
+  "discord": "",
+  "twitter": "https://twitter.com/swiftprotocol",
+  "telegram": ""      
 }
 ]
