@@ -817,16 +817,6 @@
   "github": "https://github.com/netadao",
   "discord": "https://discord.gg/WTPXHe4mmz",
   "twitter": "https://twitter.com/BeholdIdols",
-  "telegram": ""  
-},{
-  "icon": "skymonks.jpg",
-  "title": "Cosmic Sky Monks",
-  "text": "Sky Monks Second Generation. Bringing the cosmic soundscape to your NFTs. Cosmo's first generative music NFT collection.",
-  "category": "NFT",
-  "website": "https://nft-juno.loop.markets/launchpad/cosmic-sky-monks",
-  "github": "",
-  "discord": "",
-  "twitter": "https://twitter.com/SkyMonkNFT",
   "telegram": ""
 },{
   "icon": "rekt_bulls.jpg",
@@ -953,6 +943,16 @@
   "github": "https://github.com/swiftprotocol",
   "discord": "",
   "twitter": "https://twitter.com/swiftprotocol",
-  "telegram": ""      
+  "telegram": ""
+},{
+  "icon": "atlas.png",
+  "title": "Atlas",
+  "text": "Atlas NFT is the first generative music NFT on Cosmos, backed by 30 Juno. Atlas NFT govern Atlas DAO",
+  "category": "NFT",
+  "website": "https://www.atlasdao.zone/",
+  "github": "",
+  "discord": "https://discord.gg/kfqwdw9Apw",
+  "twitter": "https://twitter.com/atlasdao_",
+  "telegram": "telegram": "https://t.me/Atlasdao"     
 }
 ]
