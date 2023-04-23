@@ -118,6 +118,17 @@
   "github": "",
   "discord": "https://discord.gg/vgAAg73ubt",
   "twitter": "https://twitter.com/SignalSGNL",
-  "telegram": ""  
+  "telegram": ""
+},{
+  "icon": "atlastdao.png",
+  "title": "Atlas DAO",
+  "text": "Interchain DAO governed by Atlas NFT. We aim to create sustainable value and passive yield for our members while fostering a thriving ecosystem.",
+  "featured": true,
+  "category": "DAO",
+  "website": "https://dao.daodao.zone/juno1hcldlknu2mn3exckkg75tyzjnderl95zyjte2wl495z9jla0rmdqegxlxx#",
+  "github": "",
+  "discord": "https://discord.gg/kfqwdw9Apw",
+  "twitter": "https://twitter.com/atlasdao_",
+  "telegram": "https://t.me/Atlasdao"    
 }
 ]
