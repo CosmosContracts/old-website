@@ -953,6 +953,16 @@
   "github": "",
   "discord": "https://discord.gg/kfqwdw9Apw",
   "twitter": "https://twitter.com/atlasdao_",
-  "telegram": "https://t.me/Atlasdao"    
+  "telegram": "https://t.me/Atlasdao"
+},{
+  "icon": "deDotFi.png",
+  "title": "De.Fi",
+  "text": "De.Fi is the Inventor of Crypto's First Antivirus and the Web3 SuperApp",
+  "category": "Tool",
+  "website": "https://de.fi/",
+  "github": "https://github.com/de-dot-fi",
+  "discord": "",
+  "twitter": "https://twitter.com/DeDotFi",
+  "telegram": "https://t.me/DeDotFi"
 }
 ]
